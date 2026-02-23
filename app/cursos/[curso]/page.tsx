@@ -1,0 +1,65 @@
+import { cursos } from "../../data/cursos";
+import { notFound } from "next/navigation";
+import ModuleAccordion from "../../components/ModuleAccordion";
+
+interface Props {
+  params: Promise<{
+    curso: string;
+  }>;
+}
+
+export default async function CursoPage({ params }: Props) {
+  const { curso } = await params;
+
+  const cursoData = cursos[curso as keyof typeof cursos];
+
+  if (!cursoData) {
+    notFound();
+  }
+
+  return (
+    <main className="max-w-6xl mx-auto px-6 py-32 grid md:grid-cols-3 gap-12">
+      
+      {/* Columna izquierda */}
+      <div className="md:col-span-2">
+        <h1 className="text-4xl font-bold text-blue-900 mb-6">
+          {cursoData.titulo}
+        </h1>
+
+        <p className="text-gray-700 mb-6">
+          {cursoData.descripcion}
+        </p>
+
+        <p className="mb-2">
+          <strong>Duración:</strong> {cursoData.duracion}
+        </p>
+
+        <p className="mb-6">
+          <strong>Modalidad:</strong> {cursoData.modalidad}
+        </p>
+        <div className="mt-10">
+          <h2 className="text-2xl font-semibold text-blue-900 mb-4">
+            Perfil del Egresado
+          </h2>
+
+          <p className="text-gray-700 leading-relaxed">
+            {cursoData.perfilEgresado}
+          </p>
+        </div>
+      </div>
+
+      {/* Sidebar */}
+      <aside>
+        <div className="sticky top-32 bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
+          <h3 className="text-xl font-semibold text-blue-900 mb-6">
+            Módulos
+          </h3>
+        <ModuleAccordion 
+          modulos={cursoData.modulos} 
+          slug={curso}
+        />
+        </div>
+      </aside>
+    </main>
+  );
+}
