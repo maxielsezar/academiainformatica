@@ -20,14 +20,14 @@ export default function CursosSection() {
           <CursoCard
             titulo="Informática Multimedial"
             descripcion="Diseño gráfico, edición de imágenes y producción multimedia."
-            duracion="250 horas"
+            duracion="125 horas"
             slug="informatica-multimedial"
           />
 
           <CursoCard
             titulo="Operador de PC"
             descripcion="Manejo profesional de herramientas informáticas."
-            duracion="250 horas"
+            duracion="125 horas"
             slug="operador-pc"
           />
 

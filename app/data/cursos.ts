@@ -58,7 +58,7 @@ export const cursos = {
     perfilEgresado:
       "El egresado estará preparado para desempeñarse en tareas administrativas y operativas utilizando herramientas informáticas con eficiencia. Podrá elaborar documentos profesionales, gestionar planillas de cálculo, organizar información digital y comunicarse mediante plataformas electrónicas, respondiendo a las demandas básicas del entorno laboral moderno.",
 
-    duracion: "250 horas",
+    duracion: "125 horas",
     modalidad: "Presencial",
 
     modulos: [
@@ -103,7 +103,7 @@ export const cursos = {
     perfilEgresado:
       "El egresado estará capacitado para diseñar y producir contenidos multimedia integrando texto, imagen y sonido. Podrá participar en proyectos de comunicación digital, diseño gráfico básico y producción de contenidos web. Contará con fundamentos técnicos y creativos para desarrollar piezas digitales adaptadas a distintos formatos y plataformas.",
 
-    duracion: "250 horas",
+    duracion: "125 horas",
     modalidad: "Presencial",
 
     modulos: [
