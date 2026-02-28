@@ -56,7 +56,6 @@ export default function Navbar() {
         >
           <a href="#" className="hover:text-blue-600 transition">Inicio</a>
           <a href="#cursos" className="hover:text-blue-600 transition">Cursos</a>
-          <a href="#contacto" className="hover:text-blue-600 transition">Contacto</a>
         </nav>
 
         {/* Hamburger Button */}
@@ -93,7 +92,6 @@ export default function Navbar() {
         <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">
           <a href="#" onClick={handleLinkClick}>Inicio</a>
           <a href="#cursos" onClick={handleLinkClick}>Cursos</a>
-          <a href="#contacto" onClick={handleLinkClick}>Contacto</a>
         </div>
       </div>
     </header>

@@ -16,19 +16,11 @@ export default function Hero() {
           Formación sólida para tu futuro profesional
         </h1>
 
-        <p className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto mb-10">
+        <p className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto mb-22">
           Cursos estructurados, contenidos actualizados y certificación institucional 
           para impulsar tu carrera en informática.
         </p>
-
-        <div className="flex justify-center gap-6">
-          <button className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
-            Ver Cursos
-          </button>
-          <button className="border border-white px-8 py-3 rounded-lg hover:bg-white/10 transition">
-            Solicitar Información
-          </button>
-        </div>
+      
       </div>
     </section>
   );

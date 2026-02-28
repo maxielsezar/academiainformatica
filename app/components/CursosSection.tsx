@@ -2,7 +2,7 @@ import CursoCard from "./CursoCard";
 
 export default function CursosSection() {
   return (
-    <section id="cursos" className="py-28 bg-white">
+    <section id="cursos" className="py-31 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="text-center mb-20">
@@ -20,21 +20,21 @@ export default function CursosSection() {
           <CursoCard
             titulo="Informática Multimedial"
             descripcion="Diseño gráfico, edición de imágenes y producción multimedia."
-            duracion="4 meses"
+            duracion="250 horas"
             slug="informatica-multimedial"
           />
 
           <CursoCard
             titulo="Operador de PC"
             descripcion="Manejo profesional de herramientas informáticas."
-            duracion="4 meses"
+            duracion="250 horas"
             slug="operador-pc"
           />
 
           <CursoCard
             titulo="Programador"
-            descripcion="Fundamentos de programación y desarrollo web."
-            duracion="6 meses"
+            descripcion="Fundamentos de programación y desarrollo"
+            duracion="350 horas"
             slug="programador"
           />
         </div>

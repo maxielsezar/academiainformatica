@@ -8,7 +8,7 @@ export const cursos = {
     perfilEgresado:
       "El egresado estará capacitado para desarrollar programas informáticos siguiendo especificaciones técnicas, participar en equipos de desarrollo de software, interpretar documentación técnica y aplicar buenas prácticas de programación. Podrá desempeñarse como programador junior, asistente de desarrollo o colaborador en proyectos tecnológicos, con una base sólida en lógica, estructura de datos y resolución de problemas.",
 
-    duracion: "6 meses",
+    duracion: "350 horas",
     modalidad: "Presencial",
 
     modulos: [
@@ -58,7 +58,7 @@ export const cursos = {
     perfilEgresado:
       "El egresado estará preparado para desempeñarse en tareas administrativas y operativas utilizando herramientas informáticas con eficiencia. Podrá elaborar documentos profesionales, gestionar planillas de cálculo, organizar información digital y comunicarse mediante plataformas electrónicas, respondiendo a las demandas básicas del entorno laboral moderno.",
 
-    duracion: "4 meses",
+    duracion: "250 horas",
     modalidad: "Presencial",
 
     modulos: [
@@ -103,7 +103,7 @@ export const cursos = {
     perfilEgresado:
       "El egresado estará capacitado para diseñar y producir contenidos multimedia integrando texto, imagen y sonido. Podrá participar en proyectos de comunicación digital, diseño gráfico básico y producción de contenidos web. Contará con fundamentos técnicos y creativos para desarrollar piezas digitales adaptadas a distintos formatos y plataformas.",
 
-    duracion: "4 meses",
+    duracion: "250 horas",
     modalidad: "Presencial",
 
     modulos: [

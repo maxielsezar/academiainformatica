@@ -17,7 +17,7 @@ export default function CursoCard({
     <div className="group border border-gray-200 p-10 rounded-2xl hover:shadow-xl transition-all duration-300 bg-white">
       
 
-      <h3 className="text-2xl font-bold text-blue-900 mb-4 group-hover:text-blue-700 transition">
+      <h3 className="text-xl font-bold text-blue-900 mb-4 group-hover:text-blue-700 transition">
         {titulo}
       </h3>
 
