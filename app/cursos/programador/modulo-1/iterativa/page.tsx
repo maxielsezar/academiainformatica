@@ -197,8 +197,7 @@ for (i in 10 downTo 1) {
 
           <div className="bg-gray-50 border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
-            Crear un programa que repita un menú hasta que el usuario
-            elija salir.
+            Mostrar los números del 30 al 1.
           </div>
 
         </div>
