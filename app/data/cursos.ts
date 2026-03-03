@@ -1,14 +1,14 @@
 export const cursos = {
   programador: {
     titulo: "Curso de Programador",
-   
+    slug:"programador",
     descripcion:
       "Formación profesional integral orientada al desarrollo de software. El estudiante aprende a interpretar especificaciones técnicas, diseñar soluciones lógicas y escribir código de calidad siguiendo estándares formales. Se trabaja en planificación de proyectos, trabajo en equipo y metodologías de desarrollo, incorporando prácticas de verificación, depuración y optimización de programas. Al finalizar, el egresado estará capacitado para integrarse a equipos de desarrollo y participar activamente en la construcción de aplicaciones reales.",
     
     perfilEgresado:
       "El egresado estará capacitado para desarrollar programas informáticos siguiendo especificaciones técnicas, participar en equipos de desarrollo de software, interpretar documentación técnica y aplicar buenas prácticas de programación. Podrá desempeñarse como programador junior, asistente de desarrollo o colaborador en proyectos tecnológicos, con una base sólida en lógica, estructura de datos y resolución de problemas.",
 
-    duracion: "350 horas",
+    duracion: "364 horas",
     modalidad: "Presencial",
 
     modulos: [

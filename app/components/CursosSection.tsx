@@ -34,7 +34,7 @@ export default function CursosSection() {
           <CursoCard
             titulo="Programador"
             descripcion="Fundamentos de programación y desarrollo"
-            duracion="350 horas"
+            duracion="364 horas"
             slug="programador"
           />
         </div>

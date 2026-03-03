@@ -4,7 +4,7 @@ interface Props {
   titulo: string;
   descripcion: string;
   duracion: string;
-  slug: string; // 👈 agregamos slug
+  slug: string; 
 }
 
 export default function CursoCard({

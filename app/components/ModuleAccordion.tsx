@@ -54,7 +54,7 @@ export default function ModuleAccordion({ modulos, slug }: Props) {
                 </p>
 
                 <Link
-                  href={`/cursos/${slug}/modulo/${modulo.id}`}
+                  href={`/cursos/${slug}/modulo-${modulo.id}`}
                   className="text-blue-700 font-medium hover:underline"
                 >
                   Ver módulo completo →

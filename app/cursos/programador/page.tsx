@@ -2,20 +2,12 @@ import { cursos } from "../../data/cursos";
 import { notFound } from "next/navigation";
 import ModuleAccordion from "../../components/ModuleAccordion";
 
-interface Props {
-  params: Promise<{
-    curso: string;
-  }>;
-}
 
-export default async function CursoPage({ params }: Props) {
-  const { curso } = await params;
 
-  const cursoData = cursos[curso as keyof typeof cursos];
+export default async function CursoPage() {
 
-  if (!cursoData) {
-    notFound();
-  }
+    const cursoData=cursos.programador
+    
 
   return (
     <main className="max-w-6xl mx-auto px-6 py-32 grid md:grid-cols-3 gap-12">
@@ -56,7 +48,7 @@ export default async function CursoPage({ params }: Props) {
           </h3>
         <ModuleAccordion 
           modulos={cursoData.modulos} 
-          slug={curso}
+          slug={cursoData.slug}
         />
         </div>
       </aside>
