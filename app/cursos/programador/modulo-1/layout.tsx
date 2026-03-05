@@ -12,6 +12,8 @@ export default function Modulo1Layout({
     { nombre: "Estructura Condicional", ruta: "/cursos/programador/modulo-1/condicional" },
     { nombre: "Estructura Iterativa", ruta: "/cursos/programador/modulo-1/iterativa" },
     { nombre: "Sintaxis", ruta: "/cursos/programador/modulo-1/sintaxis" },
+    { nombre: "Funciones", ruta: "/cursos/programador/modulo-1/funciones" },
+    { nombre: "Arreglos", ruta: "/cursos/programador/modulo-1/arreglos" },
   ];
 
   return (

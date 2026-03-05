@@ -50,9 +50,10 @@ export const cursos = {
     ],
   },
 
-  "operador-pc": {
+  operador: {
     titulo: "Curso de Operador de PC",
-     descripcion:
+    slug:"operador-pc",
+    descripcion:
       "Capacitación práctica orientada al manejo profesional de herramientas informáticas de uso administrativo y laboral. El curso desarrolla competencias en procesamiento de textos, planillas de cálculo, presentaciones digitales e internet, permitiendo al alumno desempeñarse con solvencia en entornos de oficina. Se enfatiza la productividad, la organización de la información y el uso eficiente de recursos tecnológicos, preparando al estudiante para una rápida inserción laboral.",
 
     perfilEgresado:
@@ -95,8 +96,9 @@ export const cursos = {
     ],
   },
 
-  "informatica-multimedial": {
+  multimedial: {
     titulo: "Curso de Informática Multimedial",
+    slug:"informatica-multimedial",
     descripcion:
       "Formación creativa y técnica en el área multimedia, enfocada en la integración de texto, imagen, sonido y recursos digitales para la producción de contenidos interactivos. El estudiante aprende fundamentos de diseño digital, herramientas de edición y principios de comunicación visual. El curso combina teoría y práctica para que el alumno pueda desarrollar proyectos multimedia, contenidos web y producciones digitales adaptadas a las nuevas plataformas.",
 
