@@ -8,7 +8,7 @@ export default function SintaxisPage() {
           Sintaxis en Kotlin
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           La sintaxis es el conjunto de reglas que determinan cómo debe
           escribirse el código para que el compilador lo entienda.
           Si la sintaxis es incorrecta, el programa no podrá ejecutarse.
@@ -29,7 +29,7 @@ export default function SintaxisPage() {
           </pre>
         </div>
 
-        <p className="text-gray-700 mt-6 max-w-3xl">
+        <p className=" mt-6 max-w-3xl">
           Todo programa en Kotlin comienza con la función principal
           <strong> main()</strong>.  
           Es el punto de inicio de la ejecución.
@@ -42,7 +42,7 @@ export default function SintaxisPage() {
           Componentes principales
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700 space-y-4">
+        <div className=" border p-6 rounded-xl  space-y-4">
 
           <div>
             <strong>fun</strong> → Palabra reservada para declarar funciones.
@@ -76,7 +76,7 @@ var edad: Int = 25`}
           </pre>
         </div>
 
-        <ul className="list-disc list-inside mt-6 space-y-2 text-gray-700">
+        <ul className="list-disc list-inside mt-6 space-y-2 ">
           <li><strong>val</strong> → constante (no cambia).</li>
           <li><strong>var</strong> → variable (puede cambiar).</li>
           <li><strong>:</strong> indica el tipo de dato.</li>
@@ -90,8 +90,8 @@ var edad: Int = 25`}
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="w-full border text-gray-700">
-            <thead className="bg-gray-100">
+          <table className="w-full border ">
+            <thead className="bg-blue-800">
               <tr>
                 <th className="p-3 border">Tipo</th>
                 <th className="p-3 border">Descripción</th>
@@ -141,7 +141,7 @@ var edad: Int = 25`}
           </pre>
         </div>
 
-        <p className="text-gray-700 mt-6 max-w-3xl">
+        <p className=" mt-6 max-w-3xl">
           Los comentarios no se ejecutan. Sirven para documentar el código.
         </p>
       </section>
@@ -152,7 +152,7 @@ var edad: Int = 25`}
           Buenas prácticas de sintaxis
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Usar nombres descriptivos para variables.</li>
           <li>Respetar la indentación.</li>
           <li>No mezclar mayúsculas y minúsculas incorrectamente.</li>
@@ -166,7 +166,7 @@ var edad: Int = 25`}
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Olvidar llaves {`{ }`}.</li>
           <li>Escribir mal una palabra reservada.</li>
           <li>No cerrar comillas.</li>
@@ -180,19 +180,19 @@ var edad: Int = 25`}
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Crear un programa que imprima tu nombre y edad.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Declarar tres variables de distintos tipos y mostrarlas en pantalla.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Escribir un programa con comentarios explicando cada línea.
           </div>

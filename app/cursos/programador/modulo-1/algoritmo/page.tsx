@@ -10,7 +10,7 @@ export default function AlgoritmoPage() {
           Concepto de Algoritmo
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Un algoritmo es una secuencia finita y ordenada de pasos que permiten
           resolver un problema. En programación, los algoritmos representan
           la base lógica sobre la cual se construyen los programas.
@@ -23,7 +23,7 @@ export default function AlgoritmoPage() {
           Características de un Algoritmo
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li><strong>Preciso:</strong> cada paso debe estar claramente definido.</li>
           <li><strong>Ordenado:</strong> los pasos deben seguir una secuencia lógica.</li>
           <li><strong>Finito:</strong> debe finalizar en algún momento.</li>
@@ -37,7 +37,7 @@ export default function AlgoritmoPage() {
           Fases para Resolver un Problema
         </h2>
 
-        <ol className="list-decimal list-inside space-y-3 text-gray-700">
+        <ol className="list-decimal list-inside space-y-3 ">
           <li>Análisis del problema.</li>
           <li>Identificación de datos de entrada.</li>
           <li>Definición del proceso.</li>
@@ -52,11 +52,11 @@ export default function AlgoritmoPage() {
           Ejemplo Práctico
         </h2>
 
-        <p className="text-gray-700 mb-4">
+        <p className=" mb-4">
           Problema: Calcular el promedio de tres números.
         </p>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700 space-y-2">
+        <div className=" border p-6 rounded-xl  space-y-2">
           <p><strong>Entrada:</strong> número1, número2, número3</p>
           <p><strong>Proceso:</strong> sumar los tres números y dividir por 3</p>
           <p><strong>Salida:</strong> promedio</p>
@@ -88,16 +88,16 @@ export default function AlgoritmoPage() {
             ¿Cómo se Construye un Diagrama de Flujo?
         </h2>
 
-        <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
+        <p className=" leading-relaxed mb-6 max-w-3xl">
             Un diagrama de flujo es la representación gráfica de un algoritmo.
             Permite visualizar el orden de ejecución de las instrucciones mediante
             símbolos estandarizados conectados por flechas.
         </p>
 
         {/* Símbolos */}
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-            <div className="bg-gray-50 border p-6 rounded-xl">
+            <div className=" border p-6 rounded-xl">
             <h3 className="font-semibold text-blue-800 mb-2">
                 Símbolos Básicos
             </h3>
@@ -124,7 +124,7 @@ export default function AlgoritmoPage() {
             </div>
             </div>
             {/* Pasos para construir */}
-            <div className="bg-gray-50 border p-6 rounded-xl">
+            <div className=" border p-6 rounded-xl">
             <h3 className="font-semibold text-blue-800 mb-2">
                 Pasos para Construir un Diagrama de Flujo
             </h3>
@@ -140,7 +140,7 @@ export default function AlgoritmoPage() {
             </div>
 
             {/* Aplicación al ejemplo */}
-            <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl">
+            <div className="border-l-4 border-blue-700 p-6 rounded-xl">
             <h3 className="font-semibold mb-2 text-blue-900">
                 Aplicación al Ejemplo del Promedio
             </h3>
@@ -166,26 +166,26 @@ export default function AlgoritmoPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Diseñar el algoritmo para calcular el área de un rectángulo.
             <br />
             Identificar: entrada, proceso y salida.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Diseñar un algoritmo que determine si un número es positivo o negativo.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Diseñar un algoritmo que calcule el total a pagar por la compra de
             un producto, considerando precio y cantidad.
           </div>
-        <div className="bg-gray-50 border p-6 rounded-xl">
+        <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 4</p>
             Diseñar un algoritmo que permita ingresar la edad de una persona
           y determine si es mayor o menor de edad.  

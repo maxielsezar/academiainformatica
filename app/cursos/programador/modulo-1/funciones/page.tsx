@@ -8,7 +8,7 @@ export default function FuncionesPage() {
           Funciones
         </h1>
 
-        <p className="text-gray-700 max-w-3xl leading-relaxed">
+        <p className=" max-w-3xl leading-relaxed">
           Una función es un bloque de código que realiza una tarea específica.
           Permite organizar el programa en partes más pequeñas, reutilizar código
           y mejorar la claridad del programa.
@@ -21,7 +21,7 @@ export default function FuncionesPage() {
           ¿Para qué sirven las funciones?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700 space-y-3">
+        <div className=" border p-6 rounded-xl  space-y-3">
           <p>✔ Dividir el programa en partes más pequeñas.</p>
           <p>✔ Reutilizar código.</p>
           <p>✔ Facilitar el mantenimiento.</p>
@@ -62,7 +62,7 @@ fun main() {
           </pre>
         </div>
 
-        <p className="text-gray-700 mt-6 max-w-3xl">
+        <p className=" mt-6 max-w-3xl">
           La función <strong>saludar()</strong> se define una vez y luego puede
           ejecutarse cada vez que se la llame.
         </p>
@@ -74,7 +74,7 @@ fun main() {
           Funciones con parámetros
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Las funciones pueden recibir información para trabajar con ella.
           Esa información se llama <strong>parámetros</strong>.
         </p>
@@ -98,7 +98,7 @@ fun main() {
           Funciones que retornan valores
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Algunas funciones realizan cálculos y devuelven un resultado.
           Para ello se utiliza la palabra <strong>return</strong>.
         </p>
@@ -123,7 +123,7 @@ fun main() {
           Funciones de una sola línea
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Kotlin permite escribir funciones simples de forma más compacta.
         </p>
 
@@ -140,7 +140,7 @@ fun main() {
           Buenas prácticas
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Usar nombres claros para las funciones.</li>
           <li>Cada función debe tener una tarea específica.</li>
           <li>No crear funciones demasiado largas.</li>
@@ -154,19 +154,19 @@ fun main() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Crear una función que imprima "Bienvenido al curso".
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Crear una función que reciba un número y muestre su cuadrado.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Crear una función que reciba dos números y devuelva el mayor.
           </div>
@@ -180,7 +180,7 @@ fun main() {
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que tenga una función llamada 
           <strong> calcularPromedio </strong> que reciba tres números y
           devuelva el promedio.

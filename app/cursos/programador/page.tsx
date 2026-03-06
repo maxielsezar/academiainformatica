@@ -18,7 +18,7 @@ export default async function CursoPage() {
           {cursoData.titulo}
         </h1>
 
-        <p className="text-gray-700 mb-6">
+        <p className=" mb-6">
           {cursoData.descripcion}
         </p>
 
@@ -34,7 +34,7 @@ export default async function CursoPage() {
             Perfil del Egresado
           </h2>
 
-          <p className="text-gray-700 leading-relaxed">
+          <p className=" leading-relaxed">
             {cursoData.perfilEgresado}
           </p>
         </div>
@@ -42,8 +42,8 @@ export default async function CursoPage() {
 
       {/* Sidebar */}
       <aside>
-        <div className="sticky top-32 bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-          <h3 className="text-xl font-semibold text-blue-900 mb-6">
+        <div className="sticky top-32 border border-gray-200 rounded-2xl p-8 shadow-sm">
+          <h3 className="text-xl font-semibold text-blue-700 mb-6">
             Módulos
           </h3>
         <ModuleAccordion 

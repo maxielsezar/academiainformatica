@@ -8,7 +8,7 @@ export default function VariablesPage() {
           Variables y Constantes en Kotlin
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           En programación, una variable es un espacio en memoria que permite
           almacenar datos que pueden modificarse durante la ejecución del programa.
           Una constante, en cambio, es un valor que no puede cambiar una vez definido.
@@ -21,9 +21,9 @@ export default function VariablesPage() {
           Diferencia entre Variable y Constante
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6 text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className="border p-6 rounded-xl">
             <h3 className="font-semibold text-blue-800 mb-2">Variable</h3>
             <ul className="list-disc list-inside space-y-2">
               <li>Se declara con <strong>var</strong></li>
@@ -32,7 +32,7 @@ export default function VariablesPage() {
             </ul>
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className="border p-6 rounded-xl">
             <h3 className="font-semibold text-blue-800 mb-2">Constante</h3>
             <ul className="list-disc list-inside space-y-2">
               <li>Se declara con <strong>val</strong></li>
@@ -50,7 +50,7 @@ export default function VariablesPage() {
           Tipos de Datos en Kotlin
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li><strong>Int:</strong> números enteros</li>
           <li><strong>Double:</strong> números decimales</li>
           <li><strong>String:</strong> texto</li>
@@ -64,7 +64,7 @@ export default function VariablesPage() {
           Reglas para Nombrar Variables
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>No pueden comenzar con números.</li>
           <li>No pueden contener espacios.</li>
           <li>Deben ser descriptivas.</li>
@@ -98,7 +98,7 @@ export default function VariablesPage() {
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Intentar cambiar el valor de una constante.</li>
           <li>Usar nombres poco descriptivos (a, b, x).</li>
           <li>No respetar el tipo de dato.</li>
@@ -111,20 +111,20 @@ export default function VariablesPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Declarar una variable llamada <strong>precio</strong> de tipo Double
             y asignarle el valor 1500.50.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Declarar una constante llamada <strong>iva</strong> con valor 0.21.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Crear un programa que almacene el nombre y la edad de una persona
             y los muestre por pantalla.
@@ -139,7 +139,7 @@ export default function VariablesPage() {
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que declare una variable <strong>salario</strong> y una constante <strong>bono</strong>.  
           Calcular el salario final sumando ambos valores e imprimir el resultado.
         </div>

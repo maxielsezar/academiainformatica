@@ -30,13 +30,13 @@ export default function ModuleAccordion({ modulos, slug }: Props) {
         return (
           <div
             key={modulo.id}
-            className="border border-gray-200 rounded-xl bg-white shadow-sm"
+            className="border border-gray-200 rounded-xl shadow-sm"
           >
             <button
               onClick={() => toggle(index)}
               className="w-full flex justify-between items-center gap-4 px-6 py-4 text-left"
             >
-              <span className="font-semibold text-blue-900">
+              <span className="font-semibold text-blue-700">
                 {modulo.id}. {modulo.titulo}
               </span>
 
@@ -49,7 +49,7 @@ export default function ModuleAccordion({ modulos, slug }: Props) {
 
             {isOpen && (
               <div className="px-6 pb-6">
-                <p className="text-gray-600 mb-4">
+                <p className=" mb-4">
                   {modulo.descripcion}
                 </p>
 

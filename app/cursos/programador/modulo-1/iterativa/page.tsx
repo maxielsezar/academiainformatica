@@ -8,7 +8,7 @@ export default function EstructurasRepetitivasPage() {
           Estructuras Repetitivas
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Las estructuras repetitivas permiten ejecutar un bloque de código
           varias veces mientras se cumpla una condición o durante una cantidad
           determinada de repeticiones.
@@ -21,7 +21,7 @@ export default function EstructurasRepetitivasPage() {
           ¿Qué es un bucle?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700 leading-relaxed">
+        <div className=" border p-6 rounded-xl  leading-relaxed">
           Un bucle (loop) es una estructura que repite instrucciones.
           <br /><br />
           Componentes principales:
@@ -38,7 +38,7 @@ export default function EstructurasRepetitivasPage() {
           while
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Ejecuta el bloque de código mientras la condición sea verdadera.
           Primero evalúa la condición.
         </p>
@@ -63,7 +63,7 @@ export default function EstructurasRepetitivasPage() {
           do - while
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Ejecuta el bloque al menos una vez.
           Primero ejecuta y luego evalúa la condición.
         </p>
@@ -88,7 +88,7 @@ export default function EstructurasRepetitivasPage() {
           for (en Kotlin)
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Se usa cuando sabemos cuántas veces queremos repetir algo.
         </p>
 
@@ -131,8 +131,8 @@ for (i in 10 downTo 1) {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="w-full border text-gray-700">
-            <thead className="bg-gray-100">
+          <table className="w-full border ">
+            <thead className="bg-blue-800">
               <tr>
                 <th className="p-3 border">Estructura</th>
                 <th className="p-3 border">Evalúa Antes</th>
@@ -170,7 +170,7 @@ for (i in 10 downTo 1) {
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>No actualizar la variable del bucle (bucle infinito).</li>
           <li>Condiciones mal planteadas.</li>
           <li>Confundir el rango en el for.</li>
@@ -183,19 +183,19 @@ for (i in 10 downTo 1) {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Mostrar los números del 1 al 20 usando un for.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Mostrar los números pares del 1 al 50.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Mostrar los números del 30 al 1.
           </div>
@@ -209,7 +209,7 @@ for (i in 10 downTo 1) {
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que:
           <br />
           ✔ Solicite 5 números al usuario <br />

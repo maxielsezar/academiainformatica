@@ -10,7 +10,7 @@ export default function Modulo1Home() {
           Módulo 1: Fundamentos de Programación
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Este módulo introduce al estudiante en los principios fundamentales
           de la programación estructurada. Se desarrollan habilidades de
           razonamiento lógico, análisis de problemas y construcción de
@@ -24,7 +24,7 @@ export default function Modulo1Home() {
           Capacidades que Desarrolla
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Analizar problemas del campo informático.</li>
           <li>Identificar datos de entrada, proceso y salida.</li>
           <li>Diseñar algoritmos estructurados.</li>
@@ -40,7 +40,7 @@ export default function Modulo1Home() {
           Competencias Adquiridas
         </h2>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Al finalizar el módulo, el estudiante será capaz de desarrollar
           programas estructurados básicos, aplicar correctamente la sintaxis
           del lenguaje Kotlin y resolver problemas mediante algoritmos
@@ -54,7 +54,7 @@ export default function Modulo1Home() {
           Metodología de Enseñanza
         </h2>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           El módulo combina explicación teórica con ejercicios prácticos
           progresivos. Cada tema incluye ejemplos en Kotlin y actividades
           orientadas a reforzar el razonamiento lógico y la correcta

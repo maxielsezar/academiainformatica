@@ -35,7 +35,7 @@ export default function Modulo1Layout({
                 <Link
                   key={index}
                   href={tema.ruta}
-                  className="block text-gray-700 hover:text-blue-700 hover:font-semibold transition"
+                  className="block hover:text-blue-700 hover:font-semibold transition"
                 >
                   {tema.nombre}
                 </Link>

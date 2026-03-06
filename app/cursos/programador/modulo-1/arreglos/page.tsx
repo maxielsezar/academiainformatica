@@ -8,7 +8,7 @@ export default function ArreglosPage() {
           Arreglos (Arrays) en Kotlin
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Un arreglo es una estructura que permite almacenar múltiples valores
           del mismo tipo dentro de una sola variable.
           Cada elemento se identifica mediante un índice.
@@ -21,7 +21,7 @@ export default function ArreglosPage() {
           ¿Qué es un índice?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Los arreglos comienzan en la posición <strong>0</strong>.
           <br /><br />
           Ejemplo:
@@ -44,7 +44,7 @@ export default function ArreglosPage() {
           </pre>
         </div>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           En este ejemplo se crea un arreglo con cuatro números enteros.
         </p>
       </section>
@@ -90,7 +90,7 @@ println(numeros[2])   // 30`}
           </pre>
         </div>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           También podemos recorrer usando índices:
         </p>
 
@@ -139,7 +139,7 @@ println(numeros[2])   // 30`}
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Intentar acceder a una posición que no existe.</li>
           <li>Confundir el índice inicial (empieza en 0).</li>
           <li>No usar correctamente el tamaño del arreglo.</li>
@@ -152,19 +152,19 @@ println(numeros[2])   // 30`}
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Crear un array con 5 números y mostrarlos en pantalla.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Calcular la suma total de los elementos del array.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Encontrar el número mayor dentro del array.
           </div>
@@ -178,7 +178,7 @@ println(numeros[2])   // 30`}
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que:
           <br />
           ✔ Guarde las notas de 5 alumnos en un array <br />

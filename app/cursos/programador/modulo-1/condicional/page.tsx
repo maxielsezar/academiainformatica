@@ -8,7 +8,7 @@ export default function EstructuraCondicionalPage() {
           Estructuras Condicionales
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Las estructuras condicionales permiten que un programa tome decisiones.
           Ejecutan un bloque de código solo si se cumple una condición.
         </p>
@@ -20,7 +20,7 @@ export default function EstructuraCondicionalPage() {
           ¿Qué es una condición?
         </h2>
 
-        <p className="text-gray-700 max-w-3xl leading-relaxed">
+        <p className=" max-w-3xl leading-relaxed">
           Una condición es una expresión que devuelve un valor booleano:
           <strong> true</strong> o <strong>false</strong>.  
           Si la condición es verdadera, el programa ejecuta un bloque
@@ -36,7 +36,7 @@ export default function EstructuraCondicionalPage() {
 
         <div className="grid md:grid-cols-2 gap-6">
 
-          <div className="text-gray-700 leading-relaxed">
+          <div className=" leading-relaxed">
             <p>
               Ejecuta un bloque de código solo si la condición es verdadera.
             </p>
@@ -107,7 +107,7 @@ export default function EstructuraCondicionalPage() {
           when (estructura múltiple en Kotlin)
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           En Kotlin, <strong>when</strong> reemplaza al clásico switch.
           Es más potente y flexible.
         </p>
@@ -134,7 +134,7 @@ export default function EstructuraCondicionalPage() {
           ¿Cómo funciona el flujo?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700 leading-relaxed">
+        <div className=" border p-6 rounded-xl  leading-relaxed">
           1. Se evalúa la condición. <br />
           2. Si es verdadera → se ejecuta el bloque correspondiente. <br />
           3. Si es falsa → se evalúan otras condiciones o se ejecuta el else. <br />
@@ -148,7 +148,7 @@ export default function EstructuraCondicionalPage() {
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Olvidar llaves cuando hay múltiples líneas.</li>
           <li>Confundir = con ==.</li>
           <li>No cubrir todos los casos posibles.</li>
@@ -162,19 +162,19 @@ export default function EstructuraCondicionalPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Crear un programa que determine si un número es positivo o negativo.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Determinar si una persona puede votar según su edad.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Clasificar una nota del 1 al 10 en:
             Desaprobado, Aprobado o Excelente.
@@ -189,7 +189,7 @@ export default function EstructuraCondicionalPage() {
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que determine si una persona puede ingresar
           a un evento.  
           Condiciones:

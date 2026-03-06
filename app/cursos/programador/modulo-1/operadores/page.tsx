@@ -8,7 +8,7 @@ export default function OperadoresPage() {
           Operadores en Kotlin
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Los operadores permiten realizar cálculos, comparaciones y
           evaluaciones lógicas dentro de un programa. Son fundamentales
           para construir expresiones y tomar decisiones.
@@ -21,9 +21,9 @@ export default function OperadoresPage() {
           Operadores Aritméticos
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6 text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <ul className="space-y-2">
               <li><strong>+</strong> → Suma</li>
               <li><strong>-</strong> → Resta</li>
@@ -54,12 +54,12 @@ export default function OperadoresPage() {
           Operadores Relacionales
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Comparan dos valores y devuelven un resultado booleano
           (true o false).
         </p>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           <ul className="space-y-2">
             <li><strong>==</strong> → Igual</li>
             <li><strong>!=</strong> → Distinto</li>
@@ -77,11 +77,11 @@ export default function OperadoresPage() {
           Operadores Lógicos
         </h2>
 
-        <p className="text-gray-700 mb-6 max-w-3xl">
+        <p className=" mb-6 max-w-3xl">
           Se utilizan para combinar expresiones booleanas.
         </p>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           <ul className="space-y-2">
             <li><strong>&&</strong> → AND (y)</li>
             <li><strong>||</strong> → OR (o)</li>
@@ -108,8 +108,8 @@ export default function OperadoresPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="w-full border text-gray-700">
-            <thead className="bg-gray-100">
+          <table className="w-full border ">
+            <thead className="bg-blue-800">
               <tr>
                 <th className="p-3 border">Tipo</th>
                 <th className="p-3 border">Operadores</th>
@@ -143,7 +143,7 @@ export default function OperadoresPage() {
           Errores Comunes
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Confundir <strong>=</strong> con <strong>==</strong>.</li>
           <li>No respetar el orden de precedencia.</li>
           <li>Usar operadores lógicos con datos que no son booleanos.</li>
@@ -156,19 +156,19 @@ export default function OperadoresPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Calcular el resto de dividir 25 por 4.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Determinar si un número es mayor que 100.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Evaluar si una persona puede votar (edad ≥ 18).
           </div>
@@ -182,7 +182,7 @@ export default function OperadoresPage() {
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Crear un programa que determine si un número es par y mayor que 10.
           Utilizar operadores aritméticos, relacionales y lógicos.
         </div>
