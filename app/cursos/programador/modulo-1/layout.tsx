@@ -17,7 +17,7 @@ export default function Modulo1Layout({
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
 
       {/* Contenedor general */}
       <div className="flex max-w-7xl mx-auto px-6 pt-28 pb-16">
