@@ -7,7 +7,7 @@ export default function Modulo1Home() {
       {/* Encabezado */}
       <section>
         <h1 className="text-4xl font-bold text-blue-900 mb-6">
-          Módulo 1: Introducción a la Informática
+          Módulo 1: Fundamentos de la computadora
         </h1>
 
         <p className=" leading-relaxed max-w-3xl">
@@ -36,7 +36,7 @@ export default function Modulo1Home() {
       {/* CTA */}
       <section className="mb-6">
         <Link
-          href="/cursos/operador-pc/modulo-1/introduccion"
+          href="/cursos/informatica-multimedial/modulo-1/introduccion"
           className="inline-block bg-blue-800 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-900 transition"
         >
           Comenzar el Módulo →

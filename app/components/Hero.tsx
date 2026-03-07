@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative pt-32 overflow-hidden bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 text-white">
+    <section className="relative md:pt-32  overflow-hidden bg-gradient-to-br from-blue-950 via-blue-900 to-blue-800 text-white">
       
       {/* Decoración fondo */}
       <div className="absolute -top-32 -right-32 w-96 h-96 bg-blue-700/30 rounded-full blur-3xl"></div>

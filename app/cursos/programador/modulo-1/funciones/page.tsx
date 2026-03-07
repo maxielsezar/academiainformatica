@@ -21,7 +21,7 @@ export default function FuncionesPage() {
           ¿Para qué sirven las funciones?
         </h2>
 
-        <div className=" border p-6 rounded-xl  space-y-3">
+        <div className="w-full border p-6 rounded-xl  space-y-3">
           <p>✔ Dividir el programa en partes más pequeñas.</p>
           <p>✔ Reutilizar código.</p>
           <p>✔ Facilitar el mantenimiento.</p>

@@ -36,7 +36,7 @@ export default function ModuleAccordion({ modulos, slug }: Props) {
               onClick={() => toggle(index)}
               className="w-full flex justify-between items-center gap-4 px-6 py-4 text-left"
             >
-              <span className="font-semibold text-blue-700">
+              <span className="font-semibold">
                 {modulo.id}. {modulo.titulo}
               </span>
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Modulo1Home() {
   return (
-    <main className="space-y-16">
+    <main className="space-y-16 h-full">
 
       {/* Encabezado */}
       <section>

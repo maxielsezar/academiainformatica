@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <CursoLayout
       tituloModulo="Módulo 1"
-      basePath="/cursos/operador-pc/modulo-1"
+      basePath="/cursos/informatica-multimedial/modulo-1"
       temas={temas}
     >
       {children}
