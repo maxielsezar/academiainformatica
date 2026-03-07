@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Diagrama from "@/app/components/Diagrama";
 
 export default function AlgoritmoPage() {
   return (
@@ -113,15 +113,10 @@ export default function AlgoritmoPage() {
 
             {/* Imagen del Diagrama */}
             <div className="mt-8 flex justify-center">
-            <div className="bg-white p-6 rounded-2xl shadow-md border">
-                <Image
-                src="/diagramas/promedio.png"
-                alt="Diagrama de flujo del cálculo del promedio"
-                width={600}
-                height={800}
-                className="rounded-lg"
+               <Diagrama
+                  src="/diagramas/promedio.png"
+                  alt="Diagrama de flujo del cálculo del promedio"
                 />
-            </div>
             </div>
             {/* Pasos para construir */}
             <div className=" border p-6 rounded-xl">
@@ -161,7 +156,7 @@ export default function AlgoritmoPage() {
         </div>
         </section>
       {/* Actividades */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Actividades Prácticas
         </h2>

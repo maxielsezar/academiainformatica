@@ -184,7 +184,7 @@ export default function EstructuraCondicionalPage() {
       </section>
 
       {/* Desafío */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>

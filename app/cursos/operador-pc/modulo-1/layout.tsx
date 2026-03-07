@@ -1,8 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const temas = [
   { titulo: "Introducción a la informática", slug: "introduccion" },
-  { titulo: "Hardware vs Software", slug: "hardware-software" },
+  { titulo: "Hardware y Software", slug: "hardware-software" },
   { titulo: "Dispositivos de entrada y salida", slug: "dispositivos" },
   { titulo: "Memoria RAM y almacenamiento", slug: "memoria" },
   { titulo: "Tipos de computadoras", slug: "tipos-computadoras" },
@@ -11,32 +15,71 @@ const temas = [
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="max-w-7xl mx-auto pt-24 px-6 grid md:grid-cols-[260px_1fr] gap-10">
+  const pathname = usePathname();
+  const [scrolled, setScrolled] = useState(false);
 
-      <aside className="bg-gray-50 border rounded-xl p-5 h-fit sticky top-24">
-        <h3 className="font-semibold mb-4 text-gray-800">
-          Módulo 1
-        </h3>
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
 
-        <ul className="space-y-2 text-sm">
-          {temas.map((tema) => (
-            <li key={tema.slug}>
-              <Link
-                href={`/cursos/operador-pc/modulo-1/${tema.slug}`}
-                className="block hover:text-blue-600"
-              >
-                {tema.titulo}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </aside>
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-      <main className="prose max-w-none">
-        {children}
-      </main>
-
+  return (<>
+  {/* MOBILE MENU */}
+  <div className="md:hidden sticky top-0 left-0 right-0 w-full z-40 transition-all duration-300 bg-blue-900 dark:bg-blue-900 p-2">
+    <div className="w-full px-4">
+      <select
+        value={pathname}
+        onChange={(e) => (window.location.href = e.target.value)}
+        className="w-full border rounded-lg p-3 text-black dark:text-white bg-white dark:bg-blue-900"
+      >
+        {temas.map((tema) => (
+          <option
+            key={tema.slug}
+            value={`/cursos/operador-pc/modulo-1/${tema.slug}`}
+          >
+            {tema.titulo}
+          </option>
+        ))}
+      </select>
     </div>
+  </div>
+
+  {/* CONTENEDOR PRINCIPAL */}
+  <div className="max-w-7xl mx-auto pt-24 px-6 grid md:grid-cols-[260px_1fr] gap-10">
+
+    {/* SIDEBAR DESKTOP */}
+    <aside className="w-72 hidden md:block">
+
+          <div className="sticky top-28">
+            <h2 className="text-xl font-bold text-blue-900 mb-6">
+              Módulo 1
+            </h2>
+
+            <nav className="space-y-3">
+              {temas.map((tema, index) => (
+                <Link
+                  key={index}
+                  href={tema.slug}
+                  className="block hover:text-blue-700 hover:font-semibold transition"
+                >
+                  {tema.titulo}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+        </aside>
+
+    {/* CONTENIDO */}
+    <main className="max-w-none">
+      {children}
+    </main>
+
+  </div>
+</>
   );
 }

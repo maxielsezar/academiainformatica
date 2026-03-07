@@ -8,7 +8,7 @@ export default function IntroduccionInformaticaPage() {
           Introducción a la Informática
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           La informática es la disciplina que se encarga del estudio,
           desarrollo y uso de sistemas computacionales para procesar
           información de manera automática.
@@ -25,7 +25,7 @@ export default function IntroduccionInformaticaPage() {
           ¿Qué es la Informática?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           La palabra informática proviene de la combinación de los términos
           <strong> información </strong> y <strong> automática </strong>.
           <br /><br />
@@ -40,14 +40,14 @@ export default function IntroduccionInformaticaPage() {
           Importancia de la Informática
         </h2>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           La informática se ha convertido en una herramienta fundamental
           en la sociedad moderna. Permite mejorar la eficiencia en el trabajo,
           facilitar la comunicación y acceder a grandes cantidades de
           información.
         </p>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700 mt-6">
+        <ul className="list-disc list-inside space-y-3  mt-6">
           <li>Automatizar tareas repetitivas.</li>
           <li>Almacenar grandes cantidades de información.</li>
           <li>Acceder a internet y recursos digitales.</li>
@@ -62,7 +62,7 @@ export default function IntroduccionInformaticaPage() {
           ¿Qué es una computadora?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Una computadora es una máquina electrónica capaz de recibir,
           procesar y almacenar información.
           <br /><br />
@@ -77,11 +77,11 @@ export default function IntroduccionInformaticaPage() {
           Proceso de la Información
         </h2>
 
-        <p className="text-gray-700 mb-6">
+        <p className=" mb-6">
           El funcionamiento básico de una computadora se basa en tres etapas:
         </p>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
 
           <p className="mb-2"><strong>Entrada de datos</strong></p>
           Se ingresan datos mediante dispositivos como el teclado o el mouse.
@@ -106,20 +106,20 @@ export default function IntroduccionInformaticaPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Explicar con tus propias palabras qué es la informática.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Escribir tres ejemplos de situaciones cotidianas donde
             se utilice una computadora.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Identificar los tres pasos del proceso de la información
             (entrada, procesamiento y salida) en un ejemplo práctico.
@@ -129,12 +129,12 @@ export default function IntroduccionInformaticaPage() {
       </section>
 
       {/* Desafío */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
           Pensar en una actividad cotidiana (por ejemplo escribir un
           documento o buscar información en internet) e identificar:
           <br /><br />

@@ -8,7 +8,7 @@ export default function MemoriaPage() {
           Memoria RAM y Almacenamiento
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Las computadoras utilizan diferentes tipos de memoria para
           almacenar y procesar información. Algunas memorias son
           temporales y otras permiten guardar datos de forma permanente.
@@ -26,7 +26,7 @@ export default function MemoriaPage() {
           ¿Qué es la Memoria RAM?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           La memoria RAM (Random Access Memory) es la memoria que utiliza
           la computadora para almacenar temporalmente la información
           que está siendo utilizada en ese momento.
@@ -36,7 +36,7 @@ export default function MemoriaPage() {
           rápidamente.
         </div>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           La memoria RAM se borra automáticamente cuando se apaga
           la computadora.
         </p>
@@ -48,7 +48,7 @@ export default function MemoriaPage() {
           Características de la RAM
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li>Es una memoria temporal.</li>
           <li>Permite acceder rápidamente a los datos.</li>
           <li>Su contenido se pierde al apagar la computadora.</li>
@@ -62,7 +62,7 @@ export default function MemoriaPage() {
           ¿Qué es el Almacenamiento?
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           El almacenamiento es el lugar donde la computadora guarda
           información de forma permanente.
           <br /><br />
@@ -77,7 +77,7 @@ export default function MemoriaPage() {
           Tipos de Almacenamiento
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
+        <ul className="list-disc list-inside space-y-3 ">
           <li><strong>Disco rígido (HDD)</strong> – almacenamiento tradicional.</li>
           <li><strong>SSD</strong> – más rápido que el disco rígido.</li>
           <li><strong>Memoria USB</strong> – dispositivo portátil.</li>
@@ -92,7 +92,7 @@ export default function MemoriaPage() {
           Diferencia entre RAM y Almacenamiento
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Aunque ambos almacenan información, cumplen funciones
           diferentes dentro de la computadora.
           <br /><br />
@@ -119,19 +119,19 @@ export default function MemoriaPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Explicar con tus palabras qué es la memoria RAM.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Mencionar tres dispositivos de almacenamiento.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Explicar la diferencia entre memoria RAM y almacenamiento.
           </div>
@@ -140,12 +140,12 @@ export default function MemoriaPage() {
       </section>
 
       {/* Desafío */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl ">
           Investigar cuánta memoria RAM y qué tipo de almacenamiento
           tiene la computadora que utilizas.
           <br /><br />

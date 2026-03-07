@@ -8,7 +8,7 @@ export default function EntradaSalidaPage() {
           Dispositivos de Entrada y Salida
         </h1>
 
-        <p className="text-gray-700 leading-relaxed max-w-3xl">
+        <p className=" leading-relaxed max-w-3xl">
           Para que una computadora pueda interactuar con el usuario es
           necesario utilizar dispositivos que permitan ingresar información
           al sistema y mostrar los resultados del procesamiento.
@@ -26,12 +26,12 @@ export default function EntradaSalidaPage() {
           Dispositivos de Entrada
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Los dispositivos de entrada permiten ingresar datos o instrucciones
           a la computadora para que puedan ser procesados por el sistema.
         </div>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700 mt-6">
+        <ul className="list-disc list-inside space-y-3  mt-6">
           <li>Teclado</li>
           <li>Mouse</li>
           <li>Micrófono</li>
@@ -40,7 +40,7 @@ export default function EntradaSalidaPage() {
           <li>Lector de códigos de barras</li>
         </ul>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           Por ejemplo, cuando escribimos un texto en el teclado,
           estamos ingresando información a la computadora.
         </p>
@@ -52,12 +52,12 @@ export default function EntradaSalidaPage() {
           Dispositivos de Salida
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Los dispositivos de salida muestran al usuario el resultado
           del procesamiento de la información realizada por la computadora.
         </div>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700 mt-6">
+        <ul className="list-disc list-inside space-y-3  mt-6">
           <li>Monitor</li>
           <li>Impresora</li>
           <li>Parlantes</li>
@@ -65,7 +65,7 @@ export default function EntradaSalidaPage() {
           <li>Proyector</li>
         </ul>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           Por ejemplo, cuando un documento aparece en la pantalla,
           el monitor está mostrando información generada por la computadora.
         </p>
@@ -77,19 +77,19 @@ export default function EntradaSalidaPage() {
           Dispositivos de Entrada y Salida
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           Algunos dispositivos pueden funcionar tanto como entrada
           como salida de información.
         </div>
 
-        <ul className="list-disc list-inside space-y-3 text-gray-700 mt-6">
+        <ul className="list-disc list-inside space-y-3  mt-6">
           <li>Pantalla táctil</li>
           <li>Memorias USB</li>
           <li>Discos externos</li>
           <li>Tarjetas de red</li>
         </ul>
 
-        <p className="text-gray-700 mt-6">
+        <p className=" mt-6">
           Por ejemplo, una memoria USB permite guardar información
           (salida) y también leer información previamente almacenada
           (entrada).
@@ -102,7 +102,7 @@ export default function EntradaSalidaPage() {
           Relación con el procesamiento de datos
         </h2>
 
-        <div className="bg-gray-50 border p-6 rounded-xl text-gray-700">
+        <div className=" border p-6 rounded-xl ">
           El funcionamiento básico de un sistema informático sigue
           el modelo:
           <br /><br />
@@ -121,19 +121,19 @@ export default function EntradaSalidaPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 text-gray-700">
+        <div className="space-y-6 ">
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
             Escribir cinco ejemplos de dispositivos de entrada.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
             Escribir cinco ejemplos de dispositivos de salida.
           </div>
 
-          <div className="bg-gray-50 border p-6 rounded-xl">
+          <div className=" border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
             Identificar qué dispositivo se utiliza para cada acción:
             <br /><br />
@@ -146,12 +146,12 @@ export default function EntradaSalidaPage() {
       </section>
 
       {/* Desafío */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl text-gray-700">
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl ">
           Hacer una lista de todos los dispositivos de entrada y salida
           que tiene la computadora del aula o de tu casa.
           <br /><br />

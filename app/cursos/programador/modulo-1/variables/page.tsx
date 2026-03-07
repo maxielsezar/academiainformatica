@@ -134,7 +134,7 @@ export default function VariablesPage() {
       </section>
 
       {/* Actividad integradora */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>

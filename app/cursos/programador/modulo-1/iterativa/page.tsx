@@ -204,7 +204,7 @@ for (i in 10 downTo 1) {
       </section>
 
       {/* Desafío */}
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Desafío Integrador
         </h2>
