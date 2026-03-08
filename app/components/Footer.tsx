@@ -8,7 +8,6 @@ export default function Footer() {
         </h4>
 
         <p className="mb-2">Dirección: Chacabuco 1036</p>
-        <p className="mb-2">Email: maxicfp655@gmail.com</p>
         <p className="mb-6">WhatsApp: +54 9 2945 583234</p>
 
         <div className="w-16 h-1 bg-blue-700 mx-auto mb-6"></div>
