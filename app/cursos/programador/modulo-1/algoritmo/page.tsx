@@ -2,7 +2,7 @@ import Diagrama from "@/app/components/Diagrama";
 
 export default function AlgoritmoPage() {
   return (
-    <div className="space-y-14">
+    <div className="space-y-14 break-words">
 
       {/* Título */}
       <section>
@@ -68,9 +68,8 @@ export default function AlgoritmoPage() {
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Representación en Pseudocódigo
         </h2>
-
-       <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800">
-        <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7">
+        <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
+        <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
             <span className="text-gray-500">1</span><span>Inicio</span>
             <span className="text-gray-500">2</span><span>  Leer numero1</span>
             <span className="text-gray-500">3</span><span>  Leer numero2</span>

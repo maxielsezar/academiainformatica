@@ -25,7 +25,7 @@ export default function CursoLayout({
   const router = useRouter();
 
   return (
-    <>
+    <div className="min-h-screen">
       {/* MOBILE MENU */}
       <div className="md:hidden sticky top-0 left-0 right-0 w-full z-40 bg-blue-900 p-2">
         <div className="w-full px-4">
@@ -33,7 +33,7 @@ export default function CursoLayout({
           <select
             value={pathname}
             onChange={(e) => router.push(e.target.value)}
-            className="w-full border rounded-lg p-3 bg-white text-black dark:bg-blue-900 dark:text-white"
+            className="w-full border rounded-lg p-3 bg-white text-black dark:bg-blue-800 dark:text-white"
           >
             {temas.map((tema) => (
               <option key={tema.slug} value={`${basePath}/${tema.slug}`}>
@@ -46,14 +46,13 @@ export default function CursoLayout({
       </div>
 
       {/* CONTENEDOR PRINCIPAL */}
-      <div className="max-w-7xl mx-auto pt-24 px-6 grid md:grid-cols-[260px_1fr] gap-10">
-
+      <div className= "min-h-screen flex flex-col max-w-7xl mx-auto pt-10 md:pt-24 px-6 grid md:grid-cols-[260px_1fr] gap-10">
         {/* SIDEBAR DESKTOP */}
         <aside className="w-72 hidden md:block">
 
           <div className="sticky top-28">
 
-            <h2 className="text-xl font-bold text-blue-900 dark:text-blue-400 mb-6">
+            <h2 className="text-xl font-bold text-blue-800 mb-6">
               <Link href={basePath}>
                 {tituloModulo}
               </Link>
@@ -72,7 +71,7 @@ export default function CursoLayout({
                     className={`block transition
                       ${
                         active
-                          ? "text-blue-700 dark:text-blue-400 font-semibold"
+                          ? "text-blue-700 font-semibold"
                           : "hover:text-blue-700 dark:hover:text-blue-400"
                       }
                     `}
@@ -89,11 +88,11 @@ export default function CursoLayout({
         </aside>
 
         {/* CONTENIDO */}
-        <main className="max-w-none">
+        <main className="max-w-none overflow-x-hidden pb-6">
           {children}
         </main>
 
       </div>
-    </>
+    </div>
   );
 }
