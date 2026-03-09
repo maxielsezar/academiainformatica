@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative max-w-6xl mx-auto px-6 py-32 text-center">
         
         <p className="uppercase tracking-widest text-sm text-blue-300 mb-4">
-          Academia Profesional en Tecnología
+          Plataforma Educativa Profesional en Tecnología
         </p>
 
         <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">

@@ -44,7 +44,7 @@ export default function Navbar() {
               scrolled ? "text-blue-900" : "text-white"
             }`}
           >
-            Academia de Informática
+            Cursos de Informática CFP 655
           </span>
         </div>
 

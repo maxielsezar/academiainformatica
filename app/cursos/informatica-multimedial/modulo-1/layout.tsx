@@ -1,4 +1,14 @@
 import CursoLayout from "@/app/components/CursoLayout";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Curso de Informatica Multimedial",
+  description: "Formación profesional en tecnología",
+  icons: {
+    icon: "/logo.png",
+  },
+};
+
 
 const temas = [
   { titulo: "Introducción a la informática", slug: "introduccion" },

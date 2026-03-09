@@ -126,8 +126,8 @@ fun main() {
           Kotlin permite escribir funciones simples de forma más compacta.
         </p>
 
-        <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+      <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
+        <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
 {`fun multiplicar(a: Int, b: Int): Int = a * b`}
           </pre>
         </div>

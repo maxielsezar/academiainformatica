@@ -1,6 +1,16 @@
 
 import CursoLayout from "@/app/components/CursoLayout";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Curso de Programador",
+  description: "Formación profesional en tecnología",
+  icons: {
+    icon: "/logo.png",
+  },
+};
+
   const temas = [
     { titulo: "Introducción al Algoritmo", slug: "algoritmo" },
     { titulo: "Sintaxis", slug: "sintaxis" },
@@ -10,6 +20,7 @@ import CursoLayout from "@/app/components/CursoLayout";
     { titulo: "Estructura Iterativa", slug: "iterativa" },
     { titulo: "Funciones", slug: "funciones" },
     { titulo: "Arreglos", slug: "arreglos" },
+    { titulo: "Pilas y Colas", slug: "pilas-colas" },
   ];
 
 
