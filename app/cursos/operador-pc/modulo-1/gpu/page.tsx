@@ -1,13 +1,13 @@
 
 export default function GPUPage() {
   return (
-    <main className="w-full max-w-5xl mx-auto px-4 py-10">
+    <main className= "space-y-14">
 
-      <h1 className="text-3xl text-blue-800 md:text-4xl font-bold mb-6">
+      <h1 className="text-3xl font-bold text-blue-900 mb-6">
         GPU (Unidad de Procesamiento Gráfico)
       </h1>
 
-      <p className="text-lg mb-6 leading-relaxed">
+      <p className="leading-relaxed max-w-3xl">
         La GPU es el componente encargado de procesar los gráficos de la computadora.
         Se ocupa de generar imágenes, videos y animaciones que luego se muestran en el monitor.
         Trabaja junto con el procesador para ofrecer una experiencia visual fluida.
@@ -16,11 +16,11 @@ export default function GPUPage() {
 
       {/* Funcionamiento */}
       <section className="mt-12">
-        <h2 className="text-2xl text-blue-800 font-semibold mb-4">
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
           ¿Qué hace una GPU?
         </h2>
 
-        <ul className="space-y-2 text-lg">
+        <ul className="space-y-2 ">
           <li>• Procesa gráficos y animaciones.</li>
           <li>• Permite ver videos en alta definición.</li>
           <li>• Mejora el rendimiento en videojuegos.</li>
@@ -70,13 +70,13 @@ export default function GPUPage() {
           Marcas de GPU
         </h2>
 
-        <ul className="space-y-2 text-lg">
+        <ul className="space-y-2">
           <li>• <strong>NVIDIA</strong></li>
           <li>• <strong>AMD</strong></li>
           <li>• <strong>Intel</strong></li>
         </ul>
 
-        <p className="mt-4 text-lg">
+        <p className="mt-4">
           Estas empresas desarrollan las principales tecnologías de procesamiento
           gráfico utilizadas en computadoras personales, notebooks y servidores.
         </p>
@@ -88,7 +88,7 @@ export default function GPUPage() {
           Datos importantes
         </h2>
 
-        <ul className="space-y-2 text-lg">
+        <ul className="space-y-2">
           <li>• La GPU se conecta a la placa madre mediante el puerto PCI Express.</li>
           <li>• Algunas tarjetas gráficas tienen ventiladores para evitar el sobrecalentamiento.</li>
           <li>• Las GPU modernas incluyen memoria dedicada llamada VRAM.</li>
@@ -103,7 +103,7 @@ export default function GPUPage() {
         </h2>
 
 
-        <div className="space-y-6 text-lg">
+        <div className="space-y-6 ">
 
           
           <div className=" border p-6 rounded-xl">

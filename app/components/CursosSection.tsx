@@ -10,7 +10,7 @@ export default function CursosSection() {
             Oferta Académica
           </h2>
           <div className="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
-          <p className="text-blue-900 dark:text-blue-600 max-w-2xl mx-auto">
+          <p className=" max-w-2xl mx-auto">
             Programas diseñados para brindar competencias técnicas reales 
             y preparación para el ámbito laboral actual.
           </p>
