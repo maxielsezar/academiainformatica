@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     { titulo: "Funciones", slug: "funciones" },
     { titulo: "Arreglos", slug: "arreglos" },
     { titulo: "Pilas y Colas", slug: "pilas-colas" },
+    { titulo: "Listas", slug: "listas" },
+    { titulo: "Arreglos vs Listas", slug: "array-lista" },
   ];
 
 
