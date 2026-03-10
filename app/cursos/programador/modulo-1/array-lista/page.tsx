@@ -224,8 +224,6 @@ export default function ArraysVsListasPage() {
             <p className="font-semibold mb-2">Actividad 4</p>
             Crea una funcion que compruebe si un elemento esta dentro de una lista
           </div>
-
-
         </div>
       </section>
 

@@ -25,7 +25,7 @@ export default function Navbar() {
     <header
       className={`
         fixed top-0 left-0 w-full z-50 transition-all duration-300
-        ${scrolled ? "bg-white shadow-md py-4" : "bg-transparent py-6"}
+        ${scrolled ? "bg-white dark:bg-black shadow-md py-4" : "bg-transparent py-6"}
       `}
     >
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
@@ -41,7 +41,7 @@ export default function Navbar() {
           />
           <span
             className={`font-semibold tracking-wide transition-colors duration-300 ${
-              scrolled ? "text-blue-900" : "text-white"
+              scrolled ? "text-blue-900 dark:text-white" : "text-white "
             }`}
           >
             Cursos de Informática CFP 655
@@ -51,7 +51,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <nav
           className={`hidden md:flex gap-10 text-sm font-medium transition-colors duration-300 ${
-            scrolled ? "text-blue-900" : "text-white"
+            scrolled ? "text-blue-900 dark:text-white" : "text-white"
           }`}
         >
           <a href="#" className="hover:text-blue-600 transition">Inicio</a>
@@ -65,7 +65,7 @@ export default function Navbar() {
         >
           <span
             className={`w-6 h-0.5 transition-all duration-300 ${
-              scrolled ? "bg-blue-900" : "bg-white"
+              scrolled && "bg-blue-900" 
             }`}
           ></span>
           <span

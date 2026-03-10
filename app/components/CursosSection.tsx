@@ -2,15 +2,15 @@ import CursoCard from "./CursoCard";
 
 export default function CursosSection() {
   return (
-    <section id="cursos" className="py-31 bg-white">
+    <section id="cursos" className="py-31">
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-blue-900 mb-4">
+          <h2 className="text-4xl font-bold text-blue-900 dark:text-blue-600 mb-4">
             Oferta Académica
           </h2>
           <div className="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-blue-900 dark:text-blue-600 max-w-2xl mx-auto">
             Programas diseñados para brindar competencias técnicas reales 
             y preparación para el ámbito laboral actual.
           </p>
