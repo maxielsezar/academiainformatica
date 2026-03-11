@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     { titulo: "Pilas y Colas", slug: "pilas-colas" },
     { titulo: "Listas", slug: "listas" },
     { titulo: "Arreglos vs Listas", slug: "array-lista" },
+    { titulo: "Algoritmo de busqueda", slug: "algoritmo-busqueda" },
   ];
 
 
