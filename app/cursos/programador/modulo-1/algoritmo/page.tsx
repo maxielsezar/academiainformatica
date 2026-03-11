@@ -4,6 +4,7 @@ export default function AlgoritmoPage() {
   return (
     <div className="space-y-14 break-words">
 
+      
       {/* Título */}
       <section>
         <h1 className="text-3xl font-bold text-blue-900 mb-6">

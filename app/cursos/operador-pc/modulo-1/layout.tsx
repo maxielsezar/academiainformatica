@@ -18,6 +18,8 @@ const temas = [
   { titulo: "Tipos de computadoras", slug: "tipos-computadoras" },
   { titulo: "Sistema operativo Windows", slug: "windows" },
   { titulo: "Buenas prácticas de uso de la PC", slug: "buenas-practicas" },
+  { titulo: "Medidas de Almacenamiento", slug: "medidas-almacenamiento" },
+  { titulo: "Comprimir Archivos", slug: "comprimir-archivos" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
