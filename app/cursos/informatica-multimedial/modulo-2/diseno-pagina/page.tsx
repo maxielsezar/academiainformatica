@@ -88,7 +88,7 @@ export default function DisenoPaginaPage() {
 
         <div className="border p-6 rounded-xl">
           <ol className="list-decimal list-inside space-y-2">
-            <li>Ir a la pestaña <strong>Diseño</strong> o <strong>Diseño de página</strong>.</li>
+            <li>Ir a la pestaña <strong>Disposición</strong>.</li>
             <li>Seleccionar <strong>Márgenes</strong>, <strong>Orientación</strong> o <strong>Tamaño</strong>.</li>
             <li>Elegir la configuración deseada.</li>
           </ol>
