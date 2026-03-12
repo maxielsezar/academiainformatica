@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     { titulo: "Listas", slug: "listas" },
     { titulo: "Arreglos vs Listas", slug: "array-lista" },
     { titulo: "Algoritmo de busqueda", slug: "algoritmo-busqueda" },
+    { titulo: "Algoritmo de ordenamiento", slug: "algoritmo-ordenamiento" },
+    { titulo: "Complejidad de Algoritmos", slug: "complejidad-algoritmo" },
+    { titulo: "Recursividad", slug: "recursividad" },
   ];
 
 
