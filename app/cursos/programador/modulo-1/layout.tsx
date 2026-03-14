@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <CursoLayout
-      tituloCurso="Curso de Programador"
+      tituloCurso="Programador"
       cursoPath="/cursos/programador"
       tituloModulo="Módulo 1"
       basePath="/cursos/programador/modulo-1"
