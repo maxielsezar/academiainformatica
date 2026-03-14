@@ -2,6 +2,9 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
+import { useEffect } from "react";
+import { useState } from "react";
 
 type Tema = {
   titulo: string;
@@ -10,6 +13,8 @@ type Tema = {
 
 type Props = {
   children: React.ReactNode;
+  tituloCurso: string;
+  cursoPath: string;
   tituloModulo: string;
   basePath: string;
   temas: Tema[];
@@ -17,48 +22,87 @@ type Props = {
 
 export default function CursoLayout({
   children,
+  tituloCurso,
+  cursoPath,
   tituloModulo,
   basePath,
   temas,
 }: Props) {
   const pathname = usePathname();
   const router = useRouter();
+  const [menuOpen, setMenuOpen] = useState(false);
+  useEffect(() => {
+    const activeElement = document.querySelector(".tema-activo");
 
+    if (activeElement) {
+      activeElement.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  }, [pathname]);
   return (
     <div className="min-h-screen">
-      {/* MOBILE MENU */}
-      <div className="md:hidden sticky top-0 left-0 right-0 w-full z-40 bg-blue-900 p-2">
-        <div className="w-full px-4">
+      {/* MOBILE HEADER */}
+      <div className="md:hidden sticky top-0 z-50 bg-white dark:bg-blue-950 border-b">
 
-          <select
-            value={pathname}
-            onChange={(e) => router.push(e.target.value)}
-            className="w-full border rounded-lg p-3 bg-white text-black dark:bg-blue-800 dark:text-white"
+        <div className="flex items-center justify-between px-4 py-3">
+
+          <Link
+            href={cursoPath}
+            className="flex items-center gap-2"
           >
-            {temas.map((tema) => (
-              <option key={tema.slug} value={`${basePath}/${tema.slug}`}>
-                {tema.titulo}
-              </option>
-            ))}
-          </select>
+            <Image
+              src="/logo.png"
+              alt="Logo Curso"
+              width={32}
+              height={32}
+            />
+
+            <span className="font-semibold text-blue-800 dark:text-white">
+              {tituloCurso}
+            </span>
+          </Link>
+
+          <button
+            onClick={() => setMenuOpen(true)}
+            className="text-2xl"
+          >
+            ☰
+          </button>
 
         </div>
+
       </div>
+      {/* MOBILE DRAWER */}
+      {menuOpen && (
+        <div className="md:hidden fixed inset-0 z-50 flex">
 
-      {/* CONTENEDOR PRINCIPAL */}
-      <div className= "min-h-screen flex flex-col max-w-7xl mx-auto pt-10 md:pt-24 px-6 grid md:grid-cols-[260px_1fr] gap-10">
-        {/* SIDEBAR DESKTOP */}
-        <aside className="w-72 hidden md:block">
+          {/* fondo oscuro */}
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setMenuOpen(false)}
+          />
 
-          <div className="sticky top-28">
+          {/* menu */}
+          <div className="relative w-72 bg-white dark:bg-blue-950 p-6 overflow-y-auto">
 
-            <h2 className="text-xl font-bold text-blue-800 mb-6">
-              <Link href={basePath}>
+            <div className="flex justify-between items-center mb-6">
+
+              <span className="font-semibold text-blue-800 dark:text-white">
                 {tituloModulo}
-              </Link>
-            </h2>
+              </span>
 
-            <nav className="space-y-3">
+              <button
+                onClick={() => setMenuOpen(false)}
+                className="text-xl"
+              >
+                ✕
+              </button>
+
+            </div>
+
+            <nav className="space-y-4">
 
               {temas.map((tema) => {
 
@@ -68,11 +112,12 @@ export default function CursoLayout({
                   <Link
                     key={tema.slug}
                     href={`${basePath}/${tema.slug}`}
-                    className={`block transition
+                    onClick={() => setMenuOpen(false)}
+                    className={`block text-sm
                       ${
                         active
                           ? "text-blue-700 font-semibold"
-                          : "hover:text-blue-700 dark:hover:text-blue-400"
+                          : "hover:text-blue-700"
                       }
                     `}
                   >
@@ -85,14 +130,74 @@ export default function CursoLayout({
 
           </div>
 
-        </aside>
+        </div>
+      )}
+
+      {/* CONTENEDOR PRINCIPAL */}
+      <div className="min-h-screen max-w-7xl mx-auto px-6 pt-10 md:pl-[300px]">
+        {/* SIDEBAR */}
+       <aside className="hidden md:block fixed  left-0 top-0 h-screen w-[260px] border-r bg-white dark:bg-blue-950 p-6">
+  
+        <div className="space-y-6 h-full flex flex-col">
+
+          {/* LOGO + CURSO */}
+          <Link
+            href={cursoPath}
+            className="flex items-center gap-3 hover:opacity-80 transition"
+          >
+            <Image
+              src="/logo.png"
+              alt="Logo Curso"
+              width={40}
+              height={40}
+            />
+
+            <span className="text-lg font-bold text-blue-800 dark:text-white">
+              {tituloCurso}
+            </span>
+          </Link>
+
+          {/* MODULO */}
+          <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">
+            {tituloModulo}
+          </h2>
+
+          {/* MENU */}
+          <nav className="space-y-3 overflow-y-auto flex-1 pr-2">
+            {temas.map((tema) => {
+
+              const active = pathname.includes(tema.slug);
+
+              return (
+              <Link
+                key={tema.slug}
+                href={`${basePath}/${tema.slug}`}
+                className={`block text-sm transition
+                  ${
+                    active
+                      ? "tema-activo text-blue-700 dark:text-blue-400 font-semibold"
+                      : "hover:text-blue-700 dark:hover:text-blue-400"
+                  }
+                `}
+              >
+                {tema.titulo}
+              </Link>
+              );
+            })}
+
+          </nav>
+
+        </div>
+
+      </aside>
 
         {/* CONTENIDO */}
-        <main className="max-w-none overflow-x-hidden pb-6">
+        <main className="max-w-none overflow-x-hidden pb-12">
           {children}
         </main>
 
       </div>
+
     </div>
   );
 }

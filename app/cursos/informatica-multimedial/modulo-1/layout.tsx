@@ -23,6 +23,8 @@ const temas = [
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <CursoLayout
+      tituloCurso="Informática Multimedial"
+      cursoPath="/cursos/informatica-multimedial"
       tituloModulo="Módulo 1"
       basePath="/cursos/informatica-multimedial/modulo-1"
       temas={temas}

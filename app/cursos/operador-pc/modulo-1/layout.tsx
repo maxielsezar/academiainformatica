@@ -17,7 +17,7 @@ const temas = [
   { titulo: "GPU", slug: "gpu" },
   { titulo: "Tipos de computadoras", slug: "tipos-computadoras" },
   { titulo: "Sistema operativo Windows", slug: "windows" },
-  { titulo: "Buenas prácticas de uso de la PC", slug: "buenas-practicas" },
+  { titulo: "Buenas prácticas", slug: "buenas-practicas" },
   { titulo: "Medidas de Almacenamiento", slug: "medidas-almacenamiento" },
   { titulo: "Comprimir Archivos", slug: "comprimir-archivos" },
 ];
@@ -25,6 +25,8 @@ const temas = [
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <CursoLayout
+     tituloCurso="Operador de PC"
+      cursoPath="/cursos/operador-pc"
       tituloModulo="Módulo 1"
       basePath="/cursos/operador-pc/modulo-1"
       temas={temas}

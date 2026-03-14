@@ -132,7 +132,7 @@ for (i in 10 downTo 1) {
 
         <div className="overflow-x-auto">
           <table className="w-full border ">
-            <thead className="bg-blue-800">
+            <thead>
               <tr>
                 <th className="p-3 border">Estructura</th>
                 <th className="p-3 border">Evalúa Antes</th>

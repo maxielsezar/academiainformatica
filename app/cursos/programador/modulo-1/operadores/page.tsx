@@ -109,7 +109,7 @@ export default function OperadoresPage() {
 
         <div className="overflow-x-auto">
           <table className="w-full border ">
-            <thead className="bg-blue-800">
+            <thead>
               <tr>
                 <th className="p-3 border">Tipo</th>
                 <th className="p-3 border">Operadores</th>

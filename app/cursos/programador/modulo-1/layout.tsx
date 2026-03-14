@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
   const temas = [
-    { titulo: "Introducción al Algoritmo", slug: "algoritmo" },
+    { titulo: "Introducción al Algoritmo", slug: "introduccion-algoritmo" },
     { titulo: "Sintaxis", slug: "sintaxis" },
     { titulo: "Variables y Constantes", slug: "variables" },
     { titulo: "Operadores", slug: "operadores" },
@@ -27,6 +27,8 @@ export const metadata: Metadata = {
     { titulo: "Algoritmo de ordenamiento", slug: "algoritmo-ordenamiento" },
     { titulo: "Complejidad de Algoritmos", slug: "complejidad-algoritmos" },
     { titulo: "Recursividad", slug: "recursividad" },
+   // { titulo: "Ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
+   // { titulo: "Divide y venceras", slug: "divide-venceras" },
   ];
 
 
@@ -34,6 +36,8 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <CursoLayout
+      tituloCurso="Curso de Programador"
+      cursoPath="/cursos/programador"
       tituloModulo="Módulo 1"
       basePath="/cursos/programador/modulo-1"
       temas={temas}
