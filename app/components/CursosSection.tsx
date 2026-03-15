@@ -1,4 +1,5 @@
 import CursoCard from "./CursoCard";
+import ShinyText from "./ShinyText";
 
 export default function CursosSection() {
   return (
@@ -6,8 +7,20 @@ export default function CursosSection() {
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="text-center mb-20">
+          
           <h2 className="text-4xl font-bold text-blue-900 dark:text-blue-600 mb-4">
-            Oferta Académica
+            <ShinyText
+            text="Oferta Académica"
+            speed={2}
+            delay={0}
+            color="#3c36fe"
+            shineColor="#36d7f4"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+          />
           </h2>
           <div className="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
           <p className=" max-w-2xl mx-auto">

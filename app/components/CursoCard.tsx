@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AnimatedContent from './AnimatedContent'
 
 interface Props {
   titulo: string;
@@ -7,6 +8,8 @@ interface Props {
   slug: string; 
 }
 
+
+
 export default function CursoCard({
   titulo,
   descripcion,
@@ -14,6 +17,18 @@ export default function CursoCard({
   slug,
 }: Props) {
   return (
+    <AnimatedContent
+  distance={100}
+  direction="vertical"
+  reverse={false}
+  duration={0.8}
+  ease="power3.out"
+  initialOpacity={0}
+  animateOpacity
+  scale={1}
+  threshold={0.1}
+  delay={0.5}
+>
     <div className="group border border-gray-200 p-10 rounded-2xl hover:shadow-xl transition-all duration-300">
       
 
@@ -36,5 +51,7 @@ export default function CursoCard({
         Ver programa →
       </Link>
     </div>
+    
+</AnimatedContent>
   );
 }

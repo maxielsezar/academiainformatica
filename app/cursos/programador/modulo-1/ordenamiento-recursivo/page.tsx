@@ -1,3 +1,5 @@
+import Diagrama from "@/app/components/Diagrama";
+
 export default function OrdenamientoRecursivoPage() {
   return (
     <div className="space-y-16">
@@ -161,6 +163,13 @@ fun merge(arr: IntArray, left: IntArray, right: IntArray) {
 
 }`}
 </pre>
+        </div>
+          {/* Imagen del Diagrama */}
+        <div className="mt-8 flex justify-center">
+            <Diagrama
+              src="/diagramas/mergesort.webp"
+              alt="Diagrama de flujo del cálculo del promedio"
+            />
         </div>
       </section>
 

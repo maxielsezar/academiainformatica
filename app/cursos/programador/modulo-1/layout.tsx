@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     { titulo: "Estructura Iterativa", slug: "iterativa" },
     { titulo: "Funciones", slug: "funciones" },
     { titulo: "Arreglos", slug: "arreglos" },
-    { titulo: "Pilas y Colas", slug: "pilas-colas" },
     { titulo: "Listas", slug: "listas" },
     { titulo: "Arreglos vs Listas", slug: "array-lista" },
+    { titulo: "Pilas y Colas", slug: "pilas-colas" },
     { titulo: "Algoritmo de busqueda", slug: "algoritmo-busqueda" },
     { titulo: "Algoritmo de ordenamiento", slug: "algoritmo-ordenamiento" },
     { titulo: "Complejidad de Algoritmos", slug: "complejidad-algoritmos" },
     { titulo: "Recursividad", slug: "recursividad" },
-   // { titulo: "Ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
+   // { titulo: "Algoritmo de ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
    // { titulo: "Divide y venceras", slug: "divide-venceras" },
   ];
 
