@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     { titulo: "Algoritmo de ordenamiento", slug: "algoritmo-ordenamiento" },
     { titulo: "Complejidad de Algoritmos", slug: "complejidad-algoritmos" },
     { titulo: "Recursividad", slug: "recursividad" },
-   // { titulo: "Algoritmo de ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
-   // { titulo: "Divide y venceras", slug: "divide-venceras" },
+    { titulo: "Algoritmo de ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
+    { titulo: "Divide y venceras", slug: "divide-venceras" },
   ];
 
 
