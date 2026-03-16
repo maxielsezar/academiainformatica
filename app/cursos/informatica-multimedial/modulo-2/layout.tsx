@@ -24,6 +24,8 @@ const temas = [
   { titulo: "Encabezado y Pie de pagina", slug: "encabezado-pie" },
   { titulo: "Guardar, exportar e imprimir documentos", slug: "guardar-imprimir" },
   { titulo: "Exportar PDF", slug: "exportar-pdf" },
+  { titulo: "Titulos y tabla de contenido", slug: "titulos-tabla-contenido" },
+  { titulo: "Normas APA", slug: "normas-apa" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

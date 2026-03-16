@@ -65,7 +65,7 @@ export default function Navbar() {
         >
           <span
             className={`w-6 h-0.5 transition-all duration-300 ${
-              scrolled && "bg-blue-900" 
+              scrolled ? "bg-blue-900" : "bg-white" 
             }`}
           ></span>
           <span
@@ -86,7 +86,7 @@ export default function Navbar() {
         className={`
           md:hidden overflow-hidden transition-all duration-300
           ${open ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}
-          ${scrolled ? "bg-white text-blue-900" : "bg-blue-900 text-white"}
+          ${scrolled ? "bg-white dark:bg-black text-blue-800" : "bg-blue-900 text-white"}
         `}
       >
         <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">

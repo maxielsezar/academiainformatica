@@ -135,18 +135,24 @@ export const cursos = {
       },
       {
         id: 5,
+        titulo: "Texto - Hipertexto",
+        descripcion:
+          "Capacidad de leer y entender textos hipertextuales y multimedia."
+      },
+       {
+        id: 6,
         titulo: "Edición de imagen digital",
         descripcion:
           "Fundamentos de diseño gráfico, tratamiento de imágenes y composición visual."
       },
       {
-        id: 6,
+        id: 7,
         titulo: "Sonido y recursos audiovisuales",
         descripcion:
           "Conceptos básicos de edición de audio e integración en proyectos multimedia."
       },
       {
-        id: 7,
+        id: 8,
         titulo: "Producción Web 2.0",
         descripcion:
           "Creación de blogs, wikis y contenidos digitales colaborativos con integración multimedia."
