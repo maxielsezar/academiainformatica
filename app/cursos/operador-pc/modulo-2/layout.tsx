@@ -20,8 +20,8 @@ const temas = [
   { titulo: "Listas", slug: "listas" },
  { titulo: "Insertar imágenes", slug: "insertar-imagenes" },
   { titulo: "Insertar tablas", slug: "tablas" },
-   /* { titulo: "Diseño de página", slug: "diseno-pagina" },
-  { titulo: "Encabezado y Pie de pagina", slug: "encabezado-pie" },
+  { titulo: "Diseño de página", slug: "diseno-pagina" },
+   /* { titulo: "Encabezado y Pie de pagina", slug: "encabezado-pie" },
   { titulo: "Guardar, exportar e imprimir documentos", slug: "guardar-imprimir" },
   { titulo: "Exportar PDF", slug: "exportar-pdf" },*/
 ];
