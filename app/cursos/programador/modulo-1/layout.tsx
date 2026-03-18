@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     { titulo: "Recursividad", slug: "recursividad" },
     { titulo: "Algoritmo de ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
     { titulo: "Divide y venceras", slug: "divide-venceras" },
+    { titulo: "Listas Enlazadas", slug: "lista-enlazada" },
+  /*  { titulo: "Arboles", slug: "arboles" },
+    { titulo: "Grafos", slug: "grafos" },
+    { titulo: "Recorrido de grafos", slug: "recorrido-grafos" },*/
   ];
 
 
