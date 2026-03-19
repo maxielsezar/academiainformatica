@@ -72,7 +72,7 @@ export default function CrearGuardarDocumentosPage() {
         <p className="leading-relaxed max-w-3xl">
           Cuando un documento ya fue guardado anteriormente, se pueden guardar
           los cambios realizados utilizando la opción <strong>Guardar</strong>.
-          También se puede usar el atajo de teclado <strong>Ctrl + S</strong>
+          También se puede usar el atajo de teclado <strong>Ctrl + G </strong>
           para guardar rápidamente el documento.
         </p>
       </section>
