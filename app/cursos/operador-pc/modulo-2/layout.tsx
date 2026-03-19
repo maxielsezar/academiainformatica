@@ -2,7 +2,7 @@ import CursoLayout from "@/app/components/CursoLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Curso de Informatica Multimedial",
+  title: "Curso de Operador de PC",
   description: "Formación profesional en tecnología",
   icons: {
     icon: "/logo.png",

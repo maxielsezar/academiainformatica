@@ -129,7 +129,27 @@ class ListaEnlazada {
         actual?.siguiente = nuevoNodo
     }
 
-}`}
+}
+
+fun main() {
+    val lista = ListaEnlazada()
+
+    // Agregar elementos
+    lista.agregar(10)
+    lista.agregar(20)
+    lista.agregar(30)
+    lista.agregar(40)
+
+    // Recorrer e imprimir la lista
+    var actual = lista.cabeza
+
+    while (actual != null) {
+        println(actual.valor)
+        actual = actual.siguiente
+    }
+}
+
+`}
 </pre>
         </div>
       </section>
