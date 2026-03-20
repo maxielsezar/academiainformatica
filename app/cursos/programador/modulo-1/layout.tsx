@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     { titulo: "Algoritmo de ordenamiento Recursivo", slug: "ordenamiento-recursivo" },
     { titulo: "Divide y venceras", slug: "divide-venceras" },
     { titulo: "Listas Enlazadas", slug: "lista-enlazada" },
+    { titulo: "Actividades Practicas", slug: "actividades" },
   /*  { titulo: "Arboles", slug: "arboles" },
     { titulo: "Grafos", slug: "grafos" },
     { titulo: "Recorrido de grafos", slug: "recorrido-grafos" },*/
