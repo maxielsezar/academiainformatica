@@ -176,7 +176,7 @@ export default function NormasAPATrabajoPage() {
               <tr className="border-b">
                 <td className="p-3">Característica 2</td>
                 <td className="p-3">Valor A2</td>
-                <td className="p-3">Valor B2</td>n
+                <td className="p-3">Valor B2</td>
               </tr>
               <tr className="">
                 <td className="p-3">Característica 3</td>
