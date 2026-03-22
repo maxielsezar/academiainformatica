@@ -111,7 +111,7 @@ export default function TrabajoPracticoModulo3Page() {
             Por cada concepto investigado, deberás agregar:
           </p>
 
-          <ul className="list-disc list-inside space-y-2">
+          <ul className=" list-inside space-y-2">
             <li>✔ Una breve explicación</li>
             <li>✔ <strong>3 imágenes</strong> relacionadas (a elección)</li>
           </ul>
