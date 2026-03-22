@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Curso de Informática
 
-## Getting Started
+## 📌 Descripción
 
-First, run the development server:
+Este proyecto es una **plataforma web educativa** diseñada para enseñar los fundamentos de la informática de forma clara, estructurada e interactiva.
+
+Incluye contenidos teóricos, ejemplos prácticos y actividades para que los estudiantes puedan aprender paso a paso.
+
+---
+
+## 🎯 Objetivos del curso
+
+* Introducir los conceptos básicos de la informática
+* Comprender el funcionamiento del hardware y software
+* Desarrollar habilidades en programación
+* Fomentar el aprendizaje práctico mediante actividades
+
+
+---
+
+## 🧩 Metodología
+
+El curso está organizado en módulos que incluyen:
+
+* 📖 Explicaciones teóricas
+* 💡 Ejemplos prácticos
+* 📝 Actividades para el alumno
+* 🚀 Proyectos aplicados
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Next.js
+* React
+* Tailwind CSS
+
+---
+
+## 🚀 Instalación y ejecución
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/maxielsezar/academiainformatica.git
+```
+
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+3. Ejecutar el proyecto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abrir en el navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Estructura del proyecto
 
-To learn more about Next.js, take a look at the following resources:
+* `/app` → páginas del curso
+* `/components` → componentes reutilizables
+* `/public` → recursos estáticos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 Público objetivo
 
-## Deploy on Vercel
+Este curso está dirigido a:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Estudiantes que comienzan en informática
+* Personas sin experiencia previa en programación
+* Cualquier interesado en aprender tecnología desde cero
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Características destacadas
+
+* Interfaz moderna y clara
+* Contenido progresivo
+* Actividades prácticas integradas
+* Enfoque educativo
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Maximiliano Elsezar**
