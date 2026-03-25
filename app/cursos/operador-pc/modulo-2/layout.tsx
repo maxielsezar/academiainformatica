@@ -25,7 +25,8 @@ const temas = [
   { titulo: "Guardar, exportar e imprimir documentos", slug: "guardar-imprimir" },
   { titulo: "Exportar PDF", slug: "exportar-pdf" },
   { titulo: "Titulos y Tabla de contenido", slug: "titulos-tabla-contenido" },
-  { titulo: "Normas APA", slug: "normas-apa" },
+  { titulo: "Mecanografía", slug: "mecanografia" },
+ // { titulo: "Normas APA", slug: "normas-apa" },
 
 ];
 
