@@ -60,7 +60,7 @@ export default function CursoLayout({
             />
 
             <span className="font-semibold text-blue-800 dark:text-white">
-              {tituloCurso}
+              ← {tituloCurso}
             </span>
           </Link>
 
