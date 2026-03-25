@@ -26,7 +26,7 @@ const temas = [
   { titulo: "Exportar PDF", slug: "exportar-pdf" },
   { titulo: "Titulos y tabla de contenido", slug: "titulos-tabla-contenido" },
   { titulo: "Normas APA", slug: "normas-apa" },
-  { titulo: "currículum vitae", slug: "crear-cv" },
+  { titulo: "Currículum Vitae", slug: "crear-cv" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
