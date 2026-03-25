@@ -31,9 +31,8 @@ export const metadata: Metadata = {
     { titulo: "Divide y venceras", slug: "divide-venceras" },
     { titulo: "Listas Enlazadas", slug: "lista-enlazada" },
     { titulo: "Actividades Practicas", slug: "actividades" },
-    
-     /*{ titulo: "Practicas Listas Enlazadas", slug: "actividad-lista-enlaza" },
-   { titulo: "Arboles", slug: "arboles" },
+    { titulo: "Practicas Listas Enlazadas", slug: "actividad-lista-enlaza" },
+   /* { titulo: "Arboles", slug: "arboles" },
     { titulo: "Grafos", slug: "grafos" },
     { titulo: "Recorrido de grafos", slug: "recorrido-grafos" },*/
   ];
