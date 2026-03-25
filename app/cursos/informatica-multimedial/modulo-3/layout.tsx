@@ -14,7 +14,7 @@ const temas = [
   { titulo: "Evaluación de la Información", slug: "evaluacion" },
   { titulo: "Organización de la Información", slug: "organizacion" },
   { titulo: "Uso Responsable de la Información", slug: "uso" },
-  { titulo: "Trabajo Practico", slug: "trabajo-practico" },
+ // { titulo: "Trabajo Practico", slug: "trabajo-practico" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
