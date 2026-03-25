@@ -40,6 +40,22 @@ export default function BusquedaInternetPage() {
 
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Operadores de búsqueda
+        </h2>
+
+        <div className="border p-6 rounded-xl space-y-3">
+          <p><strong>site:</strong> Buscar dentro de una página</p>
+          <p className="mb-6">Ejemplo: educación site:gov.ar</p>
+
+          <p><strong>filetype:</strong> Buscar tipo de archivo</p>
+          <p className="mb-6">Ejemplo: nutrición filetype:pdf</p>
+
+          <p><strong>- (menos):</strong> Excluir palabras</p>
+          <p className="mb-6">Ejemplo: jaguar -auto</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Errores comunes
         </h2>
 
