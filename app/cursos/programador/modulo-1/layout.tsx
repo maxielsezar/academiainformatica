@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     { titulo: "Listas Enlazadas", slug: "lista-enlazada" },
     { titulo: "Practicas Listas Enlazadas", slug: "actividad-lista-enlaza" },
     { titulo: "Arboles", slug: "arboles" },
+     { titulo: "Practicas Arboles", slug: "actividad-arbol" },
     /* { titulo: "Grafos", slug: "grafos" },
     { titulo: "Recorrido de grafos", slug: "recorrido-grafos" },*/
   ];

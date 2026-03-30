@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function ListasEnlazadasPage() {
   return (
     <div className="space-y-16">
@@ -100,7 +102,7 @@ export default function ListasEnlazadasPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`class Nodo(val valor: Int) {
 
     var siguiente: Nodo? = null
@@ -150,7 +152,7 @@ fun main() {
 }
 
 `}
-</pre>
+/>
         </div>
       </section>
 

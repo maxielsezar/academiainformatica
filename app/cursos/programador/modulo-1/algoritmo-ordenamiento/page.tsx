@@ -1,3 +1,4 @@
+import CodeBlock from "@/app/components/CodeBlock";
 export default function AlgoritmosOrdenamientoPage() {
   return (
     <div className="space-y-16">
@@ -41,7 +42,7 @@ export default function AlgoritmosOrdenamientoPage() {
         </ul>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code=
 {`fun bubbleSort(arr: IntArray) {
     val n = arr.size
 
@@ -57,7 +58,7 @@ export default function AlgoritmosOrdenamientoPage() {
         }
     }
 }`}
-</pre>
+/>
         </div>
       </section>
 
@@ -80,7 +81,7 @@ export default function AlgoritmosOrdenamientoPage() {
         </ul>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code=
 {`fun insertionSort(arr: IntArray) {
 
     for (i in 1 until arr.size) {
@@ -96,7 +97,7 @@ export default function AlgoritmosOrdenamientoPage() {
         arr[j + 1] = key
     }
 }`}
-</pre>
+/>
         </div>
       </section>
 
@@ -119,8 +120,7 @@ export default function AlgoritmosOrdenamientoPage() {
         </ul>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
-{`fun selectionSort(arr: IntArray) {
+<CodeBlock code={`fun selectionSort(arr: IntArray) {
 
     val n = arr.size
 
@@ -138,8 +138,7 @@ export default function AlgoritmosOrdenamientoPage() {
         arr[minIndex] = arr[i]
         arr[i] = temp
     }
-}`}
-</pre>
+}`} />
         </div>
       </section>
 

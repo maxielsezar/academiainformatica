@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function EstructuraCondicionalPage() {
   return (
     <div className="space-y-14">
@@ -42,7 +44,7 @@ export default function EstructuraCondicionalPage() {
           </div>
 
           <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-            <pre>
+            <CodeBlock code =
 {`fun main() {
     val edad = 20
 
@@ -50,7 +52,7 @@ export default function EstructuraCondicionalPage() {
         println("Es mayor de edad")
     }
 }`}
-            </pre>
+            />
           </div>
 
         
@@ -63,7 +65,7 @@ export default function EstructuraCondicionalPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     val numero = 5
 
@@ -73,7 +75,7 @@ export default function EstructuraCondicionalPage() {
         println("Es impar")
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -84,7 +86,7 @@ export default function EstructuraCondicionalPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     val nota = 7
 
@@ -96,7 +98,7 @@ export default function EstructuraCondicionalPage() {
         println("Desaprobado")
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -112,7 +114,7 @@ export default function EstructuraCondicionalPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     val dia = 3
 
@@ -123,7 +125,7 @@ export default function EstructuraCondicionalPage() {
         else -> println("Otro día")
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 

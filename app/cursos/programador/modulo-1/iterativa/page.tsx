@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function EstructurasRepetitivasPage() {
   return (
     <div className="space-y-14">
@@ -44,7 +46,7 @@ export default function EstructurasRepetitivasPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     var contador = 1
 
@@ -53,7 +55,7 @@ export default function EstructurasRepetitivasPage() {
         contador++
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -69,7 +71,7 @@ export default function EstructurasRepetitivasPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     var numero = 1
 
@@ -78,7 +80,7 @@ export default function EstructurasRepetitivasPage() {
         numero++
     } while (numero <= 5)
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -93,13 +95,13 @@ export default function EstructurasRepetitivasPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     for (i in 1..5) {
         println(i)
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -110,7 +112,7 @@ export default function EstructurasRepetitivasPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800 text-sm">
-          <pre>
+          <CodeBlock code =
 {`// Saltos de 2 en 2
 for (i in 1..10 step 2) {
     println(i)
@@ -120,7 +122,7 @@ for (i in 1..10 step 2) {
 for (i in 10 downTo 1) {
     println(i)
 }`}
-          </pre>
+          />
         </div>
       </section>
 

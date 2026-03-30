@@ -1,3 +1,4 @@
+import CodeBlock from "@/app/components/CodeBlock";
 export default function ArraysVsListasPage() {
   return (
     <div className="space-y-14">
@@ -16,7 +17,7 @@ export default function ArraysVsListasPage() {
         </p>
 
         <p className="leading-relaxed max-w-3xl mt-4">
-          Comprender cuándo usar cada estructura de datos es una habilidad
+          Cmnder cuándo usar cada estructura de datos es una habilidad
           importante para escribir programas más claros y eficientes.
         </p>
       </section>
@@ -35,7 +36,7 @@ export default function ArraysVsListasPage() {
         <div className=" max-w-3xl">
 
           <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-            <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+            <CodeBlock code =
 {`fun main() {
 
     val numeros = arrayOf(10, 20, 30, 40)
@@ -44,7 +45,7 @@ export default function ArraysVsListasPage() {
     println(numeros[1])
 
 }`}
-            </pre>
+            />
           </div>
 
         </div>
@@ -71,7 +72,7 @@ export default function ArraysVsListasPage() {
         <div className="max-w-3xl">
 
           <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-            <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+            <CodeBlock code =
 {`fun main() {
 
     val frutas = listOf("Manzana", "Banana", "Naranja")
@@ -80,7 +81,7 @@ export default function ArraysVsListasPage() {
     println(frutas[1])
 
 }`}
-            </pre>
+            />
           </div>
 
         </div>
@@ -106,7 +107,7 @@ export default function ArraysVsListasPage() {
         <div className="max-w-3xl">
 
           <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-            <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+            <CodeBlock code =
 {`fun main() {
 
     val frutas = mutableListOf("Manzana", "Banana")
@@ -116,7 +117,7 @@ export default function ArraysVsListasPage() {
     println(frutas)
 
 }`}
-            </pre>
+            />
           </div>
 
         </div>

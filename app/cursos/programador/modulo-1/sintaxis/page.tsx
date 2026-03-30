@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function SintaxisPage() {
   return (
     <div className="space-y-14">
@@ -22,11 +24,11 @@ export default function SintaxisPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     println("Hola Mundo")
 }`}
-          </pre>
+          />
         </div>
 
         <p className=" mt-6 max-w-3xl">
@@ -70,10 +72,10 @@ export default function SintaxisPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`val nombre: String = "Juan"
 var edad: Int = 25`}
-          </pre>
+          />
         </div>
 
         <ul className="list-disc list-inside mt-6 space-y-2 ">
@@ -131,14 +133,14 @@ var edad: Int = 25`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`// Comentario de una línea
 
 /*
    Comentario
    de varias líneas
 */`}
-          </pre>
+          />
         </div>
 
         <p className=" mt-6 max-w-3xl">

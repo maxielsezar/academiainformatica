@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function RecorridosGrafosPage() {
   return (
     <div className="space-y-16">
@@ -65,7 +67,7 @@ D   E`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code=
 {`fun bfs(grafo: Map<String, List<String>>, inicio: String) {
 
     val visitados = mutableSetOf<String>()
@@ -89,7 +91,7 @@ D   E`}
         }
     }
 }`}
-</pre>
+/>
         </div>
       </section>
 
@@ -125,7 +127,7 @@ D   E`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`fun dfs(
     grafo: Map<String, List<String>>,
     nodo: String,
@@ -142,7 +144,7 @@ D   E`}
     }
 
 }`}
-</pre>
+/>
         </div>
       </section>
 

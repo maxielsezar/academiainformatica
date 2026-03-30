@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function VariablesPage() {
   return (
     <div className="space-y-14">
@@ -79,7 +81,7 @@ export default function VariablesPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800">
-          <pre className="leading-7">
+          <CodeBlock code =
 {`fun main() {
     var edad: Int = 20
     val pi: Double = 3.1416
@@ -88,7 +90,7 @@ export default function VariablesPage() {
 
     println("Edad: $edad")
 }`}
-          </pre>
+          />
         </div>
       </section>
 

@@ -1,3 +1,4 @@
+import CodeBlock from "@/app/components/CodeBlock";
 export default function ArreglosPage() {
   return (
     <div className="space-y-14">
@@ -37,11 +38,11 @@ export default function ArreglosPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     val numeros = arrayOf(10, 20, 30, 40)
 }`}
-          </pre>
+          />
         </div>
 
         <p className=" mt-6">
@@ -56,10 +57,10 @@ export default function ArreglosPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`println(numeros[0])   // 10
 println(numeros[2])   // 30`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -70,9 +71,9 @@ println(numeros[2])   // 30`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`numeros[1] = 50`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -83,11 +84,11 @@ println(numeros[2])   // 30`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`for (i in numeros) {
     println(i)
 }`}
-          </pre>
+          />
         </div>
 
         <p className=" mt-6">
@@ -95,11 +96,11 @@ println(numeros[2])   // 30`}
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800 mt-4">
-          <pre>
+          <CodeBlock code =
 {`for (i in numeros.indices) {
     println(numeros[i])
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -110,9 +111,9 @@ println(numeros[2])   // 30`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code=
 {`println(numeros.size)`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -123,13 +124,13 @@ println(numeros[2])   // 30`}
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun mostrarArray(arr: Array<Int>) {
     for (i in arr) {
         println(i)
     }
 }`}
-          </pre>
+          />
         </div>
       </section>
 

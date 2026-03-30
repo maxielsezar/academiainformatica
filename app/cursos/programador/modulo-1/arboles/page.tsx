@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function ArbolesPage() {
   return (
     <div className="space-y-16">
@@ -78,8 +80,7 @@ export default function ArbolesPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
-{`class Nodo(val valor: Int) {
+          <CodeBlock code={`class Nodo(val valor: Int) {
 
     var izquierdo: Nodo? = null
     var derecho: Nodo? = null
@@ -96,8 +97,7 @@ fun main() {
     raiz.izquierdo?.izquierdo = Nodo(2)
     raiz.izquierdo?.derecho = Nodo(7)
 
-}`}
-</pre>
+}`} />
         </div>
       </section>
 
@@ -152,8 +152,8 @@ fun main() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
-{`fun inOrden(nodo: Nodo?) {
+
+        <CodeBlock code={`fun inOrden(nodo: Nodo?) {
 
     if (nodo != null) {
 
@@ -165,8 +165,7 @@ fun main() {
 
     }
 
-}`}
-</pre>
+}`} />
         </div>
       </section>
 

@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function RecursividadPage() {
   return (
     <div className="space-y-16">
@@ -63,7 +65,7 @@ export default function RecursividadPage() {
         </ul>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`fun factorial(n: Int): Int {
 
     if (n == 1) {
@@ -77,7 +79,7 @@ export default function RecursividadPage() {
 fun main() {
     println(factorial(5))
 }`}
-</pre>
+/>
         </div>
       </section>
 
@@ -97,7 +99,7 @@ fun main() {
         </ul>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`fun fibonacci(n: Int): Int {
 
     if (n <= 1) {
@@ -111,7 +113,7 @@ fun main() {
 fun main() {
     println(fibonacci(6))
 }`}
-</pre>
+/>
         </div>
       </section>
 

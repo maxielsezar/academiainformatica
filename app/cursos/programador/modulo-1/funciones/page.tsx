@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function FuncionesPage() {
   return (
     <div className="space-y-14">
@@ -36,11 +38,11 @@ export default function FuncionesPage() {
         </h2>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun nombreFuncion() {
     // instrucciones
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -50,7 +52,7 @@ export default function FuncionesPage() {
           Ejemplo simple
         </h2>
       <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-        <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+        <CodeBlock code =
 {`fun saludar() {
     println("Hola, bienvenido al curso de programación")
 }
@@ -58,7 +60,7 @@ export default function FuncionesPage() {
 fun main() {
     saludar()
 }`}
-          </pre>
+          />
         </div>
 
         <p className=" mt-6 max-w-3xl">
@@ -79,7 +81,7 @@ fun main() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun saludar(nombre: String) {
     println("Hola " + nombre)
 }
@@ -87,7 +89,7 @@ fun main() {
 fun main() {
     saludar("Ana")
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -103,7 +105,7 @@ fun main() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl font-mono text-sm border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun sumar(a: Int, b: Int): Int {
     return a + b
 }
@@ -112,7 +114,7 @@ fun main() {
     val resultado = sumar(5, 3)
     println(resultado)
 }`}
-          </pre>
+          />
         </div>
       </section>
 
@@ -127,9 +129,9 @@ fun main() {
         </p>
 
       <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-        <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+        <CodeBlock code =
 {`fun multiplicar(a: Int, b: Int): Int = a * b`}
-          </pre>
+          />
         </div>
       </section>
 

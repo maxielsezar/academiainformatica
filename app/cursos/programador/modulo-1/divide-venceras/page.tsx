@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function DivideYVencerasPage() {
   return (
     <div className="space-y-16">
@@ -106,7 +108,7 @@ export default function DivideYVencerasPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`fun suma(arr: IntArray, inicio: Int, fin: Int): Int {
 
     if (inicio == fin) {
@@ -128,7 +130,7 @@ fun main() {
     println(suma(numeros, 0, numeros.size - 1))
 
 }`}
-</pre>
+/>
         </div>
       </section>
 

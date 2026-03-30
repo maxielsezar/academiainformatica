@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function OperadoresPage() {
   return (
     <div className="space-y-14">
@@ -34,7 +36,7 @@ export default function OperadoresPage() {
           </div>
 
           <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-            <pre>
+            <CodeBlock code=
 {`fun main() {
     val a = 10
     val b = 3
@@ -42,7 +44,7 @@ export default function OperadoresPage() {
     println(a + b)
     println(a % b)
 }`}
-            </pre>
+            />
           </div>
 
         </div>
@@ -90,14 +92,14 @@ export default function OperadoresPage() {
         </div>
 
         <div className="mt-6 bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono border border-gray-800">
-          <pre>
+          <CodeBlock code =
 {`fun main() {
     val edad = 20
     val tieneDni = true
 
     println(edad >= 18 && tieneDni)
 }`}
-          </pre>
+          />
         </div>
       </section>
 

@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function PilasColasPage() {
   return (
     <div className="space-y-14 break-words">
@@ -82,7 +84,7 @@ Fin`}
   </p>
 
   <div className="bg-[#0f172a] text-white p-6 rounded-2xl text-sm font-mono shadow-lg overflow-x-auto">
-    <pre className="min-w-[420px]">
+    <CodeBlock code =
 {`fun main() {
 
     val pila = ArrayDeque<Int>()
@@ -101,7 +103,7 @@ Fin`}
     println("Pila final: $pila")
 
 }`}
-    </pre>
+    />
   </div>
 </section>
 
@@ -167,7 +169,7 @@ Fin`}
   </p>
 
   <div className="bg-[#0f172a] text-white p-6 rounded-2xl text-sm font-mono shadow-lg overflow-x-auto">
-    <pre className="min-w-[420px]">
+    <CodeBlock code =
 {`fun main() {
 
     val cola = ArrayDeque<Int>()
@@ -186,7 +188,7 @@ Fin`}
     println("Cola final: $cola")
 
 }`}
-    </pre>
+    />
   </div>
 </section>
 

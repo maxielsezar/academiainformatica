@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function ComplejidadAlgoritmosPage() {
   return (
     <div className="space-y-16">
@@ -107,7 +109,7 @@ export default function ComplejidadAlgoritmosPage() {
         </p>
 
         <div className="bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-<pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+<CodeBlock code =
 {`fun buscarNumero(lista: IntArray, objetivo: Int): Boolean {
 
     for (numero in lista) {
@@ -120,7 +122,7 @@ export default function ComplejidadAlgoritmosPage() {
 
     return false
 }`}
-</pre>
+/>
         </div>
       </section>
 

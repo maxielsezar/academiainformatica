@@ -1,3 +1,4 @@
+import CodeBlock from "@/app/components/CodeBlock";
 export default function AlgoritmosBusquedaPage() {
   return (
     <div className="space-y-14">
@@ -43,7 +44,7 @@ export default function AlgoritmosBusquedaPage() {
         </p>
 
           <div className=" max-w-3xl bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-            <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+            <CodeBlock code =
 {`fun main() {
 
     val numeros = listOf(3, 7, 12, 18, 21)
@@ -56,7 +57,7 @@ export default function AlgoritmosBusquedaPage() {
     }
 
 }`}
-            </pre>
+            />
           
 
         </div>
@@ -84,7 +85,7 @@ export default function AlgoritmosBusquedaPage() {
         </p>
 
           <div className="max-w-3xl bg-[#0f172a] text-gray-100 p-6 rounded-2xl text-sm font-mono shadow-lg border border-gray-800 overflow-x-auto">
-            <pre className="grid grid-cols-[40px_1fr] gap-x-4 leading-7 min-w-[400px]">
+            <CodeBlock code =
 {`fun busquedaBinaria(lista: List<Int>, objetivo: Int): Boolean {
 
     var izquierda = 0
@@ -107,7 +108,7 @@ export default function AlgoritmosBusquedaPage() {
 
     return false
 }`}
-            </pre>
+            />
           </div>
 
         
