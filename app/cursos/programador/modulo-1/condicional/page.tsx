@@ -34,9 +34,8 @@ export default function EstructuraCondicionalPage() {
           if (condición)
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
 
-          <div className=" leading-relaxed">
+          <div className=" mb-6 leading-relaxed">
             <p>
               Ejecuta un bloque de código solo si la condición es verdadera.
             </p>
@@ -54,7 +53,7 @@ export default function EstructuraCondicionalPage() {
             </pre>
           </div>
 
-        </div>
+        
       </section>
 
       {/* If - else */}

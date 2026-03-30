@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     { titulo: "Divide y venceras", slug: "divide-venceras" },
     { titulo: "Listas Enlazadas", slug: "lista-enlazada" },
     { titulo: "Practicas Listas Enlazadas", slug: "actividad-lista-enlaza" },
-   { titulo: "Arboles", slug: "arboles" },
+    { titulo: "Arboles", slug: "arboles" },
     /* { titulo: "Grafos", slug: "grafos" },
     { titulo: "Recorrido de grafos", slug: "recorrido-grafos" },*/
   ];

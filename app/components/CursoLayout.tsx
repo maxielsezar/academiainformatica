@@ -1,5 +1,6 @@
 "use client";
 
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
@@ -31,16 +32,30 @@ export default function CursoLayout({
   const pathname = usePathname();
   const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
-  useEffect(() => {
-    const activeElement = document.querySelector(".tema-activo");
+  const currentIndex = temas.findIndex((tema) =>
+    pathname.includes(tema.slug)
+  );
 
-    if (activeElement) {
-      activeElement.scrollIntoView({
-        behavior: "smooth",
-        block: "center",
-      });
-    }
-  }, [pathname]);
+  const prevTema = currentIndex > 0 ? temas[currentIndex - 1] : null;
+  const nextTema =
+  currentIndex < temas.length - 1 ? temas[currentIndex + 1] : null;
+  const isLastTema = currentIndex === temas.length - 1;
+  useEffect(() => {
+  const activeElement = document.querySelector(".tema-activo");
+
+  if (activeElement) {
+    activeElement.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  }
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+
+}, [pathname]);
   return (
     <div className="min-h-screen">
       {/* MOBILE HEADER */}
@@ -60,7 +75,7 @@ export default function CursoLayout({
             />
 
             <span className="font-semibold text-blue-800 dark:text-white">
-              ← {tituloCurso}
+              {tituloCurso}
             </span>
           </Link>
 
@@ -192,8 +207,75 @@ export default function CursoLayout({
       </aside>
 
         {/* CONTENIDO */}
-        <main className="max-w-none overflow-x-hidden pb-12">
-          {children}
+        <main className="max-w-none overflow-x-hidden pb-20">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={pathname}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={0.2}
+              onDragEnd={(e, info) => {
+                const swipe = info.offset.x;
+
+                if (swipe < -100 && nextTema) {
+                  router.push(`${basePath}/${nextTema.slug}`);
+                }
+
+                if (swipe > 100 && prevTema) {
+                  router.push(`${basePath}/${prevTema.slug}`);
+                }
+              }}
+            
+            >
+              {children}
+            </motion.div>
+          </AnimatePresence>
+
+          {/* BOTONES MOBILE */}
+        <AnimatePresence>
+          <motion.div
+            initial={{ y: 40, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            className="md:hidden mt-10 px-4 py-4 flex justify-between items-center rounded-xl shadow"
+          >
+            {prevTema ? (
+              <motion.button
+                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.05 }}
+                onClick={() => router.push(`${basePath}/${prevTema.slug}`)}
+                className="text-sm px-4 py-2 rounded bg-gray-200 dark:bg-blue-900"
+              >
+                ← Anterior
+              </motion.button>
+            ) : (
+              <div />
+            )}
+
+            {isLastTema ? (
+              <motion.button
+                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.05 }}
+                onClick={() => router.push(cursoPath)}
+                className="text-sm px-5 py-2 rounded bg-green-600 text-white font-semibold"
+              >
+                ✔ Finalizar curso
+              </motion.button>
+            ) : nextTema ? (
+              <motion.button
+                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.05 }}
+                onClick={() => router.push(`${basePath}/${nextTema.slug}`)}
+                className="text-sm px-4 py-2 rounded bg-blue-600 text-white"
+              >
+                Siguiente →
+              </motion.button>
+            ) : (
+              <div />
+            )}
+
+            </motion.div>
+          </AnimatePresence>
         </main>
 
       </div>
