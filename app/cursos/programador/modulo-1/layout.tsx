@@ -35,7 +35,8 @@ export const metadata: Metadata = {
     { titulo: "Arboles", slug: "arboles" },
     { titulo: "Practicas Arboles", slug: "actividad-arbol" },
     { titulo: "Grafos", slug: "grafos" },
-    { titulo: "Recorrido de Grafos", slug: "recorrido-grafo" }
+    { titulo: "Recorrido de Grafos", slug: "recorrido-grafo" },
+    { titulo: "Algoritmo Dijkstra", slug: "dijkstra" },
   ];
 
 
