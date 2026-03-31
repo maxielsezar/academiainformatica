@@ -201,12 +201,12 @@ export default function NormasAPATrabajoPage() {
             En las normas APA las imágenes se consideran <strong>figuras</strong>.
           </p>
 
-          <ol className="list-decimal list-inside space-y-2">
-            <li>Ir a Insertar → Imágenes.</li>
-            <li>Seleccionar la imagen.</li>
-            <li>Centrarla en el documento.</li>
-            <li>Debajo escribir el número de figura y el título.</li>
-            <li>Agregar la fuente si la imagen no es propia.</li>
+          <ol className="list-disc list-inside space-y-2">
+            <li><strong>número de la figura:</strong> (por ejemplo, Figura 1) es el primer item que debemos agregar. Se debe usar negrita. Numere las figuras en el orden en que aparecen en tu documento.</li>
+            <li><strong>título:</strong> debe aparece una línea debajo del número de la figura. Dé a cada figura un título breve pero descriptivo. Utilice cursiva en el título.</li>
+            <li><strong>imagen:</strong> inserte el gráfico, fotografía, dibujo u otra ilustración.</li>
+            <li><strong>leyenda:</strong> debe colocarse dentro de los bordes de la figura y puede ser usada para explicar los símbolos utilizados en la imagen de la figura. (Ejemplo de leyenda: “los puntos cuadrados representan ganancias y los puntos redondos pérdidas”).</li>
+            <li><strong>nota:</strong> Agregue cualquier contenido que necesites describir que no pueden entenderse solo por el título o por la imagen por si misma (por ejemplo, definiciones de abreviaturas, atribución de derechos de autor). Incluya notas de figuras solo según sea necesario.</li>
           </ol>
         </div>
       </section>
