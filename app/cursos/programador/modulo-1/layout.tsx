@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     { titulo: "Grafos", slug: "grafos" },
     { titulo: "Recorrido de Grafos", slug: "recorrido-grafo" },
     { titulo: "Algoritmo Dijkstra", slug: "dijkstra" },
+    { titulo: "Algoritmo Bellman-Ford", slug: "bellmanford" },
   ];
 
 

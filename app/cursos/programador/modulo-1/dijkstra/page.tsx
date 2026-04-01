@@ -130,7 +130,7 @@ fun main() {
     // Mostrar resultados
     val nodos = listOf(A, B, C, D)
     for (nodo in nodos) {
-        println("Distancia desde A hasta $nodo.id: $nodo.distancia")
+        println("Distancia desde A hasta \${nodo.id}: \${nodo.distancia}")
     }
 }`}
         />
