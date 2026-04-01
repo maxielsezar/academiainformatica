@@ -244,7 +244,7 @@ export default function CursoLayout({
                 whileTap={{ scale: 0.95 }}
                 whileHover={{ scale: 1.05 }}
                 onClick={() => router.push(`${basePath}/${prevTema.slug}`)}
-                className="text-sm px-4 py-2 rounded bg-gray-200 dark:bg-blue-900"
+                className="text-sm px-4 py-2 rounded bg-gray-200 dark:bg-blue-600"
               >
                 ← Anterior
               </motion.button>
@@ -259,7 +259,7 @@ export default function CursoLayout({
                 onClick={() => router.push(cursoPath)}
                 className="text-sm px-5 py-2 rounded bg-green-600 text-white font-semibold"
               >
-                ✔ Finalizar curso
+                ✔ Finalizar Modulo
               </motion.button>
             ) : nextTema ? (
               <motion.button
