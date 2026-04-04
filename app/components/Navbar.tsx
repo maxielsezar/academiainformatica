@@ -2,8 +2,15 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Navbar() {
+type Props = {
+  main: boolean;
+};
+
+export default function Navbar({
+  main,
+}: Props) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -40,8 +47,9 @@ export default function Navbar() {
             className={`transition-all duration-300`}
           />
           <span
-            className={`font-semibold tracking-wide transition-colors duration-300 ${
-              scrolled ? "text-blue-900 dark:text-white" : "text-white "
+            className={`font-semibold tracking-wide transition-colors duration-300   
+              ${
+              scrolled ? "text-blue-900 dark:text-white" : main ? "text-white" : "text-blue-900"
             }`}
           >
             Cursos de Informática CFP 655
@@ -51,7 +59,7 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <nav
           className={`hidden md:flex gap-10 text-sm font-medium transition-colors duration-300 ${
-            scrolled ? "text-blue-900 dark:text-white" : "text-white"
+            scrolled ? "text-blue-900 dark:text-white" : main ? "text-white" : "text-blue-900"
           }`}
         >
           <a href="/" className="hover:text-blue-600 transition">Inicio</a>
@@ -80,18 +88,19 @@ export default function Navbar() {
           ></span>
         </button>
       </div>
-
+AJUSTAR MENU
       {/* Mobile Menu */}
       <div
         className={`
           md:hidden overflow-hidden transition-all duration-300
           ${open ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}
+          ${main ? "bg-white dark:bg-black text-blue-800" : "bg-blue-900 text-white"}
           ${scrolled ? "bg-white dark:bg-black text-blue-800" : "bg-blue-900 text-white"}
         `}
       >
         <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">
-          <a href="#" onClick={handleLinkClick}>Inicio</a>
-          <a href="#cursos" onClick={handleLinkClick}>Cursos</a>
+          <a href="/#" onClick={handleLinkClick}>Inicio</a>
+          <a href="/#cursos" onClick={handleLinkClick}>Cursos</a>
         </div>
       </div>
     </header>

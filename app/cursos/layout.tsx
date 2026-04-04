@@ -1,7 +1,6 @@
 
 import type { Metadata } from "next";
-import NavbarCurso from "../components/NavbarCurso";
-// armar el navbar
+import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: "Cursos de Informática",
@@ -17,7 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>  {children}</div>
+    
+    <div className="md:mt-0 mt-16"><Navbar main={false}/>
+      {children}
+    </div>
     
   );
 }

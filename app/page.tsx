@@ -7,7 +7,7 @@ import "./globals.css";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar main={true}/>
       <Hero />
       <CursosSection />
       <Footer />
