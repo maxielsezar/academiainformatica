@@ -1,8 +1,13 @@
 "use client"
+
+import { useEffect, useState } from "react";
 import SplitText from "./SplitText";
 import BlurText from "./BlurText";
 
 export default function Hero() {
+
+ 
+  const [startSplit, setStartSplit] = useState(false);
 
   
 const handleAnimationComplete = () => {
@@ -29,7 +34,7 @@ const handleAnimationComplete = () => {
             delay={250}
             animateBy="words"
             direction="top"
-            onAnimationComplete={handleAnimationComplete}
+            onAnimationComplete={() => setStartSplit(true)}
             className="text-5xl flex items-center justify-center md:text-6xl font-bold leading-tight mb-6"
           />
 
@@ -38,8 +43,10 @@ const handleAnimationComplete = () => {
         <SplitText
           text="Cursos estructurados, contenidos actualizados y certificación institucional 
           para impulsar tu carrera en informática."
-          className="text-lg md:text-xl text-blue-200 max-w-3xl mx-auto mb-22"
-          delay={250}
+           className={`text-lg md:text-xl text-blue-200 max-w-3xl mx-auto mb-22
+          ${startSplit ? " opacity-100" : "opacity-0"}
+        `}
+          delay={startSplit ? 250 : 9999}
           duration={1.25}
           ease="power3.out"
           splitType="words"
