@@ -17,9 +17,9 @@ export default function RootLayout({
 }) {
   return (
     
-    <div className="md:mt-0 mt-16"><Navbar main={false}/>
+    <>
       {children}
-    </div>
+    </>
     
   );
 }
