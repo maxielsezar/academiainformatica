@@ -1,6 +1,6 @@
 import { cursos } from "../../data/cursos";
 import ModuleAccordion from "../../components/ModuleAccordion";
-
+import Navbar from "@/app/components/Navbar";
 
 
 export default async function CursoPage() {
@@ -9,7 +9,7 @@ export default async function CursoPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-6 py-6 md:py-32 grid md:grid-cols-3 gap-12">
-      
+      <Navbar main={false} />
       {/* Columna izquierda */}
       <div className="md:col-span-2">
         <h1 className="text-4xl font-bold text-blue-900 mb-6">
