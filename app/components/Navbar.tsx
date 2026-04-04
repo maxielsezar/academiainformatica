@@ -88,7 +88,7 @@ export default function Navbar({
           ></span>
         </button>
       </div>
-AJUSTAR MENU
+
       {/* Mobile Menu */}
       <div
         className={`
