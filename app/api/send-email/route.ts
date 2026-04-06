@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const resend = new Resend("re_jNwQGd1t_2iMUg9xQmkG3sUWgryr5cgdP");
+const resend = new Resend(process.env.MAIL_API);
 
 export async function POST(req: Request) {
   try {
