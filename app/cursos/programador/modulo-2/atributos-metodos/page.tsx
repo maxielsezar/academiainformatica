@@ -90,7 +90,7 @@ public class Main {
 
         CuentaBancaria cuenta = new CuentaBancaria();
 
-        cuenta.titular = "Ana";
+        cuenta.titular = "Juan";
         cuenta.saldo = 1000;
 
         cuenta.depositar(500);
