@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     { titulo: "Recorrido de Grafos", slug: "recorrido-grafo" },
     { titulo: "Algoritmo Dijkstra", slug: "dijkstra" },
     { titulo: "Algoritmo Bellman-Ford", slug: "bellmanford" },
+    { titulo: "Requerimientos", slug: "requerimientos" },
+    { titulo: "Sintaxis Básica de Java", slug: "java" },
   ];
 
 

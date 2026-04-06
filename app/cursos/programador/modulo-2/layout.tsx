@@ -13,10 +13,8 @@ export const metadata: Metadata = {
 
   const temas = [
     { titulo: "El modelo computacional de objetos", slug: "modelo" },
-    { titulo: "Sintaxis Básica de Java", slug: "java" },
     { titulo: "Clases y Objetos", slug: "clases-objetos" },
     { titulo: "Atributos y Metodos", slug: "atributos-metodos" },
-    
     { titulo: "Estado y Comportamiento", slug: "estado-comportamiento" },
   ];
 
