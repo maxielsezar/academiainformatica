@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     { titulo: "Algoritmo Bellman-Ford", slug: "bellmanford" },
     { titulo: "Requerimientos", slug: "requerimientos" },
     { titulo: "Sintaxis Básica de Java", slug: "java" }, 
-    { titulo: "JavaFX", slug: "javafx" },   
+    { titulo: "JavaFX", slug: "fx" },   
     { titulo: "Controller", slug: "controller" },
     { titulo: "CSS", slug: "css" },
   ];
