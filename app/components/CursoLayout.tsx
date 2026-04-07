@@ -56,6 +56,7 @@ export default function CursoLayout({
   });
 
 }, [pathname]);
+
   return (
     <div className="min-h-screen">
       {/* MOBILE HEADER */}
@@ -214,6 +215,20 @@ export default function CursoLayout({
               drag="x"
               dragConstraints={{ left: 0, right: 0 }}
               dragElastic={0.2}
+              onMouseDown={(e) => {
+                const target = e.target as HTMLElement;
+
+                if (target.closest(".no-swipe")) {
+                  e.stopPropagation();
+                }
+              }}
+              onTouchStart={(e) => {
+                const target = e.target as HTMLElement;
+
+                if (target.closest(".no-swipe")) {
+                  e.stopPropagation();
+                }
+              }}
               onDragEnd={(e, info) => {
                 const swipe = info.offset.x;
 
@@ -225,9 +240,10 @@ export default function CursoLayout({
                   router.push(`${basePath}/${prevTema.slug}`);
                 }
               }}
-            
             >
-              {children}
+              <div className="no-swipe select-text">
+                {children}
+              </div>
             </motion.div>
           </AnimatePresence>
 
