@@ -41,15 +41,6 @@ export async function POST(req: Request) {
         Explorá los contenidos, avanzá a tu ritmo y desarrollá nuevas habilidades en tecnología.
       </p>
 
-      <!-- ICONO DESTACADO -->
-      <div style="text-align:center; margin:20px 0;">
-        <img 
-          src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" 
-          alt="Usuario" 
-          style="width:80px;"
-        />
-      </div>
-
       <!-- Button -->
       <div style="text-align:center; margin:30px 0;">
         <a href="https://cursoinformatica.digital/"
