@@ -212,7 +212,7 @@ export default function CursoLayout({
           <AnimatePresence mode="wait">
             <motion.div
               key={pathname}
-              drag="x"
+              drag={typeof window !== "undefined" && window.innerWidth < 768 ? "x" : false}
               dragConstraints={{ left: 0, right: 0 }}
               dragElastic={0.2}
               onMouseDown={(e) => {
