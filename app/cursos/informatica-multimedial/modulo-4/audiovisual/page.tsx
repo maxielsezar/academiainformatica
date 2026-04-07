@@ -39,7 +39,7 @@ export default function ComunicacionAudiovisualPage() {
         <div className="overflow-x-auto">
           <table className="w-full border mt-2">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="bg-blue-600">
                 <th className="border p-2">Comunicación Verbal</th>
                 <th className="border p-2">Comunicación Audiovisual</th>
               </tr>
