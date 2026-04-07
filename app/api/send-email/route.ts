@@ -8,15 +8,25 @@ export async function POST(req: Request) {
 
     const data = await resend.emails.send({
       from: "Curso de Informatica CFP 655 <informes@cursoinformatica.digital>", 
-      to: ["elsezarmaxi@gmail.com"],
+      to: [email],
       subject: "Bienvenido a la plataforma",
       html: `
 <div style="font-family: Arial, sans-serif; background-color:#f4f6f8; padding:20px;">
   <div style="max-width:600px; margin:0 auto; background:#ffffff; border-radius:10px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.05);">
     
     <!-- Header -->
-    <div style="background:#2563eb; color:white; padding:20px; text-align:center;">
-      <h1 style="margin:0;">Bienvenido a Cursos Informatica</h1>
+    <div style="background:#2563eb; color:white; padding:25px; text-align:center;">
+      
+      <!-- LOGO -->
+      <img 
+        src="https://cursoinformatica.digital/logo.png" 
+        alt="Logo" 
+        style="width:60px; margin-bottom:10px;"
+      />
+
+      <h1 style="margin:0; font-size:22px;">
+         Bienvenido a Cursos Informática
+      </h1>
     </div>
 
     <!-- Body -->
@@ -31,9 +41,18 @@ export async function POST(req: Request) {
         Explorá los contenidos, avanzá a tu ritmo y desarrollá nuevas habilidades en tecnología.
       </p>
 
+      <!-- ICONO DESTACADO -->
+      <div style="text-align:center; margin:20px 0;">
+        <img 
+          src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" 
+          alt="Usuario" 
+          style="width:80px;"
+        />
+      </div>
+
       <!-- Button -->
       <div style="text-align:center; margin:30px 0;">
-        <a href="https://cursoinformatica.digital/#cursos"
+        <a href="https://cursoinformatica.digital/"
            style="background:#2563eb; color:white; padding:12px 25px; border-radius:6px; text-decoration:none; font-size:16px;">
           Ver cursos
         </a>
