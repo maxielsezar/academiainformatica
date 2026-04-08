@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     { titulo: "JavaFX", slug: "fx" },   
     { titulo: "Controller", slug: "controller" },
     { titulo: "CSS", slug: "css" },
+    { titulo: "Cuestionario", slug: "cuestionario" },
   ];
 
 
