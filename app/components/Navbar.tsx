@@ -29,10 +29,17 @@ export default function Navbar({
   };
 
   return (
-    <header
+   <header
       className={`
-        fixed top-0 left-0 w-full z-50 transition-all duration-300
-        ${scrolled ? "bg-white dark:bg-black shadow-md py-4" : "bg-transparent py-6"}
+        fixed top-0 left-0 w-full z-50
+        ${main 
+          ? `transition-all duration-300 ${
+              scrolled 
+                ? "bg-white dark:bg-black shadow-md py-4" 
+                : "bg-transparent py-6"
+            }`
+          : "bg-white dark:bg-black py-4 shadow-md"
+        }
       `}
     >
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
@@ -46,11 +53,11 @@ export default function Navbar({
             height={40}
             className={`transition-all duration-300`}
           />
-          <span
-            className={`font-semibold tracking-wide transition-colors duration-300   
-              ${
-              scrolled ? "text-blue-900 dark:text-white" : main ? "text-white" : "text-blue-900"
-            }`}
+         <span
+            className={`font-semibold tracking-wide transition-colors duration-300
+              ${scrolled || !main ? "text-blue-900" : "text-white"}
+              dark:text-white
+            `}
           >
             Cursos de Informática CFP 655
           </span>
@@ -73,17 +80,23 @@ export default function Navbar({
         >
           <span
             className={`w-6 h-0.5 transition-all duration-300 ${
-              scrolled ? "bg-blue-900" : "bg-white" 
+              !main || scrolled
+                ? "bg-blue-900 dark:bg-white"
+                : "bg-white"
             }`}
           ></span>
           <span
             className={`w-6 h-0.5 transition-all duration-300 ${
-              scrolled ? "bg-blue-900" : "bg-white"
+              !main || scrolled
+                ? "bg-blue-900 dark:bg-white"
+                : "bg-white"
             }`}
           ></span>
           <span
             className={`w-6 h-0.5 transition-all duration-300 ${
-              scrolled ? "bg-blue-900" : "bg-white"
+              !main || scrolled
+                ? "bg-blue-900 dark:bg-white"
+                : "bg-white"
             }`}
           ></span>
         </button>
@@ -94,15 +107,19 @@ export default function Navbar({
         className={`
           md:hidden overflow-hidden transition-all duration-300
           ${open ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}
-          ${main ? "bg-white dark:bg-black text-blue-800" : "bg-blue-900 text-white"}
-          ${scrolled ? "bg-white dark:bg-black text-blue-800" : "bg-blue-900 text-white"}
+          
+          ${
+            main && !scrolled
+              ? "bg-blue-900 text-white"
+              : "bg-white text-blue-700 dark:bg-black dark:text-white"
+          }
         `}
       >
-        <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">
-          <a href="/#" onClick={handleLinkClick}>Inicio</a>
-          <a href="/#cursos" onClick={handleLinkClick}>Cursos</a>
-        </div>
+      <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">
+        <a href="/#" onClick={handleLinkClick}>Inicio</a>
+        <a href="/#cursos" onClick={handleLinkClick}>Cursos</a>
       </div>
+    </div>
     </header>
   );
 }

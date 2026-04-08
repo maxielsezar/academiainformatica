@@ -17,9 +17,9 @@ export default function RootLayout({
 }) {
   return (
     
-    <>
+    <div className="mt-30 md:mt-0">
       {children}
-    </>
+    </div>
     
   );
 }
