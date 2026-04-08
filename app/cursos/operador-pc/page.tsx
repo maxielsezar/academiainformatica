@@ -8,7 +8,7 @@ export default async function CursoPage() {
   const cursoData=cursos.operador
 
   return (
-    <main className="max-w-6xl mx-auto px-6 py-6 md:py-32 grid md:grid-cols-3 gap-12">
+    <main className="max-w-6xl mx-auto px-6 py-6 md:py-32 grid md:grid-cols-3 gap-12 md:mt-0 mt-28">
       <Navbar main={false} />
       {/* Columna izquierda */}
       <div className="md:col-span-2">
