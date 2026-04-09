@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     { titulo: "Clases y Objetos", slug: "clases-objetos" },
     { titulo: "Atributos y Metodos", slug: "atributos-metodos" },
     { titulo: "Estado y Comportamiento", slug: "estado-comportamiento" },
-    { titulo: "Encapsulamiento", slug: "Encapsulamiento" },
+    { titulo: "Encapsulamiento", slug: "encapsulamiento" },
    // { titulo: "Niveles de Acceso", slug: "acceso" },
    // { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
 
