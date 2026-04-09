@@ -65,7 +65,7 @@ export default function Modulo2Home() {
       {/* CTA */}
       <section className="pt-6">
         <Link
-          href="/cursos/programador/modulo-2/modelo"
+          href="/cursos/programador/modulo-2/java"
           className="inline-block bg-blue-800 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-900 transition"
         >
           Comenzar el Módulo →
