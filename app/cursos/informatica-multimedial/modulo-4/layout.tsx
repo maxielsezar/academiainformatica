@@ -16,6 +16,7 @@ const temas = [
   { titulo: "Aplicaciones de la Multimedia", slug: "aplicacion" },
   { titulo: "Interactividad", slug: "interactividad" },
   { titulo: "Elementos Visuales", slug: "elementos" },
+  { titulo: "Actividad", slug: "folleto" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
