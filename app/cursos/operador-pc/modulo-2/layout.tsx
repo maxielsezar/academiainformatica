@@ -27,6 +27,7 @@ const temas = [
   { titulo: "Titulos y Tabla de contenido", slug: "titulos-tabla-contenido" },
   { titulo: "Mecanografía", slug: "mecanografia" },
   { titulo: "Normas APA", slug: "normas-apa" },
+  { titulo: "Crear CV", slug: "crear-cv" },
 
 ];
 
