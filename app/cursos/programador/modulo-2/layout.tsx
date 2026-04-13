@@ -24,7 +24,8 @@ export const metadata: Metadata = {
     { titulo: "Encapsulamiento", slug: "encapsulamiento" },
     { titulo: "Niveles de Acceso", slug: "acceso" },
     { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
-
+    { titulo: "Modularidad", slug: "modularidad" },
+   // { titulo: "Abstracción", slug: "Abstraccion" },
   ];
 
 
