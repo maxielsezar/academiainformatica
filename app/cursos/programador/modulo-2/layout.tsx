@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     { titulo: "Estado y Comportamiento", slug: "estado-comportamiento" },
     { titulo: "Encapsulamiento", slug: "encapsulamiento" },
     { titulo: "Niveles de Acceso", slug: "acceso" },
-   // { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
+    { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
 
   ];
 
