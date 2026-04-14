@@ -18,7 +18,7 @@ const temas = [
   { titulo: "Elementos Visuales", slug: "elementos" },
   { titulo: "Folleto", slug: "folleto" },
   { titulo: "Flyer", slug: "flyer" },
-  { titulo: "Cuestionario", slug: "cuestionario" },
+ // { titulo: "Cuestionario", slug: "cuestionario" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
