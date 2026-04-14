@@ -28,6 +28,7 @@ const temas = [
   { titulo: "Mecanografía", slug: "mecanografia" },
   { titulo: "Normas APA", slug: "normas-apa" },
   { titulo: "Crear CV", slug: "crear-cv" },
+  { titulo: "Carta de Presentación", slug: "carta-presentacion" },
 
 ];
 

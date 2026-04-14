@@ -53,7 +53,7 @@ export default function Cuestionario() {
 
   return (
     <div className="py-8 space-y-6">
-      <h2 className="text-2xl font-bold text-blue-900">Cuestionario Modulo 1</h2>
+      <h2 className="text-2xl font-bold text-blue-900">Cuestionario Modulo 4</h2>
 
       {preguntas.map((pregunta, i) => (
         <div key={i} className={`p-5 border rounded-xl space-y-2 ${getColor(i)}`}>
