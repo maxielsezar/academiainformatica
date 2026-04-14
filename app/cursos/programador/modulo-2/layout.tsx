@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
     { titulo: "Modularidad", slug: "modularidad" },
     { titulo: "Constructores", slug: "constru" },
+    { titulo: "Herencia", slug: "herencia" },
    // { titulo: "Abstracción", slug: "Abstraccion" },
   ];
 
