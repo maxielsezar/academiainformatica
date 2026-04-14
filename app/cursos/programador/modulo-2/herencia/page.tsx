@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock"
+
 export default function HerenciaPage() {
   return (
     <div className="space-y-14">
@@ -48,7 +50,7 @@ export default function HerenciaPage() {
           Ejemplo en Java
         </h2>
 
-        <div className="bg-gray-900 text-white p-4 rounded-xl overflow-x-auto text-sm">
+        <CodeBlock code=
 {`// Clase padre
 class Animal {
     String nombre;
@@ -76,7 +78,7 @@ public class Main {
         miPerro.ladrar();      // método propio
     }
 }`}
-        </div>
+        />
       </section>
 
       {/* Ventajas */}
