@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     { titulo: "Modularidad", slug: "modularidad" },
     { titulo: "Constructores", slug: "constru" },
     { titulo: "Herencia", slug: "herencia" },
-   // { titulo: "Abstracción", slug: "Abstraccion" },
+    { titulo: "Abstracción", slug: "Abstraccion" },
   ];
 
 
