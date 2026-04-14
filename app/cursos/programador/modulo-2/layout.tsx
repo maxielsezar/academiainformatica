@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     { titulo: "Niveles de Acceso", slug: "acceso" },
     { titulo: "Tiempo de vida de los objetos", slug: "tiempo-vida" },
     { titulo: "Modularidad", slug: "modularidad" },
+    { titulo: "Constructores", slug: "constru" },
    // { titulo: "Abstracción", slug: "Abstraccion" },
   ];
 
