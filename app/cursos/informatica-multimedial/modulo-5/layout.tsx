@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 
 const temas = [
   { titulo: "Texto Digital", slug: "texto-digital" },
-  //{ titulo: "Descargar Tipografia", slug: "tipografia" },
-  //{ titulo: "Hipertexto", slug: "hipertexto" },
+  { titulo: "Descargar Tipografia", slug: "tipografia" },
+  { titulo: "Hipertexto", slug: "hipertexto" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
