@@ -30,7 +30,6 @@ const temas = [
   { titulo: "Crear CV", slug: "crear-cv" },
   { titulo: "Carta de Presentación", slug: "carta-presentacion" },
   { titulo: "Documentos", slug: "documentos" },
-
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -81,7 +81,7 @@ export default function DocumentoAdministrativoPage() {
           Ejemplo de documento
         </h2>
 
-        <div className="bg-gray-900 text-white p-4 rounded-xl overflow-x-auto text-sm">
+        <pre className="bg-gray-900 text-white p-4 rounded-xl overflow-x-auto text-sm">
 {`Lomas de Zamora, 10 de abril de 2026
 
 A quien corresponda:
@@ -93,7 +93,7 @@ Sin otro particular, saludo atentamente.
 
 Juan Pérez
 Alumno`}
-        </div>
+        </pre>
       </section>
 
       {/* Importancia */}
