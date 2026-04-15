@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     { titulo: "Constructores", slug: "constru" },
     { titulo: "Herencia", slug: "herencia" },
     { titulo: "Abstracción", slug: "abstraccion" },
+    { titulo: "Diagramas de clases", slug: "diagrama" },
   ];
 
 
