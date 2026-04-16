@@ -13,6 +13,9 @@ const temas = [
   { titulo: "Texto Digital", slug: "texto-digital" },
   { titulo: "Descargar Tipografia", slug: "tipografia" },
   { titulo: "Hipertexto", slug: "hipertexto" },
+  { titulo: "Estructura de la Información", slug: "estructura" },
+//  { titulo: "Lectura en pantalla", slug: "lectura" },
+//  { titulo: "Pagina web", slug: "pagina-web" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
