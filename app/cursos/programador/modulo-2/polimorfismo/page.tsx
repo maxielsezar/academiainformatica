@@ -1,3 +1,5 @@
+import CodeBlock from "@/app/components/CodeBlock";
+
 export default function PolimorfismoPage() {
   return (
     <div className="space-y-14">
@@ -53,7 +55,7 @@ export default function PolimorfismoPage() {
           Ejemplo en Java
         </h2>
 
-        <div className="bg-gray-900 text-white p-4 rounded-xl overflow-x-auto text-sm">
+        <CodeBlock code=
 {`// Clase padre
 class Animal {
     void hacerSonido() {
@@ -87,7 +89,7 @@ public class Main {
         animal2.hacerSonido();
     }
 }`}
-        </div>
+        />
       </section>
 
       {/* Explicación */}
