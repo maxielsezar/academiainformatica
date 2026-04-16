@@ -187,11 +187,6 @@ class Circulo extends Figura {
             Identificá en el ejemplo dónde se aplica cada principio.
           </div>
 
-          <div className="border p-6 rounded-xl">
-            <p className="font-semibold mb-2">Actividad 4</p>
-            Creá un ejemplo propio utilizando al menos dos principios.
-          </div>
-
         </div>
       </section>
 

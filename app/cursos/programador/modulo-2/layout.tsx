@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     { titulo: "Diagramas de clases", slug: "diagrama" },
     { titulo: "Interfaces", slug: "interface" },
     { titulo: "Polimorfismo", slug: "polimorfismo" },
+    { titulo: "Principios de POO", slug: "principios" },
   ];
 
 
