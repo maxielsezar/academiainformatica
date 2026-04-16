@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     { titulo: "Abstracción", slug: "abstraccion" },
     { titulo: "Diagramas de clases", slug: "diagrama" },
     { titulo: "Interfaces", slug: "interface" },
+    { titulo: "Polimorfismo", slug: "polimorfismo" },
   ];
 
 
