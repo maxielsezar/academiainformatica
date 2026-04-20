@@ -14,6 +14,7 @@ const temas = [
   { titulo: "Interfaz de la planilla de cálculo.", slug: "interfaz" },
   { titulo: "Ingreso de datos", slug: "ingreso-datos" },
   { titulo: "Fórmulas básicas", slug: "formulas-basicas" },
+  { titulo: "Formato de Celdas", slug: "formato-celdas" },
  // { titulo: "Funciones", slug: "funciones" },
 ];
 
