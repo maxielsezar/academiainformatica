@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     { titulo: "Controller", slug: "controller" },
     { titulo: "CSS", slug: "css" },
     { titulo: "MVC", slug: "mvc" },
+    { titulo: "Navegación", slug: "navegacion" },
     { titulo: "El modelo computacional de objetos", slug: "modelo" },
     { titulo: "Clases y Objetos", slug: "clases-objetos" },
     { titulo: "Atributos y Metodos", slug: "atributos-metodos" },
@@ -33,6 +34,7 @@ export const metadata: Metadata = {
     { titulo: "Polimorfismo", slug: "polimorfismo" },
     { titulo: "Principios de POO", slug: "principios" },
     { titulo: "Cohesión y Acoplamiento", slug: "acoplamiento" },
+    { titulo: "Sistema Acuario", slug: "acuario" },
   ];
 
 
