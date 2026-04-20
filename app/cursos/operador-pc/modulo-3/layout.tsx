@@ -15,7 +15,7 @@ const temas = [
   { titulo: "Ingreso de datos", slug: "ingreso-datos" },
   { titulo: "Fórmulas básicas", slug: "formulas-basicas" },
   { titulo: "Formato de Celdas", slug: "formato-celdas" },
- // { titulo: "Funciones", slug: "funciones" },
+  { titulo: "Funciones", slug: "funciones" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
