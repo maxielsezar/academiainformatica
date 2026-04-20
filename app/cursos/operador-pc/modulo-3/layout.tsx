@@ -9,9 +9,12 @@ export const metadata: Metadata = {
   },
 };
 
-
 const temas = [
   { titulo: "Introducción a la Planillas de Cálculo", slug: "introduccion" },
+  { titulo: "Interfaz de la planilla de cálculo.", slug: "interfaz" },
+//  { titulo: "Ingreso de datos", slug: "ingreso-datos" },
+ // { titulo: "Fórmulas básicas", slug: "formulas-basicas" },
+ // { titulo: "Funciones", slug: "funciones" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
