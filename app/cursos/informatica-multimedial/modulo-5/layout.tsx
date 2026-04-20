@@ -17,7 +17,7 @@ const temas = [
   { titulo: "Lectura en pantalla", slug: "lectura" },
   { titulo: "Pagina web", slug: "pagina-web" },
   { titulo: "Navegación web", slug: "navegacion-web" },
-  //{ titulo: "Codigo QR", slug: "qr" },
+  { titulo: "Codigo QR", slug: "qr" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
