@@ -16,6 +16,9 @@ const temas = [
   { titulo: "Fórmulas básicas", slug: "formulas-basicas" },
   { titulo: "Formato de Celdas", slug: "formato-celdas" },
   { titulo: "Funciones", slug: "funciones" },
+  { titulo: "Diferenciación de Datos, Tipos, Formatos y Protección", slug: "dif-datos" },
+  { titulo: "Edición de Planilla", slug: "edicion-planilla" },
+  { titulo: "Impresión de Planillas", slug: "impresion" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
