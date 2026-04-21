@@ -19,6 +19,7 @@ const temas = [
   { titulo: "Diferenciación de Datos, Tipos, Formatos y Protección", slug: "dif-datos" },
   { titulo: "Edición de Planilla", slug: "edicion-planilla" },
   { titulo: "Impresión de Planillas", slug: "impresion" },
+  { titulo: "Formato Condicional", slug: "formato-condicional" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
