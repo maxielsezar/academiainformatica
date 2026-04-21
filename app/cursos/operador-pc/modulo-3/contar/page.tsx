@@ -44,7 +44,7 @@ export default function ContarContarSiExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p className="font-semibold">Ejemplo:</p>
-          <p>=CONTAR.SI(A1:A10, "&gt;=6")</p>
+          <p>=CONTAR.SI(A1:A10; "&gt;=6")</p>
           <p>Cuenta cuántos valores son mayores o iguales a 6.</p>
         </div>
       </section>
