@@ -1,3 +1,5 @@
+import CursoCard from "@/app/components/CursoCard";
+
 export default function HardwareSoftwarePage() {
   return (
     <div className="space-y-14">

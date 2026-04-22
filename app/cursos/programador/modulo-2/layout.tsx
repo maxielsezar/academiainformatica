@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     { titulo: "Principios de POO", slug: "principios" },
     { titulo: "Cohesión y Acoplamiento", slug: "acoplamiento" },
     { titulo: "Sistema Acuario", slug: "acuario" },
-   // { titulo: "Peces", slug: "peces" },
+    { titulo: "Peces", slug: "peces" },
   ];
 
 
