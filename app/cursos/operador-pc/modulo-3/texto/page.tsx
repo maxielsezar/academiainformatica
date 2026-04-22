@@ -27,7 +27,7 @@ export default function TextoConcatenarExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p className="font-semibold">Ejemplo:</p>
-          <p>=CONCATENAR(A1, " ", B1)</p>
+          <p>=CONCATENAR(A1; " "; B1)</p>
           <p>
             Une el contenido de A1 y B1 con un espacio entre ellos.
           </p>
@@ -46,7 +46,7 @@ export default function TextoConcatenarExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p className="font-semibold">Ejemplo:</p>
-          <p>=TEXTO(A1, "0.00")</p>
+          <p>=TEXTO(A1; "0.00")</p>
           <p>
             Muestra el número con dos decimales.
           </p>
@@ -75,7 +75,7 @@ export default function TextoConcatenarExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p>
-            =CONCATENAR("El total es $", TEXTO(A1, "0.00"))
+            =CONCATENAR("El total es $"; TEXTO(A1; "0,00"))
           </p>
           <p>
             Muestra un mensaje con el valor formateado.

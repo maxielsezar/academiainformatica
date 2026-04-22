@@ -38,7 +38,7 @@ export default function FuncionSIExcelPage() {
           <p>=SI(condición, valor_si_verdadero, valor_si_falso)</p>
 
           <p className="mt-2">Ejemplo:</p>
-          <p>=SI(A1&gt;=6, "Aprobado", "Desaprobado")</p>
+          <p>=SI(A1&gt;=6; "Aprobado"; "Desaprobado")</p>
         </div>
       </section>
 
