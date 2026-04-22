@@ -21,6 +21,8 @@ const temas = [
   { titulo: "Impresión de Planillas", slug: "impresion" },
   { titulo: "Formato Condicional", slug: "formato-condicional" },
   { titulo: "Contar", slug: "contar" },
+  { titulo: "Si", slug: "si" },
+  { titulo: "Texto", slug: "texto" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
