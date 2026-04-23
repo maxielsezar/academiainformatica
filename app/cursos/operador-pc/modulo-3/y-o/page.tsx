@@ -46,7 +46,7 @@ export default function FuncionesYOExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p className="font-semibold">Ejemplo:</p>
-          <p>=O(A1&gt;=6, B1&gt;=6)</p>
+          <p>=O(A1&gt;=6; B1&gt;=6)</p>
           <p>
             Devuelve VERDADERO si al menos una de las celdas es mayor o igual a 6.
           </p>
@@ -61,10 +61,10 @@ export default function FuncionesYOExcelPage() {
 
         <div className="border p-6 rounded-xl space-y-2">
           <p className="font-semibold">Ejemplo con Y:</p>
-          <p>=SI(Y(A1&gt;=6; B1&gt;=6), "Aprobado", "Desaprobado")</p>
+          <p>=SI(Y(A1&gt;=6; B1&gt;=6); "Aprobado"; "Desaprobado")</p>
 
           <p className="mt-2 font-semibold">Ejemplo con O:</p>
-          <p>=SI(O(A1&gt;=6; B1&gt;=6), "Aprobado", "Desaprobado")</p>
+          <p>=SI(O(A1&gt;=6; B1&gt;=6);"Aprobado"; "Desaprobado")</p>
         </div>
       </section>
 
