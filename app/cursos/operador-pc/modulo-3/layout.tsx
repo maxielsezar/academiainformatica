@@ -24,6 +24,7 @@ const temas = [
   { titulo: "Si", slug: "si" },
   { titulo: "Texto", slug: "texto" },
   { titulo: "Buscar", slug: "buscar" },
+  { titulo: "Y / O", slug: "y-o" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
