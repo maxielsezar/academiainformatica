@@ -19,6 +19,7 @@ const temas = [
   { titulo: "Navegación web", slug: "navegacion-web" },
   { titulo: "Codigo QR", slug: "qr" },
   { titulo: "Relato no lineal", slug: "relato-no-lineal" },
+  { titulo: "Cuestionario", slug: "cuestionario" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
