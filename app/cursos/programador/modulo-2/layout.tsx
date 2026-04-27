@@ -39,6 +39,7 @@ export const metadata: Metadata = {
     { titulo: "Peces", slug: "peces" },
     { titulo: "Litros Reales y Adornos", slug: "adornos" },
     { titulo: "Código Limpio", slug: "codigo-limpio" },
+    { titulo: "Single Responsibility Principle", slug: "SRP" },
   ];
 
 
