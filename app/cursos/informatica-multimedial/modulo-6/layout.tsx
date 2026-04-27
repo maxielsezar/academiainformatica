@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const temas = [
-  { titulo: "", slug: "texto-digital" },
+  { titulo: "Imagen", slug: "imagen" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
