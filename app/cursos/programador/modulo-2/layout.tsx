@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     { titulo: "Cohesión y Acoplamiento", slug: "acoplamiento" },
     { titulo: "Sistema Acuario", slug: "acuario" },
     { titulo: "Peces", slug: "peces" },
-    { titulo: "Litros Reales y Adornos ", slug: "adornos" },
+    { titulo: "Litros Reales y Adornos", slug: "adornos" },
   ];
 
 
