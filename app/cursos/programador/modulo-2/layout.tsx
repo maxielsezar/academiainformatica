@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     { titulo: "Código Limpio", slug: "codigo-limpio" },
     { titulo: "Single Responsibility Principle", slug: "SRP" },
     { titulo: "Open/Closed Principle", slug: "OCP" },
+    { titulo: "Liskov Substitution Principle", slug: "LSP" },
   ];
 
 
