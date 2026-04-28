@@ -10,7 +10,11 @@ export const metadata: Metadata = {
 };
 
 const temas = [
-  { titulo: "Edición de Imagen", slug: "imagen" },
+  { titulo: "Interfaz de Photoshop", slug: "interfaz" },
+  { titulo: "Herramientas de Selección ", slug: "seleccion" },
+  { titulo: "Edición de Imagen en Photoshop", slug: "imagen" },
+  { titulo: "Capas en Photoshop", slug: "capas" },
+  { titulo: "Guardar Imágenes en Photoshop", slug: "guardar" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

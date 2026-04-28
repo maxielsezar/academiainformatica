@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     { titulo: "Litros Reales y Adornos", slug: "adornos" },
     { titulo: "Código Limpio", slug: "codigo-limpio" },
     { titulo: "Single Responsibility Principle", slug: "SRP" },
+    { titulo: "Open/Closed Principle", slug: "OCP" },
   ];
-
 
 
 export default function Layout({ children }: { children: React.ReactNode }) {

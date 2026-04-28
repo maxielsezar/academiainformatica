@@ -1,31 +1,45 @@
-export default function EdicionImagenPhotoshopPage() {
+export default function EdicionImagenPage() {
   return (
     <div className="space-y-14">
 
       {/* Título */}
       <section>
         <h1 className="text-3xl font-bold text-blue-900 mb-6">
-          Edición de Imagen con Photoshop
+          Edición de Imagen
         </h1>
 
         <p className="leading-relaxed max-w-3xl">
-          Adobe Photoshop es una de las herramientas más utilizadas para la edición
-          de imágenes. Permite retocar fotos, crear diseños y mejorar la calidad
-          visual mediante múltiples herramientas y efectos.
+          La edición de imagen es el proceso de modificar una fotografía o gráfico
+          para mejorar su calidad, corregir errores o adaptarla a un objetivo específico.
+          Es una habilidad clave en el diseño digital y la comunicación visual.
         </p>
       </section>
 
       {/* Definición */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          ¿Qué es Photoshop?
+          ¿Qué es la edición de imagen?
         </h2>
 
         <p className="leading-relaxed max-w-3xl">
-          Photoshop es un programa de edición de imágenes digitales que permite
-          modificar fotografías, crear composiciones y aplicar efectos visuales
-          de forma profesional.
+          Consiste en aplicar cambios a una imagen utilizando herramientas digitales,
+          como recortar, ajustar colores, agregar texto o eliminar elementos no deseados.
         </p>
+      </section>
+
+      {/* Objetivos */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Objetivos de la edición
+        </h2>
+
+        <ul className="list-disc list-inside space-y-3 max-w-3xl">
+          <li>Mejorar la calidad visual</li>
+          <li>Corregir errores</li>
+          <li>Destacar elementos importantes</li>
+          <li>Transmitir un mensaje claro</li>
+          <li>Crear contenido atractivo</li>
+        </ul>
       </section>
 
       {/* Herramientas */}
@@ -35,37 +49,11 @@ export default function EdicionImagenPhotoshopPage() {
         </h2>
 
         <ul className="list-disc list-inside space-y-3 max-w-3xl">
-          <li><strong>Herramienta de selección:</strong> permite seleccionar partes de la imagen.</li>
-          <li><strong>Recorte:</strong> ajusta el tamaño de la imagen.</li>
-          <li><strong>Pincel:</strong> dibuja o retoca áreas.</li>
-          <li><strong>Borrador:</strong> elimina partes de la imagen.</li>
-          <li><strong>Texto:</strong> agrega palabras o títulos.</li>
-        </ul>
-      </section>
-
-      {/* Capas */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Uso de capas
-        </h2>
-
-        <p className="leading-relaxed max-w-3xl">
-          Las capas permiten trabajar diferentes elementos de una imagen por separado.
-          Esto facilita la edición sin modificar el contenido original.
-        </p>
-      </section>
-
-      {/* Ajustes */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Ajustes de imagen
-        </h2>
-
-        <ul className="list-disc list-inside space-y-3 max-w-3xl">
-          <li>Brillo y contraste</li>
-          <li>Color y saturación</li>
-          <li>Niveles y curvas</li>
-          <li>Filtros y efectos</li>
+          <li><strong>Recorte:</strong> ajustar el encuadre</li>
+          <li><strong>Brillo y contraste:</strong> mejorar iluminación</li>
+          <li><strong>Saturación:</strong> intensificar colores</li>
+          <li><strong>Filtros:</strong> aplicar efectos visuales</li>
+          <li><strong>Texto:</strong> agregar información</li>
         </ul>
       </section>
 
@@ -76,38 +64,49 @@ export default function EdicionImagenPhotoshopPage() {
         </h2>
 
         <ul className="list-disc list-inside space-y-3 max-w-3xl">
-          <li>Abrir la imagen en Photoshop</li>
-          <li>Duplicar la capa original</li>
+          <li>Abrir la imagen en el programa</li>
           <li>Recortar o ajustar el encuadre</li>
           <li>Corregir brillo, contraste y color</li>
-          <li>Agregar texto o efectos</li>
+          <li>Aplicar efectos o filtros</li>
+          <li>Agregar texto si es necesario</li>
           <li>Guardar el archivo final</li>
         </ul>
       </section>
 
-      {/* Formatos */}
+      {/* Tipos */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Formatos de archivo
+          Tipos de edición
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 max-w-3xl">
-          <li><strong>PSD:</strong> formato editable de Photoshop</li>
-          <li><strong>JPG:</strong> imagen comprimida</li>
-          <li><strong>PNG:</strong> permite transparencia</li>
-        </ul>
+        <div className="space-y-6 max-w-3xl">
+
+          <div>
+            <h3 className="font-semibold text-lg">Edición básica</h3>
+            <p className="leading-relaxed">
+              Ajustes simples como recorte y mejora de color.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg">Edición avanzada</h3>
+            <p className="leading-relaxed">
+              Incluye efectos, montajes y manipulación de imágenes.
+            </p>
+          </div>
+
+        </div>
       </section>
 
       {/* Importancia */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Importancia de la edición de imágenes
+          Importancia
         </h2>
 
         <p className="leading-relaxed max-w-3xl">
-          Editar imágenes permite mejorar su calidad, corregir errores y hacerlas
-          más atractivas visualmente, lo cual es fundamental en el diseño gráfico
-          y la comunicación digital.
+          Una buena edición mejora la presentación de la imagen y ayuda a comunicar
+          ideas de manera más efectiva en distintos medios digitales.
         </p>
       </section>
 
