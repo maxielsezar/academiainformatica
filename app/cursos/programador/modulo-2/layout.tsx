@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     { titulo: "MVC", slug: "mvc" },
     { titulo: "Navegación", slug: "navegacion" },
     { titulo: "Alertas", slug: "alertas" },
+    { titulo: "Pasar Objetos entre Ventanas", slug: "pasar-datos" },
     { titulo: "El modelo computacional de objetos", slug: "modelo" },
     { titulo: "Clases y Objetos", slug: "clases-objetos" },
     { titulo: "Atributos y Metodos", slug: "atributos-metodos" },
@@ -39,11 +40,13 @@ export const metadata: Metadata = {
     { titulo: "Peces", slug: "peces" },
     { titulo: "Litros Reales y Adornos", slug: "adornos" },
     { titulo: "Código Limpio", slug: "codigo-limpio" },
-    { titulo: "Single Responsibility Principle", slug: "SRP" },
-    { titulo: "Open/Closed Principle", slug: "OCP" },
-    { titulo: "Liskov Substitution Principle", slug: "LSP" },
+    { titulo: "Responsabilidad Única", slug: "SRP" },
+    { titulo: "Open/Closed", slug: "OCP" },
+    { titulo: "Sustitución de Liskov", slug: "LSP" },
+    { titulo: "Segregación de Interfaces", slug: "ICP" },
+    { titulo: "Inversión de Dependencias", slug: "DIP" },
   ];
-
+ 
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
