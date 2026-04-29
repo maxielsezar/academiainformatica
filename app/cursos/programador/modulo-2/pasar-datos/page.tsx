@@ -80,14 +80,14 @@ public void abrirVentana() throws Exception {
     FXMLLoader loader = new FXMLLoader(getClass().getResource("vista2.fxml"));
     Parent root = loader.load();
 
+    Stage stage = new Stage();
+    stage.setScene(new Scene(root));
+    
     // Obtener controller de la nueva ventana
     ControllerVista2 controller = loader.getController();
 
     // Pasar el objeto
     controller.setAcuario(acuario);
-
-    Stage stage = new Stage();
-    stage.setScene(new Scene(root));
     stage.show();
 }`}
         />
