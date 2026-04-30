@@ -14,27 +14,27 @@ export default function DescargasPage() {
     {
       nombre: "Tabla BUSCARV",
       tipo: "Excel",
-      url: "/archivos/excel/TP_BUSCARV.xlsx",
+      url: "/archivos/TP_BUSCARV.xlsx",
     },
     {
       nombre: "Consignas Control Stock",
       tipo: "Word",
-      url: "/archivos/word/Control_Stock.docx",
+      url: "/archivos/Control_Stock.docx",
     },
     {
       nombre: "Tabla de Control Stock",
       tipo: "Excel",
-      url: "/archivos/excel/Control_Stock_Productos.xlsx",
+      url: "/archivos/Control_Stock_Productos.xlsx",
     },
     {
       nombre: "Consignas Funciones Logicas",
       tipo: "Word",
-      url: "/archivos/word/Trabajo Practico Funciones Logicas.docx",
+      url: "/archivos/Trabajo Practico Funciones Logicas.docx",
     },
     {
       nombre: "Tabla Funciones Logicas",
       tipo: "Excel",
-      url: "/archivos/excel/Trabajo Practico Funciones Logicas.xlsx",
+      url: "/archivos/Trabajo Practico Funciones Logicas.xlsx",
     },
     
   ];
