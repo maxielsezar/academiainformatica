@@ -26,6 +26,7 @@ const temas = [
   { titulo: "Buscar", slug: "buscar" },
   { titulo: "Y / O", slug: "y-o" },
   { titulo: "No", slug: "no" },
+  { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
