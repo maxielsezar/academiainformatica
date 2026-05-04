@@ -26,6 +26,7 @@ const temas = [
   { titulo: "Buscar", slug: "buscar" },
   { titulo: "Y / O", slug: "y-o" },
   { titulo: "No", slug: "no" },
+  { titulo: "Texto Avanzado", slug: "funciones-textos" },
   { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 

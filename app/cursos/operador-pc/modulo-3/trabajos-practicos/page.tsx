@@ -36,6 +36,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/Trabajo Practico Funciones Logicas.xlsx",
     },
+       {
+      nombre: "Consignas Funciones Texto",
+      tipo: "Word",
+      url: "/archivos/Funciones Texto.docx",
+    },
+    {
+      nombre: "Tabla Funciones Texto",
+      tipo: "Excel",
+      url: "/archivos/Funciones Texto.xlsx",
+    },
     
   ];
 
