@@ -39,7 +39,7 @@ export default function FuncionesTextoAvanzadasExcelPage() {
         <div className="border p-6 rounded-xl space-y-2">
           <p>Permite extraer texto desde una posición específica.</p>
           <p>=EXTRAE(A1; 2; 4)</p>
-          <p>Extrae 4 caracteres начиная desde la posición 2.</p>
+          <p>Extrae 4 caracteres desde la posición 2.</p>
         </div>
       </section>
 
