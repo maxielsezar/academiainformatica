@@ -39,6 +39,7 @@ export const metadata: Metadata = {
     { titulo: "Sistema Acuario", slug: "acuario" },
     { titulo: "Peces", slug: "peces" },
     { titulo: "Litros Reales y Adornos", slug: "adornos" },
+    { titulo: "Vista Acuario", slug: "vista-acuario" },
     { titulo: "Código Limpio", slug: "codigo-limpio" },
     { titulo: "Responsabilidad Única", slug: "SRP" },
     { titulo: "Open/Closed", slug: "OCP" },
