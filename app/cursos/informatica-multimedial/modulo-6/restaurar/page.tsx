@@ -37,18 +37,18 @@ export default function RestauracionImagenesPage() {
         </h2>
 
         <div className="border p-6 rounded-xl max-w-3xl text-center">
-          <Diagrama
-                            src="/imagenes/restaurar.png"
-                            alt="restaurar"
-                          />
-                          <Diagrama
-                                            src="/imagenes/fachada-casa-minimalista.jpg"
-                                            alt="fachada-casa-minimalista"
-                                          />
-                                          <Diagrama
-                                                            src="/imagenes/showcase1.jpg"
-                                                            alt="showcase1"
-                                                          />
+            <Diagrama
+                src="/imagenes/restaurar.png"
+                alt="restaurar"
+            />
+            <Diagrama
+                src="/imagenes/fachada-casa-minimalista.jpg"
+                alt="fachada-casa-minimalista"
+            />
+            <Diagrama
+                src="/imagenes/showcase1.jpg"
+                alt="showcase1"
+            />
         </div>
       </section>
 

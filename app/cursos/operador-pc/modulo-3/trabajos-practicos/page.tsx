@@ -46,7 +46,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/Funciones Texto.xlsx",
     },
-    
+  {
+      nombre: "Consignas Funciones Filtros",
+      tipo: "Word",
+      url: "/archivos/Trabajo Practico Filtros.docx",
+    },
+    {
+      nombre: "Tabla Ciudades",
+      tipo: "Excel",
+      url: "/archivos/ciudades.xlsx",
+    },
   ];
 
   return (
