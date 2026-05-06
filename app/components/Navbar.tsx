@@ -30,12 +30,12 @@ export default function Navbar({
    const sections = [
     
     { name: "Inicio", href: "/" },
-    { name: "Cursos", href: "#cursos" },
-    { name: "Metodología", href: "#metodologia" },
-    { name: "Resultados", href: "#resultados" },
-    { name: "Enfoque formativo", href: "#enfoque" },
-    { name: "Certificación", href: "#certificacion" },
-    { name: "Contenido", href: "#contenido" }
+    { name: "Cursos", href: "/#cursos" },
+    { name: "Metodología", href: "/#metodologia" },
+    { name: "Resultados", href: "/#resultados" },
+    { name: "Enfoque formativo", href: "/#enfoque" },
+    { name: "Certificación", href: "/#certificacion" },
+    { name: "Contenido", href: "/#contenido" }
   ];
 
   return (
