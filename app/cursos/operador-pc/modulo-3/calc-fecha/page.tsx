@@ -70,16 +70,16 @@ export default function CalculosFechasExcelPage() {
       {/* DATEDIF */}
       <section>
         <h2 className="text-2xl font-bold text-blue-600 mb-6">
-          3. Función DATEDIF
+          3. Función SIFECHA
         </h2>
 
         <div className="border p-6 rounded-xl space-y-2">
           <p>
-            La función DATEDIF permite calcular diferencias más específicas entre fechas.
+            La función SIFECHA permite calcular diferencias más específicas entre fechas.
           </p>
 
           <p><strong>Ejemplo:</strong></p>
-          <p>=DATEDIF(A2, B2, "d")</p>
+          <p>=SIFECHA(A2; B2; "d")</p>
 
           <p>Devuelve la cantidad de días entre ambas fechas.</p>
 
@@ -128,7 +128,7 @@ export default function CalculosFechasExcelPage() {
 
           <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Paso 3</p>
-            Usa la función DATEDIF para calcular días, meses y años.
+            Usa la función SIFECHA para calcular días, meses y años.
           </div>
 
           <div className="border p-6 rounded-xl">
