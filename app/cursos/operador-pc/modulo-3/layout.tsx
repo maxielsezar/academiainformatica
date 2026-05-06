@@ -28,6 +28,8 @@ const temas = [
   { titulo: "No", slug: "no" },
   { titulo: "Texto Avanzado", slug: "funciones-textos" },
   { titulo: "Tabla", slug: "filtros" },
+  { titulo: "Fechas", slug: "fechas" },
+  { titulo: "Calculos de Fechas", slug: "calc-fecha" },
   { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 
