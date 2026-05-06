@@ -56,6 +56,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/ciudades.xlsx",
     },
+    {
+      nombre: "Trabajo Practico",
+      tipo: "Word",
+      url: "/archivos/Trabajo Practico.docx",
+    },
+    {
+      nombre: "Trabajo Practico",
+      tipo: "Excel",
+      url: "/archivos/Trabajo Practico.xlsx",
+    },
   ];
 
   return (
