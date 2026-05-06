@@ -27,6 +27,16 @@ export default function Navbar({
   const handleLinkClick = () => {
     setOpen(false);
   };
+   const sections = [
+    
+    { name: "Inicio", href: "/" },
+    { name: "Cursos", href: "#cursos" },
+    { name: "Metodología", href: "#metodologia" },
+    { name: "Resultados", href: "#resultados" },
+    { name: "Enfoque formativo", href: "#enfoque" },
+    { name: "Certificación", href: "#certificacion" },
+    { name: "Contenido", href: "#contenido" }
+  ];
 
   return (
    <header
@@ -69,8 +79,15 @@ export default function Navbar({
             scrolled ? "text-blue-900 dark:text-white" : main ? "text-white" : "text-blue-900"
           }`}
         >
-          <a href="/" className="hover:text-blue-600 transition">Inicio</a>
-          <a href="/#cursos" className="hover:text-blue-600 transition">Cursos</a>
+             {sections.map((section, index) => (
+            <a
+              key={index}
+              href={section.href}
+              className="hover:text-blue-600 transition"
+            >
+              {section.name}
+            </a>
+          ))}
         </nav>
 
         {/* Hamburger Button */}
@@ -116,8 +133,15 @@ export default function Navbar({
         `}
       >
       <div className="flex flex-col items-center py-6 gap-6 text-sm font-medium">
-        <a href="/#" onClick={handleLinkClick}>Inicio</a>
-        <a href="/#cursos" onClick={handleLinkClick}>Cursos</a>
+           {sections.map((section, index) => (
+            <a
+              key={index}
+              href={section.href}
+              onClick={handleLinkClick}
+            >
+              {section.name}
+            </a>
+          ))}
       </div>
     </div>
     </header>
