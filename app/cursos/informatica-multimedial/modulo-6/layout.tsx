@@ -15,9 +15,9 @@ const temas = [
   { titulo: "Edición de Imagen en Photoshop", slug: "imagen" },
   { titulo: "Capas en Photoshop", slug: "capas" },
   { titulo: "Guardar Imágenes en Photoshop", slug: "guardar" },
-  { titulo: "Herramientas", slug: "herramientas" },
-  
+  { titulo: "Herramientas", slug: "herramientas" }, 
   { titulo: "Restaurar imagenes", slug: "restaurar" },
+  { titulo: "Imagenes Analogicas y Digitales", slug: "analogica-digital" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
