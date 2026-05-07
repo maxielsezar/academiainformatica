@@ -18,6 +18,7 @@ const temas = [
   { titulo: "Herramientas", slug: "herramientas" }, 
   { titulo: "Restaurar imagenes", slug: "restaurar" },
   { titulo: "Imagenes Analogicas y Digitales", slug: "analogica-digital" },
+  { titulo: "Animaciones", slug: "animacion" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
