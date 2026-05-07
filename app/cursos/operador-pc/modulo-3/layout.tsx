@@ -30,6 +30,7 @@ const temas = [
   { titulo: "Tabla", slug: "filtros" },
   { titulo: "Fechas", slug: "fechas" },
   { titulo: "Calculos de Fechas", slug: "calc-fecha" },
+  { titulo: "Graficos", slug: "graficos" },
   { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 
