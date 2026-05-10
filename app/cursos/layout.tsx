@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Cursos de Informática",
