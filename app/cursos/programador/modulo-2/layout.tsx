@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     { titulo: "Sustitución de Liskov", slug: "LSP" },
     { titulo: "Segregación de Interfaces", slug: "ICP" },
     { titulo: "Inversión de Dependencias", slug: "DIP" },
+    { titulo: "Reproductor de musica", slug: "reproductor" },
   ];
  
 
