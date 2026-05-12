@@ -69,12 +69,12 @@ export default function DescargasPage() {
       {
       nombre: "Trabajo Practico Fechas",
       tipo: "Word",
-      url: "/archivos/Trabajo Practico fecha si.docx",
+      url: "/archivos/Trabajo Practico fechas si.docx",
     },
     {
       nombre: "Trabajo Practico Fechas",
       tipo: "Excel",
-      url: "/archivos/Trabajo Practico fecha si.xlsx",
+      url: "/archivos/Trabajo Practico fechas si.xlsx",
     },
   ];
 
