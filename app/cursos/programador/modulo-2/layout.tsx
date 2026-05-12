@@ -20,6 +20,8 @@ export const metadata: Metadata = {
     { titulo: "Navegación", slug: "navegacion" },
     { titulo: "Alertas", slug: "alertas" },
     { titulo: "Pasar Objetos entre Ventanas", slug: "pasar-datos" },
+    { titulo: "Usar Imagenes / Iconos", slug: "uso-imagen" },
+    { titulo: "Crear tablas", slug: "tableview" },
     { titulo: "El modelo computacional de objetos", slug: "modelo" },
     { titulo: "Clases y Objetos", slug: "clases-objetos" },
     { titulo: "Atributos y Metodos", slug: "atributos-metodos" },
