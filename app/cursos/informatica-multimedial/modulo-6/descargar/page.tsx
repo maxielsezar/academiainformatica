@@ -70,17 +70,6 @@ export default function DescargarVideoY2MatePage() {
         </ul>
       </section>
 
-      {/* Importancia */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Importancia del uso responsable
-        </h2>
-
-        <p className="leading-relaxed max-w-3xl">
-          Es importante respetar los derechos de autor y utilizar este tipo
-          de herramientas únicamente para fines educativos o contenido autorizado.
-        </p>
-      </section>
 
       {/* Actividad */}
       <section className="mb-6">
