@@ -20,6 +20,7 @@ const temas = [
   { titulo: "Imagenes Analogicas y Digitales", slug: "analogica-digital" },
   { titulo: "Animaciones", slug: "animacion" },
   { titulo: "Edición de video", slug: "video" },
+  { titulo: "Descargar video", slug: "descargar" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
