@@ -21,6 +21,7 @@ const temas = [
   { titulo: "Animaciones", slug: "animacion" },
   { titulo: "Edición de video", slug: "video" },
   { titulo: "Descargar video", slug: "descargar" },
+  { titulo: "Subir video", slug: "subir" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
