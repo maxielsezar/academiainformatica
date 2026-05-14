@@ -13,6 +13,16 @@ export default function CrearCVPage() {
           educación y habilidades. Es la primera impresión que una empresa tiene
           de vos, por lo que debe ser claro, ordenado y adaptado al puesto al que aplicás.
         </p>
+        <div className="flex justify-center">
+            <iframe
+              width="860"
+              height="450"
+              src="https://www.youtube.com/watch?v=uekoqMC-Uhc"
+              title="YouTube video player"
+              className="rounded-xl"
+              allowFullScreen
+            ></iframe>
+          </div>
       </section>
 
       {/* Paso 1 */}
