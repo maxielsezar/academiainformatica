@@ -45,7 +45,7 @@ export default function DescargarVideoY2MatePage() {
             <iframe
               width="860"
               height="450"
-              src="https://youtu.be/ES9z1TlxtGA"
+              src="https://www.youtube.com/embed/ES9z1TlxtGA?si=WWCFzwVS47ZU6cgA"
               title="YouTube video player"
               className="rounded-xl"
               allowFullScreen

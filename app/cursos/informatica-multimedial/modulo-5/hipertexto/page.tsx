@@ -116,7 +116,7 @@ export default function HipertextoPage() {
             <iframe
               width="860"
               height="450"
-              src="https://www.youtube.com/watch?v=H-Aask5gL-Y"
+              src="https://www.youtube.com/embed/H-Aask5gL-Y?si=gPGfx4NqBo133WTa"
               title="YouTube video player"
               className="rounded-xl"
               allowFullScreen

@@ -17,7 +17,7 @@ export default function CrearCVPage() {
             <iframe
               width="860"
               height="450"
-              src="https://www.youtube.com/watch?v=uekoqMC-Uhc"
+              src="https://www.youtube.com/embed/uekoqMC-Uhc?si=HBIlwmmfQicw6b2M"
               title="YouTube video player"
               className="rounded-xl"
               allowFullScreen
