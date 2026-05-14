@@ -33,7 +33,7 @@ export default function DescargarVideoY2MatePage() {
           Pasos para descargar un video
         </h2>
 
-        <ul className="list-disc list-inside space-y-3 max-w-3xl">
+        <ul className="list-disc list-inside space-y-3 max-w-3xl mb-6">
           <li>Abrir YouTube y buscar el video deseado</li>
           <li>Copiar el enlace del video</li>
           <li>Ingresar al sitio de Y2Mate</li>
@@ -41,16 +41,15 @@ export default function DescargarVideoY2MatePage() {
           <li>Seleccionar el formato y calidad</li>
           <li>Presionar el botón descargar</li>
         </ul>
-        <div className="flex justify-center">
-            <iframe
+          <iframe
               width="860"
               height="450"
               src="https://www.youtube.com/embed/ES9z1TlxtGA?si=WWCFzwVS47ZU6cgA"
               title="YouTube video player"
               className="rounded-xl"
               allowFullScreen
-            ></iframe>
-          </div>
+          ></iframe>
+          
       </section>
 
       {/* Formatos */}
