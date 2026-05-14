@@ -41,6 +41,16 @@ export default function DescargarVideoY2MatePage() {
           <li>Seleccionar el formato y calidad</li>
           <li>Presionar el botón descargar</li>
         </ul>
+        <div className="flex justify-center">
+            <iframe
+              width="860"
+              height="450"
+              src="https://youtu.be/ES9z1TlxtGA"
+              title="YouTube video player"
+              className="rounded-xl"
+              allowFullScreen
+            ></iframe>
+          </div>
       </section>
 
       {/* Formatos */}
