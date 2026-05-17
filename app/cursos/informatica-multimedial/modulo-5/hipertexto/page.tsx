@@ -112,14 +112,14 @@ export default function HipertextoPage() {
             https://www.google.com. Al hacer clic, el usuario será redirigido a esa página.
             </p>
         </div>
-            <iframe
-              width="860"
-              height="450"
-              src="https://www.youtube.com/embed/H-Aask5gL-Y?si=gPGfx4NqBo133WTa"
-              title="YouTube video player"
-              className="rounded-xl my-8"
-              allowFullScreen
-            ></iframe>
+        <div className="w-full max-w-4xl aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/H-Aask5gL-Y?si=gPGfx4NqBo133WTa"
+            title="YouTube video player"
+            className="w-full h-full rounded-xl"
+            allowFullScreen
+          ></iframe>
+        </div>
         </section>
       {/* Ejemplo */}
       <section>

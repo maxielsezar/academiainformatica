@@ -103,14 +103,14 @@ export default function TextoDigitalPage() {
         <p className="leading-relaxed max-w-3xl mb-4">
           En word podemos usarlo utilizando =Lorem() 
         </p>
-        <iframe
-              width="860"
-              height="450"
-              src="https://www.youtube.com/embed/3O0_Da6vzsI?si=GxDQuRzM2oB1hO5o"
-              title="YouTube video player"
-              className="rounded-xl my-6"
-              allowFullScreen
-            ></iframe>
+        <div className="w-full max-w-4xl aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/3O0_Da6vzsI?si=GxDQuRzM2oB1hO5o"
+            title="YouTube video player"
+            className="w-full h-full rounded-xl"
+            allowFullScreen
+          ></iframe>
+        </div>
         <h3 className="font-semibold mb-2">¿Para qué se usa?</h3>
         <ul className="list-disc list-inside space-y-3">
           <li>Probar diseños antes de tener el contenido final</li>
