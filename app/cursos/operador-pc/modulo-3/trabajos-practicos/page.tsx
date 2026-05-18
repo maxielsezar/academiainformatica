@@ -76,7 +76,7 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/Trabajo Practico fechas si.xlsx",
     },
-        {
+    {
       nombre: "Trabajo Practico Formulas y Graficos",
       tipo: "Word",
       url: "/archivos/Trabajo Practico Formulas y Graficos.docx",
@@ -85,6 +85,16 @@ export default function DescargasPage() {
       nombre: "Trabajo Practico Formulas y Graficos",
       tipo: "Excel",
       url: "/archivos/Trabajo Practico Formulas y Graficos.xlsx",
+    },
+    {
+      nombre: "Trabajo Practico tabla dinamica",
+      tipo: "Word",
+      url: "/archivos/Trabajo Practico tabla dinamica.docx",
+    },
+    {
+      nombre: "Trabajo Practico tabla dinamica",
+      tipo: "Excel",
+      url: "/archivos/Trabajo Practico tabla dinamica.xlsx",
     },
   ];
 
