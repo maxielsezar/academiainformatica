@@ -31,6 +31,7 @@ const temas = [
   { titulo: "Fechas", slug: "fechas" },
   { titulo: "Calculos de Fechas", slug: "calc-fecha" },
   { titulo: "Graficos", slug: "graficos" },
+  { titulo: "Tablas Dinámicas", slug: "tabla-dinamica" },
   { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 
