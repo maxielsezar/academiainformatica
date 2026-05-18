@@ -22,6 +22,7 @@ const temas = [
   { titulo: "Edición de video", slug: "video" },
   { titulo: "Descargar video", slug: "descargar" },
   { titulo: "Subir video", slug: "subir" },
+  { titulo: "Cuestionario", slug: "cuestionario" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
