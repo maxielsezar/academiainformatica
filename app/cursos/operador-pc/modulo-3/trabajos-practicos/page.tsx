@@ -96,6 +96,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/Trabajo Practico tabla dinamica.xlsx",
     },
+    {
+      nombre: "Trabajo Practico analisis de ventas",
+      tipo: "Word",
+      url: "/archivos/TP analisis de ventas.docx",
+    },
+    {
+      nombre: "Trabajo Practico analisis de ventas",
+      tipo: "Excel",
+      url: "/archivos/TP analisis de ventas.xlsx",
+    },
   ];
 
   return (
