@@ -106,6 +106,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/TP analisis de ventas.xlsx",
     },
+     {
+      nombre: "Trabajo Practico integrador",
+      tipo: "Word",
+      url: "/archivos/Trabajo_Practico_Excel_Consignas.docx",
+    },
+    {
+      nombre: "Trabajo Practico integrador",
+      tipo: "Excel",
+      url: "/archivos/Trabajo_Practico_Excel_Datos.xlsx",
+    },
   ];
 
   return (
