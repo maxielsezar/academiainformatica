@@ -50,6 +50,7 @@ export const metadata: Metadata = {
     { titulo: "Inversión de Dependencias", slug: "DIP" },
     { titulo: "Reproductor de musica", slug: "reproductor" },
     { titulo: "Manejo de Errores", slug: "errores" },
+    { titulo: "Cuestionario", slug: "cuestionario" },
   ];
  
 

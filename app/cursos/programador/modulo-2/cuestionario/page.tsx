@@ -21,17 +21,8 @@ const preguntas: Pregunta[] = [
 
   { texto: "El acoplamiento alto entre clases facilita el mantenimiento del sistema.", respuesta: false },
 
-  { texto: "El principio SOLID busca mejorar el diseño y mantenimiento del software.", respuesta: true },
-
-  { texto: "El principio SRP indica que una clase debe tener una única responsabilidad.", respuesta: true },
-
-  { texto: "Una interfaz en Java puede contener métodos abstractos.", respuesta: true },
-
   { texto: "La sobreescritura de métodos ocurre cuando una clase hija redefine un método de la clase padre.", respuesta: true },
 
-  { texto: "El constructor de una clase se utiliza para destruir objetos.", respuesta: false },
-
-  { texto: "La palabra clave extends se utiliza para heredar una clase.", respuesta: true },
 ];
 
 export default function Page() {
