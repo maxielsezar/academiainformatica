@@ -116,6 +116,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/Trabajo_Practico_Excel_Datos.xlsx",
     },
+     {
+      nombre: "Trabajo Practico integrador",
+      tipo: "Word",
+      url: "/archivos/trabajo_practico_dashboard.docx",
+    },
+    {
+      nombre: "Trabajo Practico integrador",
+      tipo: "Excel",
+      url: "/archivos/dashboard_trabajo_practico.xlsx",
+    },
   ];
 
   return (
