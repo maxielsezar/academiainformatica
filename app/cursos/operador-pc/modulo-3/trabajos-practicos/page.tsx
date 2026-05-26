@@ -117,12 +117,12 @@ export default function DescargasPage() {
       url: "/archivos/Trabajo_Practico_Excel_Datos.xlsx",
     },
      {
-      nombre: "Trabajo Practico integrador",
+      nombre: "Trabajo Practico dashboard",
       tipo: "Word",
       url: "/archivos/trabajo_practico_dashboard.docx",
     },
     {
-      nombre: "Trabajo Practico integrador",
+      nombre: "Trabajo Practico dashboard",
       tipo: "Excel",
       url: "/archivos/dashboard_trabajo_practico.xlsx",
     },
