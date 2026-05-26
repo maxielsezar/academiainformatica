@@ -10,7 +10,6 @@ export const metadata: Metadata = {
     icon: "/logo.png",
   },
 };
-
   const temas = [
     { titulo: "Git", slug: "git" }, 
     { titulo: "Branch", slug: "branch" }, 
