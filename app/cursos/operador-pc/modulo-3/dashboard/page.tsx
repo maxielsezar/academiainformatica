@@ -4,7 +4,7 @@ export default function DashboardExcelPage() {
 
       {/* Título */}
       <section>
-        <h1 className="text-3xl font-bold text-green-800 mb-6">
+        <h1 className="text-3xl font-bold text-blue-800 mb-6">
           Creación de Dashboards en Excel
         </h1>
 
@@ -18,7 +18,7 @@ export default function DashboardExcelPage() {
 
       {/* Objetivo */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Objetivo
         </h2>
 
@@ -30,7 +30,7 @@ export default function DashboardExcelPage() {
 
       {/* Qué es */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           ¿Qué es un Dashboard?
         </h2>
 
@@ -43,7 +43,7 @@ export default function DashboardExcelPage() {
 
       {/* Elementos */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Elementos de un Dashboard
         </h2>
 
@@ -58,13 +58,13 @@ export default function DashboardExcelPage() {
 
       {/* Tabla ejemplo */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Ejemplo de Datos
         </h2>
 
         <div className="overflow-x-auto">
           <table className="table-auto border border-gray-300 w-full text-left">
-            <thead className="bg-green-200">
+            <thead className="bg-blue-200">
               <tr>
                 <th className="border px-4 py-2">Vendedor</th>
                 <th className="border px-4 py-2">Producto</th>
@@ -108,7 +108,7 @@ export default function DashboardExcelPage() {
 
       {/* Pasos */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Pasos para Crear un Dashboard
         </h2>
 
@@ -126,7 +126,7 @@ export default function DashboardExcelPage() {
 
       {/* Segmentación */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Segmentación de Datos
         </h2>
 
@@ -138,7 +138,7 @@ export default function DashboardExcelPage() {
 
       {/* Indicadores */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Indicadores Importantes
         </h2>
 
@@ -152,7 +152,7 @@ export default function DashboardExcelPage() {
 
       {/* Diseño */}
       <section>
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Recomendaciones de Diseño
         </h2>
 
@@ -167,7 +167,7 @@ export default function DashboardExcelPage() {
 
       {/* Actividad */}
       <section className="mb-6">
-        <h2 className="text-2xl font-bold text-green-700 mb-6">
+        <h2 className="text-2xl font-bold text-blue-700 mb-6">
           Actividad Práctica
         </h2>
 
