@@ -15,6 +15,8 @@ const temas = [
   
   { titulo: "Edición de Pistas", slug: "pistas" },
   { titulo: "Grabación", slug: "grabar" },
+  
+  { titulo: "Narración", slug: "narracion" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
