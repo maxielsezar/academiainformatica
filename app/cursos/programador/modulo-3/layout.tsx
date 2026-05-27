@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   const temas = [
     { titulo: "Git", slug: "git" }, 
     { titulo: "Branch", slug: "branch" }, 
-    /*{ titulo: "Desarrollo de Software", slug: "desarrollo" }, 
-    { titulo: "Scrum", slug: "scrum" }, 
+    { titulo: "Desarrollo de Software", slug: "desarrollo" }, 
+     /*{ titulo: "Scrum", slug: "scrum" }, 
     { titulo: "Jira", slug: "jira" }, 
     { titulo: "Proyecto", slug: "proyecto" }, */
   ];

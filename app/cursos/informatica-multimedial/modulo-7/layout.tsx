@@ -12,10 +12,8 @@ export const metadata: Metadata = {
 const temas = [
   { titulo: "Interfaz de Audacity", slug: "interfaz" },
   { titulo: "Herramientas", slug: "audacity" },
-  
   { titulo: "Edición de Pistas", slug: "pistas" },
   { titulo: "Grabación", slug: "grabar" },
-  
   { titulo: "Narración", slug: "narracion" },
 ];
 
