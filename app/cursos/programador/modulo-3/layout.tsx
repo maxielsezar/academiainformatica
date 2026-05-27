@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     { titulo: "Git", slug: "git" }, 
     { titulo: "Branch", slug: "branch" }, 
     { titulo: "Desarrollo de Software", slug: "desarrollo" }, 
-     { titulo: "Scrum", slug: "scrum" }, 
-   /* { titulo: "Jira", slug: "jira" }, 
-    { titulo: "Proyecto", slug: "proyecto" }, */
+    { titulo: "Scrum", slug: "scrum" }, 
+    { titulo: "Jira", slug: "jira" }, 
+   // { titulo: "Proyecto", slug: "proyecto" }, 
   ];
  
 

@@ -174,7 +174,7 @@ TAREAS:
 
         <div className="overflow-x-auto mt-6">
           <table className="w-full border border-gray-300 text-left">
-            <thead className="bg-blue-100">
+            <thead>
               <tr>
                 <th className="border p-3">Estado</th>
                 <th className="border p-3">Descripción</th>

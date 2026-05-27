@@ -228,7 +228,7 @@ export default function ScrumPage() {
 
         <div className="overflow-x-auto">
           <table className="w-full border border-gray-300 text-left">
-            <thead className="bg-blue-100">
+            <thead>
               <tr>
                 <th className="border p-3">Scrum</th>
                 <th className="border p-3">Método Tradicional</th>
