@@ -126,6 +126,16 @@ export default function DescargasPage() {
       tipo: "Excel",
       url: "/archivos/dashboard_trabajo_practico.xlsx",
     },
+        {
+      nombre: "Trabajo Practico Gastos",
+      tipo: "Word",
+      url: "/archivos/trabajo_integrador_excel.docx",
+    },
+    {
+      nombre: "Trabajo Practico Gastos",
+      tipo: "Excel",
+      url: "/archivos/trabajo_integrador_excel.xlsx",
+    },
   ];
 
   return (
