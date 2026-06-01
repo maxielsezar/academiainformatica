@@ -33,6 +33,7 @@ const temas = [
   { titulo: "Graficos", slug: "graficos" },
   { titulo: "Tablas Dinámicas", slug: "tabla-dinamica" },
   { titulo: "Dashboard", slug: "dashboard" },
+  { titulo: "Cuestionario", slug: "cuestionario" },
   { titulo: "Descargar Trabajos", slug: "trabajos-practicos" },
 ];
 
