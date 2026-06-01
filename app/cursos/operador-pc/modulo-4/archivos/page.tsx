@@ -1,18 +1,18 @@
-export default function CorreoElectronicoPage() {
+export default function AdjuntarDescargarArchivosPage() {
   return (
     <div className="space-y-14">
 
       {/* Título */}
       <section>
         <h1 className="text-3xl font-bold text-blue-900 mb-6">
-          Correo Electrónico
+          Adjuntar y Descargar Archivos
         </h1>
 
         <p className="leading-relaxed max-w-3xl">
-          El correo electrónico es uno de los servicios más utilizados en Internet.
-          Permite enviar y recibir mensajes digitales, documentos, imágenes y
-          otros archivos entre usuarios de cualquier parte del mundo de forma
-          rápida y eficiente.
+          Una de las funciones más utilizadas en Internet es la posibilidad de
+          compartir archivos. Podemos enviar documentos, imágenes, videos y otros
+          archivos mediante correo electrónico, plataformas educativas, servicios
+          de almacenamiento en la nube y aplicaciones de mensajería.
         </p>
       </section>
 
@@ -23,194 +23,163 @@ export default function CorreoElectronicoPage() {
         </h2>
 
         <p className="max-w-3xl">
-          Comprender el funcionamiento del correo electrónico y aprender a
-          enviar, recibir y organizar mensajes de manera adecuada.
+          Aprender a adjuntar archivos en distintos servicios web y descargar
+          información de Internet de manera segura.
         </p>
       </section>
 
-      {/* Qué es */}
+      {/* Qué es adjuntar */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          ¿Qué es un Correo Electrónico?
+          ¿Qué Significa Adjuntar un Archivo?
         </h2>
 
         <p className="max-w-3xl">
-          Un correo electrónico (e-mail) es un servicio que permite intercambiar
-          mensajes y archivos a través de Internet. Cada usuario posee una
-          dirección única que identifica su cuenta.
+          Adjuntar un archivo significa incluir uno o más documentos dentro de un
+          correo electrónico o formulario para enviarlos junto con el mensaje.
         </p>
       </section>
 
-      {/* Estructura */}
+      {/* Tipos */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Estructura de una Dirección de Correo
-        </h2>
-
-        <div className="border p-6 rounded-xl">
-          <p className="text-lg font-semibold">
-            usuario@proveedor.com
-          </p>
-
-          <ul className="list-disc list-inside space-y-2 mt-4">
-            <li><strong>usuario:</strong> nombre de la cuenta.</li>
-            <li><strong>@:</strong> separador obligatorio.</li>
-            <li><strong>proveedor.com:</strong> servicio de correo utilizado.</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Proveedores */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Proveedores de Correo Electrónico
+          Tipos de Archivos Comunes
         </h2>
 
         <div className="overflow-x-auto">
           <table className="table-auto border border-gray-300 w-full">
             <thead className="bg-blue-200">
               <tr>
-                <th className="border px-4 py-2">Proveedor</th>
-                <th className="border px-4 py-2">Características</th>
+                <th className="border px-4 py-2">Tipo</th>
+                <th className="border px-4 py-2">Extensión</th>
+                <th className="border px-4 py-2">Ejemplo</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
-                <td className="border px-4 py-2">Gmail</td>
-                <td className="border px-4 py-2">
-                  Integración con Google Drive y otras herramientas de Google.
-                </td>
+                <td className="border px-4 py-2">Documento</td>
+                <td className="border px-4 py-2">.docx</td>
+                <td className="border px-4 py-2">Trabajo práctico</td>
               </tr>
 
               <tr>
-                <td className="border px-4 py-2">Outlook</td>
-                <td className="border px-4 py-2">
-                  Integrado con los servicios de Microsoft.
-                </td>
+                <td className="border px-4 py-2">PDF</td>
+                <td className="border px-4 py-2">.pdf</td>
+                <td className="border px-4 py-2">Manual o guía</td>
               </tr>
 
               <tr>
-                <td className="border px-4 py-2">Yahoo Mail</td>
-                <td className="border px-4 py-2">
-                  Servicio gratuito de correo electrónico.
-                </td>
+                <td className="border px-4 py-2">Imagen</td>
+                <td className="border px-4 py-2">.jpg, .png</td>
+                <td className="border px-4 py-2">Fotografía</td>
+              </tr>
+
+              <tr>
+                <td className="border px-4 py-2">Video</td>
+                <td className="border px-4 py-2">.mp4</td>
+                <td className="border px-4 py-2">Presentación grabada</td>
+              </tr>
+
+              <tr>
+                <td className="border px-4 py-2">Planilla</td>
+                <td className="border px-4 py-2">.xlsx</td>
+                <td className="border px-4 py-2">Archivo de Excel</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
 
-      {/* Partes */}
+      {/* Adjuntar correo */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Partes de un Correo Electrónico
-        </h2>
-
-        <div className="overflow-x-auto">
-          <table className="table-auto border border-gray-300 w-full">
-            <thead className="bg-blue-200">
-              <tr>
-                <th className="border px-4 py-2">Elemento</th>
-                <th className="border px-4 py-2">Función</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td className="border px-4 py-2">Para</td>
-                <td className="border px-4 py-2">
-                  Destinatario principal del mensaje.
-                </td>
-              </tr>
-
-              <tr>
-                <td className="border px-4 py-2">CC</td>
-                <td className="border px-4 py-2">
-                  Copia visible para otros destinatarios.
-                </td>
-              </tr>
-
-              <tr>
-                <td className="border px-4 py-2">CCO</td>
-                <td className="border px-4 py-2">
-                  Copia oculta para otros destinatarios.
-                </td>
-              </tr>
-
-              <tr>
-                <td className="border px-4 py-2">Asunto</td>
-                <td className="border px-4 py-2">
-                  Resumen breve del contenido.
-                </td>
-              </tr>
-
-              <tr>
-                <td className="border px-4 py-2">Mensaje</td>
-                <td className="border px-4 py-2">
-                  Texto principal del correo.
-                </td>
-              </tr>
-
-              <tr>
-                <td className="border px-4 py-2">Adjuntos</td>
-                <td className="border px-4 py-2">
-                  Archivos enviados junto al correo.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      {/* Enviar */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Pasos para Enviar un Correo
+          Cómo Adjuntar un Archivo en un Correo Electrónico
         </h2>
 
         <div className="border p-6 rounded-xl">
           <ol className="list-decimal list-inside space-y-2">
-            <li>Ingresar a la cuenta de correo.</li>
-            <li>Hacer clic en "Redactar" o "Nuevo mensaje".</li>
-            <li>Escribir la dirección del destinatario.</li>
-            <li>Completar el asunto.</li>
-            <li>Redactar el mensaje.</li>
-            <li>Adjuntar archivos si es necesario.</li>
-            <li>Presionar "Enviar".</li>
+            <li>Crear un nuevo correo.</li>
+            <li>Hacer clic en el ícono del clip.</li>
+            <li>Buscar el archivo en la computadora.</li>
+            <li>Seleccionar el archivo.</li>
+            <li>Esperar que finalice la carga.</li>
+            <li>Enviar el mensaje.</li>
           </ol>
         </div>
       </section>
 
-      {/* Bandejas */}
+      {/* Descargar */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Carpetas Principales
+          ¿Qué es Descargar un Archivo?
+        </h2>
+
+        <p className="max-w-3xl">
+          Descargar significa copiar un archivo desde Internet hacia nuestro
+          dispositivo para poder utilizarlo posteriormente.
+        </p>
+      </section>
+
+      {/* Pasos descarga */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Pasos para Descargar un Archivo
+        </h2>
+
+        <div className="border p-6 rounded-xl">
+          <ol className="list-decimal list-inside space-y-2">
+            <li>Localizar el enlace o botón de descarga.</li>
+            <li>Hacer clic en "Descargar".</li>
+            <li>Elegir la ubicación de guardado si es necesario.</li>
+            <li>Esperar que termine la descarga.</li>
+            <li>Abrir el archivo desde la carpeta Descargas.</li>
+          </ol>
+        </div>
+      </section>
+
+      {/* Carpeta descargas */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Carpeta Descargas
+        </h2>
+
+        <p className="max-w-3xl">
+          Por defecto, la mayoría de los navegadores guardan los archivos en la
+          carpeta <strong>Descargas</strong> del sistema operativo. Es importante
+          conocer esta ubicación para encontrar rápidamente los archivos descargados.
+        </p>
+      </section>
+
+      {/* Seguridad */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Recomendaciones de Seguridad
         </h2>
 
         <ul className="list-disc list-inside space-y-3">
-          <li><strong>Recibidos:</strong> mensajes recibidos.</li>
-          <li><strong>Enviados:</strong> mensajes enviados.</li>
-          <li><strong>Borradores:</strong> mensajes guardados sin enviar.</li>
-          <li><strong>Papelera:</strong> mensajes eliminados.</li>
-          <li><strong>Spam:</strong> correos no deseados.</li>
+          <li>Descargar archivos únicamente de sitios confiables.</li>
+          <li>No abrir archivos de remitentes desconocidos.</li>
+          <li>Verificar la extensión del archivo.</li>
+          <li>Mantener actualizado el antivirus.</li>
+          <li>Analizar archivos sospechosos antes de abrirlos.</li>
         </ul>
       </section>
 
-      {/* Buenas prácticas */}
+      {/* Tamaño */}
       <section>
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          Buenas Prácticas
+          Limitaciones de Tamaño
         </h2>
 
-        <ul className="list-disc list-inside space-y-3">
-          <li>Utilizar asuntos claros y descriptivos.</li>
-          <li>Revisar la ortografía antes de enviar.</li>
-          <li>Verificar el destinatario.</li>
-          <li>Mantener un lenguaje respetuoso y profesional.</li>
-          <li>No abrir archivos sospechosos.</li>
-          <li>No compartir contraseñas.</li>
-        </ul>
+        <div className="border p-6 rounded-xl">
+          <p>
+            Muchos servicios de correo electrónico limitan el tamaño de los
+            archivos adjuntos. Cuando un archivo es demasiado grande, suele ser
+            necesario utilizar servicios de almacenamiento en la nube como
+            Google Drive o OneDrive.
+          </p>
+        </div>
       </section>
 
       {/* Actividades */}
@@ -223,22 +192,22 @@ export default function CorreoElectronicoPage() {
 
           <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 1</p>
-            Crea una cuenta de correo electrónico o identifica la que utilizas habitualmente.
+            Crea un documento de texto y adjúntalo a un correo electrónico.
           </div>
 
           <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 2</p>
-            Envía un correo a un compañero o docente con un asunto adecuado.
+            Descarga un archivo PDF desde Internet y guárdalo en la carpeta Descargas.
           </div>
 
           <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 3</p>
-            Adjunta una imagen o documento al correo enviado.
+            Identifica tres tipos de archivos diferentes almacenados en tu computadora.
           </div>
 
           <div className="border p-6 rounded-xl">
             <p className="font-semibold mb-2">Actividad 4</p>
-            Identifica en tu cuenta las carpetas Recibidos, Enviados, Spam y Papelera.
+            Envía una imagen y un documento adjuntos en un mismo correo electrónico.
           </div>
 
         </div>
