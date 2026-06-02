@@ -80,7 +80,7 @@ export default function Modulo4Home() {
       {/* CTA */}
       <section className="mb-6">
         <Link
-          href="/cursos/operador-pc/modulo-4/introduccion-internet"
+          href="/cursos/operador-pc/modulo-4/internet"
           className="inline-block bg-blue-800 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-900 transition"
         >
           Comenzar el Módulo →
