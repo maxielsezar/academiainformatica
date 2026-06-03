@@ -15,6 +15,7 @@ const temas = [
   { titulo: "Búsquedas eficientes de información.", slug: "busqueda" },
   { titulo: "Correo electrónico.", slug: "correo" },
   { titulo: "Adjuntar y descargar archivos.", slug: "archivos" },
+  { titulo: "Almacenamiento en la nube.", slug: "almacenamiento" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
