@@ -16,7 +16,7 @@ const temas = [
   { titulo: "Grabación", slug: "grabar" },
   { titulo: "Narración", slug: "narracion" },
   { titulo: "Grabación de Imagen", slug: "imagen" },
- // { titulo: "Producción Audivisual", slug: "produccion-audiovisual" },
+  { titulo: "Producción Audivisual", slug: "produccion-audiovisual" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
