@@ -67,7 +67,7 @@ export default function IntroduccionInternetWebPage() {
 
         <div className="overflow-x-auto">
           <table className="table-auto border border-gray-300 w-full">
-            <thead className="bg-blue-200">
+            <thead className="bg-blue-500">
               <tr>
                 <th className="border px-4 py-2">Concepto</th>
                 <th className="border px-4 py-2">Descripción</th>
