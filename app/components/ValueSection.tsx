@@ -39,7 +39,7 @@ export default function ValueSection() {
             />
           </h2>
 
-          <div className="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-blue-900 mx-auto mb-3"></div>
 
           <p className="max-w-2xl mx-auto">
             Un enfoque educativo diseñado para desarrollar competencias reales 
