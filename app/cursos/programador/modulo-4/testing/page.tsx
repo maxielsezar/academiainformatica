@@ -147,9 +147,9 @@ export default function IntroduccionTestingPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300 max-w-4xl">
+          <table className="border-collapse border max-w-4xl">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Verificación</th>
                 <th className="border p-3">Validación</th>
               </tr>

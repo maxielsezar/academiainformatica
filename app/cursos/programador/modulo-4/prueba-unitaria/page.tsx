@@ -188,9 +188,9 @@ public class ProductoTest {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Método</th>
                 <th className="border p-3">Uso</th>
               </tr>

@@ -36,7 +36,7 @@ export default function CasosDePruebaPage() {
           Cada caso de prueba debe poder responder una pregunta:
         </p>
 
-        <div className="border rounded-xl p-6 max-w-3xl mt-6 bg-gray-50">
+        <div className="border rounded-xl p-6 max-w-3xl mt-6">
           <p className="font-semibold">
             ¿Qué debería ocurrir cuando el usuario realiza una determinada acción?
           </p>
@@ -66,9 +66,9 @@ export default function CasosDePruebaPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Campo</th>
                 <th className="border p-3">Descripción</th>
               </tr>
@@ -110,9 +110,9 @@ export default function CasosDePruebaPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Campo</th>
                 <th className="border p-3">Valor</th>
               </tr>
@@ -128,7 +128,7 @@ export default function CasosDePruebaPage() {
               </tr>
               <tr>
                 <td className="border p-3">Entrada</td>
-                <td className="border p-3">Precio: $100 - Cantidad: 3</td>
+                <td className="border p-3">P - Cantidad: 3</td>
               </tr>
               <tr>
                 <td className="border p-3">Resultado esperado</td>
@@ -177,9 +177,9 @@ export default function CasosDePruebaPage() {
         </p>
 
         <div className="overflow-x-auto mt-6">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">ID</th>
                 <th className="border p-3">Prueba</th>
                 <th className="border p-3">Resultado Esperado</th>
@@ -218,9 +218,9 @@ export default function CasosDePruebaPage() {
         </p>
 
         <div className="overflow-x-auto mt-6">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">ID</th>
                 <th className="border p-3">Prueba</th>
                 <th className="border p-3">Resultado Esperado</th>

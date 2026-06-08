@@ -31,7 +31,7 @@ export default function VerificacionCodigoPage() {
           La verificación busca responder la siguiente pregunta:
         </p>
 
-        <div className="border rounded-xl p-6 max-w-3xl mt-6 bg-gray-50">
+        <div className="border rounded-xl p-6 max-w-3xl mt-6">
           <p className="font-semibold text-lg">
             ¿Estamos construyendo correctamente el software?
           </p>
@@ -51,9 +51,9 @@ export default function VerificacionCodigoPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Verificación</th>
                 <th className="border p-3">Testing</th>
               </tr>
@@ -200,9 +200,9 @@ export default function VerificacionCodigoPage() {
         </h2>
 
         <div className="overflow-x-auto">
-          <table className="border-collapse border border-gray-300">
+          <table className="border-collapse border">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Control</th>
                 <th className="border p-3">Verificado</th>
               </tr>
