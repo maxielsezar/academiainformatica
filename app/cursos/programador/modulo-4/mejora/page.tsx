@@ -34,7 +34,7 @@ export default function MejoraContinuaPage() {
           sistema debería ser mejor que la anterior.
         </p>
 
-        <div className="border rounded-xl p-6 max-w-3xl mt-6 bg-gray-50">
+        <div className="border rounded-xl p-6 max-w-3xl mt-6">
           <p className="font-semibold text-lg">
             Construir software no termina cuando funciona; continúa mientras
             existan oportunidades de mejorarlo.
@@ -180,7 +180,7 @@ export default function MejoraContinuaPage() {
         <div className="overflow-x-auto mt-6">
           <table className="border-collapse border border-gray-300">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Indicador</th>
                 <th className="border p-3">Objetivo</th>
               </tr>

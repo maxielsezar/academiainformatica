@@ -37,7 +37,7 @@ export default function DepuracionPage() {
           flujo de ejecución.
         </p>
 
-        <div className="border rounded-xl p-6 max-w-3xl mt-6 bg-gray-50">
+        <div className="border rounded-xl p-6 max-w-3xl mt-6">
           <p className="font-semibold">
             El objetivo de la depuración no es solamente encontrar el error,
             sino comprender por qué ocurre.
@@ -162,7 +162,7 @@ subtotal = ?`}
         <div className="overflow-x-auto">
           <table className="border-collapse border border-gray-300">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Acción</th>
                 <th className="border p-3">Descripción</th>
               </tr>
