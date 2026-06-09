@@ -18,6 +18,7 @@ const temas = [
   { titulo: "Almacenamiento en la nube.", slug: "almacenamiento" },
   { titulo: "Trabajo Colaborativo.", slug: "trabajo-colaborativo" },
   { titulo: "Formularios.", slug: "formularios" },
+  { titulo: "Contactos.", slug: "contactos" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
