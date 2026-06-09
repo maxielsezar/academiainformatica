@@ -54,7 +54,7 @@ export default function FeaturedContent() {
         {/* GRID */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           {posts.map((post) => (
-              <div className="p-8 rounded-2xl border-2 shadow-sm hover:shadow-lg transition cursor-pointer h-full flex flex-col justify-between">
+              <div key={post.title} className="p-8 rounded-2xl border-2 shadow-sm hover:shadow-lg transition cursor-pointer h-full flex flex-col justify-between">
                 
                 <div>
                   <h3 className="text-lg font-semibold text-blue-600 mb-3">
