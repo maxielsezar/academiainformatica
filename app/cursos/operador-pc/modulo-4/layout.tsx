@@ -20,6 +20,8 @@ const temas = [
   { titulo: "Formularios.", slug: "formularios" },
   { titulo: "Contactos.", slug: "contactos" },
   { titulo: "Plug-in.", slug: "plugin" },
+  { titulo: "Conexion a Internet.", slug: "conexion" },
+
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
