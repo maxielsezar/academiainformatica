@@ -145,7 +145,7 @@ export default function CanvaPage() {
           Actividad práctica
         </h2>
 
-        <div className="border p-6 rounded-xl bg-blue-50">
+        <div className="border p-6 rounded-xl">
           Diseñá un afiche publicitario para el producto elegido en tu proyecto
           multimedia. El afiche debe incluir:
           <ul className="list-disc list-inside mt-4 space-y-2">
