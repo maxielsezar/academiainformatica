@@ -29,8 +29,7 @@ export default function CursoCard({
   threshold={0.1}
   delay={0.5}
 >
-    <div className="group border border-gray-200 p-10 rounded-2xl hover:shadow-xl transition-all duration-300">
-      
+    <div className="group border border-gray-200 p-10 rounded-2xl hover:shadow-xl transition-all duration-300">   
 
       <h3 className="text-xl font-bold dark:text-blue-600 text-blue-900 mb-4 group-hover:text-blue-700 transition">
         {titulo}
