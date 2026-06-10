@@ -43,7 +43,7 @@ export default function ProyectoMultimediaPage() {
           Consigna de trabajo
         </h2>
 
-        <div className="border p-6 rounded-xl bg-blue-50">
+        <div className="border p-6 rounded-xl">
           Elegí un producto de tu interés (tecnológico, alimenticio, deportivo,
           educativo, artesanal, entre otros) y desarrollá una presentación
           multimedia que permita mostrar sus características, beneficios y
