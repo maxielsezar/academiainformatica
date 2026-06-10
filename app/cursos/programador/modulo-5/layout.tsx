@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
 };
   const temas = [
-    { titulo: "Introducción", slug: "nitroduccion" }, 
+    { titulo: "Introducción", slug: "introduccion" }, 
     { titulo: "Diagramas Entidad-Relación", slug: "entidad-relacion" }, 
     { titulo: "Claves Primarias y Foráneas", slug: "claves" }, 
   ];
