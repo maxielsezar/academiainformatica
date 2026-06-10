@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 const temas = [
   { titulo: "Proyecto Multimedia", slug: "proyecto" },
   { titulo: "Canva", slug: "canva" },
+ // { titulo: "Paginas web en Canva", slug: "pagina" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {

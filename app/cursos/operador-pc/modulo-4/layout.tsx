@@ -19,6 +19,7 @@ const temas = [
   { titulo: "Trabajo Colaborativo.", slug: "trabajo-colaborativo" },
   { titulo: "Formularios.", slug: "formularios" },
   { titulo: "Contactos.", slug: "contactos" },
+  { titulo: "Plug-in.", slug: "plugin" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

@@ -15,18 +15,6 @@ export default function PaginaWebCanvaPage() {
         </p>
       </section>
 
-      {/* Definición */}
-      <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
-          ¿Qué es Canva?
-        </h2>
-
-        <p className="leading-relaxed max-w-3xl">
-          Canva es una plataforma de diseño gráfico que funciona desde el navegador.
-          Permite crear contenidos visuales como posters, presentaciones, redes sociales
-          y también páginas web de una sola página (tipo scroll).
-        </p>
-      </section>
 
       {/* Características */}
       <section>
@@ -122,7 +110,7 @@ export default function PaginaWebCanvaPage() {
         <div className="border p-6 rounded-xl max-w-3xl">
           <p className="font-semibold mb-2">Actividad</p>
           Creá una página web en Canva sobre 
-          <strong> tu presentación personal</strong>. Debe incluir:
+          <strong> tu producto</strong>. Debe incluir:
           <ul className="list-disc list-inside mt-3 space-y-2">
             <li>Nombre y título</li>
             <li>Una breve descripción</li>
