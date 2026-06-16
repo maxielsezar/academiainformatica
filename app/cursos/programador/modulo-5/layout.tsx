@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     { titulo: "Diagramas Entidad-Relación", slug: "entidad-relacion" }, 
     { titulo: "Claves Primarias y Foráneas", slug: "claves" }, 
     { titulo: "JDBC", slug: "jdbc" }, 
+    { titulo: "CRUD", slug: "crud" }, 
   ];
  
 
