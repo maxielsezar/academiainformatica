@@ -259,7 +259,7 @@ while(rs.next()) {
           Organización Recomendada del Proyecto
         </h2>
 
-        <div className="border rounded-xl p-6 bg-gray-50 font-mono text-sm">
+        <pre className="border rounded-xl p-6 font-mono text-sm">
 {`src
 │
 ├── model
@@ -276,7 +276,7 @@ while(rs.next()) {
 ├── controller
 │
 └── view`}
-        </div>
+        </pre>
 
         <p className="leading-relaxed max-w-3xl mt-6">
           Más adelante utilizaremos la capa DAO para separar la lógica de acceso

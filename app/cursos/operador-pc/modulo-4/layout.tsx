@@ -22,6 +22,7 @@ const temas = [
   { titulo: "Plug-in.", slug: "plugin" },
   { titulo: "Conexion a Internet.", slug: "conexion" },
   { titulo: "Topologias de Redes.", slug: "redes" },
+  { titulo: "Cuestionario.", slug: "cuestionario" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
