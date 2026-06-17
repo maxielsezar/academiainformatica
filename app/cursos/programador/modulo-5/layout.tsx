@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     { titulo: "Claves Primarias y Foráneas", slug: "claves" }, 
     { titulo: "JDBC", slug: "jdbc" }, 
     { titulo: "CRUD", slug: "crud" }, 
+    { titulo: "SQLite", slug: "sqlite" }, 
   ];
  
 
