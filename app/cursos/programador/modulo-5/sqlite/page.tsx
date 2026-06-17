@@ -36,7 +36,7 @@ export default function SQLiteTablasPage() {
           una instalación compleja ni un servidor ejecutándose.
         </p>
 
-        <div className="border rounded-xl p-6 max-w-3xl mt-6 bg-gray-50">
+        <div className="border rounded-xl p-6 max-w-3xl mt-6">
           <p>
             Toda la base de datos se guarda dentro de un archivo con extensión
             <strong> .db </strong> o <strong>.sqlite</strong>.
@@ -196,7 +196,7 @@ export default function SQLiteTablasPage() {
         <div className="overflow-x-auto">
           <table className="border-collapse border border-gray-300">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th className="border p-3">Tipo</th>
                 <th className="border p-3">Descripción</th>
               </tr>
