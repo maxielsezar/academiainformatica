@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     { titulo: "JDBC", slug: "jdbc" }, 
     { titulo: "CRUD", slug: "crud" }, 
     { titulo: "SQLite", slug: "sqlite" }, 
+    { titulo: "JOIN", slug: "join" }, 
   ];
  
 
