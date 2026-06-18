@@ -14,6 +14,8 @@ const temas = [
   { titulo: "Interfaz de Power Point", slug: "interfaz" },
   { titulo: "Creación y guardado de presentaciones.", slug: "guardado" },
   { titulo: "Diseño y organización de diapositivas.", slug: "diseño" },
+  { titulo: "Temas y Plantillas en PowerPoint.", slug: "temas" },
+  { titulo: "Formato de Texto e Imágenes", slug: "texto-imagen" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
