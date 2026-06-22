@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     { titulo: "Operaciones básicas", slug: "crud" }, 
     { titulo: "Creación de base de datos SQLite", slug: "sqlite" }, 
     { titulo: "Unión de tablas", slug: "join" }, 
+    { titulo: "Funciones", slug: "funciones" }, 
   ];
  
 
