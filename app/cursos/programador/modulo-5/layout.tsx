@@ -14,10 +14,10 @@ export const metadata: Metadata = {
     { titulo: "Introducción", slug: "introduccion" }, 
     { titulo: "Diagramas Entidad-Relación", slug: "entidad-relacion" }, 
     { titulo: "Claves Primarias y Foráneas", slug: "claves" }, 
-    { titulo: "JDBC", slug: "jdbc" }, 
-    { titulo: "CRUD", slug: "crud" }, 
-    { titulo: "SQLite", slug: "sqlite" }, 
-    { titulo: "JOIN", slug: "join" }, 
+    { titulo: "Conectar la Base de datos", slug: "jdbc" }, 
+    { titulo: "Operaciones básicas", slug: "crud" }, 
+    { titulo: "Creación de base de datos SQLite", slug: "sqlite" }, 
+    { titulo: "Unión de tablas", slug: "join" }, 
   ];
  
 

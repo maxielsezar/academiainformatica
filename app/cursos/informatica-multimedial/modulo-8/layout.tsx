@@ -13,6 +13,7 @@ const temas = [
   { titulo: "Proyecto Multimedia", slug: "proyecto" },
   { titulo: "Canva", slug: "canva" },
   { titulo: "Paginas web en Canva", slug: "pagina" },
+  { titulo: "Entrevistas", slug: "entrevistas" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
