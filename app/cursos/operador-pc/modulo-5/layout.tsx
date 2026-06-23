@@ -16,6 +16,8 @@ const temas = [
   { titulo: "Diseño y organización de diapositivas.", slug: "diseño" },
   { titulo: "Temas y Plantillas en PowerPoint.", slug: "temas" },
   { titulo: "Formato de Texto e Imágenes", slug: "texto-imagen" },
+  { titulo: "Inserción de Tablas y Gráficos", slug: "tablas-graficos" },
+  { titulo: "Inserción de Audio y Video", slug: "audio-video" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
