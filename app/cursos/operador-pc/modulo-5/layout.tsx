@@ -18,6 +18,11 @@ const temas = [
   { titulo: "Formato de Texto e Imágenes", slug: "texto-imagen" },
   { titulo: "Inserción de Tablas y Gráficos", slug: "tablas-graficos" },
   { titulo: "Inserción de Audio y Video", slug: "audio-video" },
+  { titulo: "Transiciones entre Diapositivas", slug: "transiciones" },
+  { titulo: "Animaciones de Objetos", slug: "animaciones" },
+ /* { titulo: "Presentación con Diapositivas", slug: "presentacion" },
+  { titulo: "Exportación e Impresión", slug: "exportacion" },
+  { titulo: "Buenas Prácticas para Exposiciones", slug: "buenas-practicas" },*/
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
