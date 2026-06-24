@@ -19,7 +19,7 @@ const temas = [
   { titulo: "Inserción de Tablas y Gráficos", slug: "tablas-graficos" },
   { titulo: "Inserción de Audio y Video", slug: "audio-video" },
   { titulo: "Transiciones entre Diapositivas", slug: "transiciones" },
-  { titulo: "Animaciones de Objetos", slug: "animaciones" },
+  { titulo: "Animaciones de Objetos", slug: "animacion" },
  /* { titulo: "Presentación con Diapositivas", slug: "presentacion" },
   { titulo: "Exportación e Impresión", slug: "exportacion" },
   { titulo: "Buenas Prácticas para Exposiciones", slug: "buenas-practicas" },*/
