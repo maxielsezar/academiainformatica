@@ -62,7 +62,7 @@ export default function TransicionesEntreDiapositivasPage() {
 
           <table className="table-auto border border-gray-300 w-full">
 
-            <thead className="bg-blue-200">
+            <thead className="">
               <tr>
                 <th className="border px-4 py-2">
                   Transiciones
@@ -147,7 +147,7 @@ export default function TransicionesEntreDiapositivasPage() {
 
           <table className="table-auto border border-gray-300 w-full">
 
-            <thead className="bg-blue-200">
+            <thead className="">
               <tr>
                 <th className="border px-4 py-2">
                   Transición
@@ -230,7 +230,7 @@ export default function TransicionesEntreDiapositivasPage() {
 
           <table className="table-auto border border-gray-300 w-full">
 
-            <thead className="bg-blue-200">
+            <thead className="">
               <tr>
                 <th className="border px-4 py-2">
                   Configuración
