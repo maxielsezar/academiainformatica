@@ -384,7 +384,7 @@ export default function AnimacionesObjetosPage() {
               Actividad 4
             </p>
 
-            Diseña una presentación de 4 diapositivas incorporando animaciones
+            Diseña una presentación incorporando animaciones
             equilibradas.
           </div>
 
