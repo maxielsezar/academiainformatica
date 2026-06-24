@@ -19,6 +19,10 @@ export const metadata: Metadata = {
     { titulo: "Creación de base de datos SQLite", slug: "sqlite" }, 
     { titulo: "Unión de tablas", slug: "join" },
     { titulo: "Funciones", slug: "funciones" }, 
+    { titulo: "Transacciones ACID", slug: "acid" }, 
+  /*  { titulo: "Procedimientos almacenados", slug: "procedimientos" },
+    { titulo: "Vistas", slug: "vistas" }, 
+    { titulo: "Índices", slug: "indices" },*/
   ];
  
 
