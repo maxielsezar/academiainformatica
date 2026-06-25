@@ -14,6 +14,7 @@ const temas = [
   { titulo: "Canva", slug: "canva" },
   { titulo: "Paginas web en Canva", slug: "pagina" },
   { titulo: "Entrevistas", slug: "entrevistas" },
+  { titulo: "Portfolio", slug: "google-sites" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
