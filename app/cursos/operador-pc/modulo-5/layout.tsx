@@ -21,8 +21,7 @@ const temas = [
   { titulo: "Transiciones entre Diapositivas", slug: "transiciones" },
   { titulo: "Animaciones de Objetos", slug: "animacion" },
   { titulo: "Presentación con Diapositivas", slug: "presentacion" },
-  /* { titulo: "Exportación e Impresión", slug: "exportacion" },
-  { titulo: "Buenas Prácticas para Exposiciones", slug: "buenas-practicas" },*/
+  { titulo: "Buenas Prácticas para Exposiciones", slug: "exposicion" },
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
