@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     { titulo: "Unión de tablas", slug: "join" },
     { titulo: "Funciones", slug: "funciones" }, 
     { titulo: "Transacciones ACID", slug: "acid" }, 
+    { titulo: "Formas Normales y Normalización", slug: "normalizacion" },
   /*  { titulo: "Procedimientos almacenados", slug: "procedimientos" },
     { titulo: "Vistas", slug: "vistas" }, 
     { titulo: "Índices", slug: "indices" },*/
