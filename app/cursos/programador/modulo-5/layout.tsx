@@ -22,8 +22,9 @@ export const metadata: Metadata = {
     { titulo: "Transacciones ACID", slug: "acid" }, 
     { titulo: "Formas Normales y Normalización", slug: "normalizacion" },
     { titulo: "Vistas", slug: "vistas" },
+    { titulo: "Índices", slug: "indices" }
   /*  { titulo: "Procedimientos almacenados", slug: "procedimientos" },
-    { titulo: "Índices", slug: "indices" },*/
+    ,*/
   ];
  
 
