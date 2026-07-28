@@ -29,7 +29,19 @@ export default function CursosSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-2 gap-10">
+            <CursoCard
+            titulo="Programador"
+            descripcion="Fundamentos de programación y desarrollo"
+            duracion="364 horas"
+            slug="programador"
+          />
+          <CursoCard
+            titulo="Operador de Informática para Administración y Gestión"
+            descripcion="Herramientas informáticas aplicadas a entornos administrativos modernos."
+            duracion="250 horas"
+            slug="administracion"
+          />
           <CursoCard
             titulo="Informática Multimedial"
             descripcion="Diseño gráfico, edición de imágenes y producción multimedia."
@@ -42,13 +54,6 @@ export default function CursosSection() {
             descripcion="Manejo profesional de herramientas informáticas."
             duracion="125 horas"
             slug="operador-pc"
-          />
-
-          <CursoCard
-            titulo="Programador"
-            descripcion="Fundamentos de programación y desarrollo"
-            duracion="364 horas"
-            slug="programador"
           />
         </div>
       </div>

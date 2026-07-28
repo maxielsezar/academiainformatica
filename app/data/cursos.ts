@@ -159,4 +159,62 @@ export const cursos = {
       }
     ],
   },
+  administracion: {
+    titulo: "Operador de Informática para Administración y Gestión",
+    slug: "administracion",
+
+    descripcion:
+      "Formación profesional orientada al uso eficiente de herramientas informáticas aplicadas a la administración y gestión de organizaciones. El estudiante desarrolla competencias para elaborar documentos comerciales, administrar información, gestionar agendas, utilizar planillas de cálculo, comunicarse profesionalmente mediante Internet y diseñar presentaciones y publicaciones gráficas. El curso combina prácticas de oficina con situaciones reales de trabajo, preparando al alumno para desempeñarse en entornos administrativos modernos.",
+
+    perfilEgresado:
+      "El egresado estará capacitado para desempeñarse en tareas administrativas utilizando herramientas informáticas profesionales. Podrá elaborar documentos, administrar agendas, organizar información, realizar cálculos mediante planillas electrónicas, comunicarse por medios digitales, crear presentaciones multimedia y producir publicaciones gráficas, respondiendo a las necesidades de empresas, organismos públicos y organizaciones privadas.",
+
+    duracion: "250 horas",
+    modalidad: "Presencial",
+
+    modulos: [
+      {
+        id: 1,
+        titulo: "Entorno de la PC",
+        descripcion:
+          "Reconocimiento del hardware y software, manejo del sistema operativo, organización de archivos, instalación de programas, mantenimiento básico y resguardo de la información."
+      },
+      {
+        id: 2,
+        titulo: "Creación de documentos con procesador de textos",
+        descripcion:
+          "Producción de documentos profesionales utilizando herramientas avanzadas de edición, formato, tablas, imágenes, estilos, impresión y revisión ortográfica."
+      },
+      {
+        id: 3,
+        titulo: "Administración de agendas y organización del trabajo",
+        descripcion:
+          "Gestión de contactos, calendarios, reuniones, correspondencia, listas de distribución e intercambio de información entre distintas aplicaciones."
+      },
+      {
+        id: 4,
+        titulo: "Comunicación y búsqueda en Internet",
+        descripcion:
+          "Búsqueda eficiente de información, navegación segura, correo electrónico profesional, servicios en línea e intercambio de archivos mediante Internet."
+      },
+      {
+        id: 5,
+        titulo: "Planillas de cálculo para administración",
+        descripcion:
+          "Creación y administración de planillas electrónicas utilizando fórmulas, funciones, gráficos, filtros, bases de datos y herramientas para la toma de decisiones."
+      },
+      {
+        id: 6,
+        titulo: "Creación de presentaciones multimedia",
+        descripcion:
+          "Diseño de presentaciones profesionales integrando texto, imágenes, gráficos, audio, video, animaciones y transiciones para reuniones e informes."
+      },
+      {
+        id: 7,
+        titulo: "Publicaciones gráficas para informes y publicidad",
+        descripcion:
+          "Diseño de boletines, folletos, tarjetas, currículums, catálogos y publicaciones impresas utilizando herramientas de maquetación y comunicación visual."
+      }
+    ]
+  },
 };
