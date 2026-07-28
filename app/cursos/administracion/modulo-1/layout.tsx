@@ -15,7 +15,7 @@ const temas = [
   { titulo: "Hardware de la computadora", slug: "hardware" },
   { titulo: "Software y sistema operativo", slug: "software" },
   { titulo: "Componentes internos de la PC", slug: "componentes" },
-  { titulo: "Escritorio de Windows", slug: "escritorio-windows" },
+  { titulo: "Escritorio de Windows", slug: "escritorio-windows" },/*
   { titulo: "Explorador de archivos", slug: "explorador-archivos" },
   { titulo: "Panel de control y configuración", slug: "panel-control" },
   { titulo: "Instalación y desinstalación de programas", slug: "instalacion-programas" },
@@ -23,7 +23,7 @@ const temas = [
   { titulo: "Dispositivos de almacenamiento", slug: "almacenamiento" },
   { titulo: "Copias de seguridad (Backup)", slug: "backup" },
   { titulo: "Mantenimiento y limpieza de la PC", slug: "mantenimiento" },
-  { titulo: "Virus y antivirus", slug: "virus-antivirus" },
+  { titulo: "Virus y antivirus", slug: "virus-antivirus" },*/
 ];
 
 export default function Layout({

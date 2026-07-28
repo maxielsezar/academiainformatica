@@ -8,14 +8,15 @@ export default function IntroduccionInformaticaPage() {
           Introducción a la Informática
         </h1>
 
-        <p className=" leading-relaxed max-w-3xl">
-          La informática es la disciplina que se encarga del estudio,
-          desarrollo y uso de sistemas computacionales para procesar
-          información de manera automática.
+        <p className="leading-relaxed max-w-3xl">
+          La informática es la disciplina que se ocupa del procesamiento
+          automático de la información mediante el uso de computadoras,
+          programas y diferentes tecnologías digitales.
           <br /><br />
-          Hoy en día las computadoras se utilizan en casi todos los
-          ámbitos de la vida: educación, trabajo, comunicación,
-          entretenimiento y gestión de información.
+          En la actualidad, la informática está presente en prácticamente
+          todos los ámbitos de la sociedad y constituye una herramienta
+          fundamental para realizar tareas administrativas, organizar
+          información, comunicarse y desarrollar actividades laborales.
         </p>
       </section>
 
@@ -25,12 +26,15 @@ export default function IntroduccionInformaticaPage() {
           ¿Qué es la Informática?
         </h2>
 
-        <div className=" border p-6 rounded-xl ">
-          La palabra informática proviene de la combinación de los términos
-          <strong> información </strong> y <strong> automática </strong>.
+        <div className="border p-6 rounded-xl">
+          La palabra <strong>informática</strong> surge de la combinación
+          de los términos <strong>información</strong> y
+          <strong> automática</strong>.
           <br /><br />
-          Esto significa que la informática permite procesar información
-          de forma automática mediante el uso de computadoras y programas.
+          La informática permite procesar información de manera automática
+          mediante el uso de computadoras y programas. A través de ella es
+          posible almacenar, organizar, modificar y transmitir grandes
+          cantidades de información.
         </div>
       </section>
 
@@ -40,19 +44,52 @@ export default function IntroduccionInformaticaPage() {
           Importancia de la Informática
         </h2>
 
-        <p className=" leading-relaxed max-w-3xl">
-          La informática se ha convertido en una herramienta fundamental
-          en la sociedad moderna. Permite mejorar la eficiencia en el trabajo,
-          facilitar la comunicación y acceder a grandes cantidades de
-          información.
+        <p className="leading-relaxed max-w-3xl">
+          La informática es una herramienta fundamental para el desarrollo
+          de actividades personales, educativas y laborales. En las
+          organizaciones permite mejorar la productividad, organizar
+          información y facilitar diferentes procesos administrativos.
         </p>
 
-        <ul className="list-disc list-inside space-y-3  mt-6">
+        <ul className="list-disc list-inside space-y-3 mt-6">
           <li>Automatizar tareas repetitivas.</li>
-          <li>Almacenar grandes cantidades de información.</li>
-          <li>Acceder a internet y recursos digitales.</li>
-          <li>Facilitar el trabajo en empresas y organizaciones.</li>
-          <li>Permitir la comunicación a distancia.</li>
+          <li>Almacenar y organizar grandes cantidades de información.</li>
+          <li>Procesar datos para obtener información útil.</li>
+          <li>Facilitar la elaboración de documentos y planillas.</li>
+          <li>Permitir la comunicación mediante herramientas digitales.</li>
+          <li>Buscar y acceder a información a través de Internet.</li>
+          <li>Mejorar la organización y productividad en el trabajo.</li>
+        </ul>
+      </section>
+
+      {/* Informática en la administración */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          La Informática en la Administración y Gestión
+        </h2>
+
+        <div className="border p-6 rounded-xl">
+          En el ámbito administrativo, las herramientas informáticas
+          permiten realizar y organizar numerosas tareas que forman parte
+          de la actividad diaria de una empresa u organización.
+          <br /><br />
+          Un operador de informática puede utilizar una computadora para
+          crear documentos, administrar información, realizar cálculos,
+          organizar datos, gestionar archivos y comunicarse mediante
+          Internet.
+          <br /><br />
+          El conocimiento y manejo adecuado de estas herramientas permite
+          desarrollar las tareas de manera más rápida, ordenada y eficiente.
+        </div>
+
+        <ul className="list-disc list-inside space-y-3 mt-6">
+          <li>Crear documentos administrativos.</li>
+          <li>Organizar información de clientes y proveedores.</li>
+          <li>Realizar cálculos y operaciones mediante planillas.</li>
+          <li>Gestionar archivos y documentos digitales.</li>
+          <li>Crear informes y presentaciones.</li>
+          <li>Enviar y recibir comunicaciones electrónicas.</li>
+          <li>Buscar información necesaria para realizar diferentes tareas.</li>
         </ul>
       </section>
 
@@ -62,12 +99,57 @@ export default function IntroduccionInformaticaPage() {
           ¿Qué es una computadora?
         </h2>
 
-        <div className=" border p-6 rounded-xl ">
-          Una computadora es una máquina electrónica capaz de recibir,
-          procesar y almacenar información.
+        <div className="border p-6 rounded-xl">
+          Una computadora es un dispositivo electrónico capaz de recibir
+          datos, procesarlos mediante instrucciones y generar resultados
+          que pueden ser utilizados por una persona.
           <br /><br />
-          Funciona mediante programas que indican qué operaciones debe
-          realizar sobre los datos que recibe.
+          También permite almacenar información para utilizarla
+          posteriormente y comunicarse con otros dispositivos o sistemas.
+          <br /><br />
+          Para funcionar correctamente, una computadora necesita combinar
+          elementos físicos, llamados <strong>hardware</strong>, y programas
+          e instrucciones, llamados <strong>software</strong>.
+        </div>
+      </section>
+
+      {/* Datos e información */}
+      <section>
+        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+          Datos e Información
+        </h2>
+
+        <p className="leading-relaxed max-w-3xl">
+          La computadora trabaja constantemente con datos e información.
+          Aunque estos conceptos están relacionados, no significan
+          exactamente lo mismo.
+        </p>
+
+        <div className="border p-6 rounded-xl mt-6">
+
+          <p className="mb-2">
+            <strong>Dato</strong>
+          </p>
+          Un dato es un valor o elemento que representa una determinada
+          información y que puede ser procesado por una computadora.
+
+          <br /><br />
+
+          <p className="mb-2">
+            <strong>Información</strong>
+          </p>
+          La información es el resultado que se obtiene luego de procesar
+          y organizar determinados datos para que tengan un significado útil.
+
+          <br /><br />
+
+          <p className="mb-2">
+            <strong>Ejemplo</strong>
+          </p>
+          Los valores de las ventas realizadas durante un día son datos.
+          Al procesarlos y calcular el total de ventas obtenemos información
+          que puede utilizarse para analizar la actividad de una empresa.
+
         </div>
       </section>
 
@@ -77,25 +159,43 @@ export default function IntroduccionInformaticaPage() {
           Proceso de la Información
         </h2>
 
-        <p className=" mb-6">
-          El funcionamiento básico de una computadora se basa en tres etapas:
+        <p className="mb-6">
+          Una computadora puede realizar diferentes operaciones sobre los
+          datos. De manera general, podemos representar el procesamiento
+          de la información mediante las siguientes etapas:
         </p>
 
-        <div className=" border p-6 rounded-xl ">
+        <div className="border p-6 rounded-xl">
 
-          <p className="mb-2"><strong>Entrada de datos</strong></p>
-          Se ingresan datos mediante dispositivos como el teclado o el mouse.
-
-          <br /><br />
-
-          <p className="mb-2"><strong>Procesamiento</strong></p>
-          La computadora procesa la información mediante el procesador.
+          <p className="mb-2">
+            <strong>Entrada de datos</strong>
+          </p>
+          Se ingresan datos a la computadora mediante dispositivos como
+          el teclado, el mouse, un escáner o una cámara.
 
           <br /><br />
 
-          <p className="mb-2"><strong>Salida de información</strong></p>
-          Los resultados se muestran en dispositivos como el monitor
-          o la impresora.
+          <p className="mb-2">
+            <strong>Procesamiento</strong>
+          </p>
+          La computadora procesa los datos mediante el procesador y
+          diferentes programas.
+
+          <br /><br />
+
+          <p className="mb-2">
+            <strong>Salida de información</strong>
+          </p>
+          Los resultados obtenidos pueden visualizarse en un monitor,
+          imprimirse en papel o enviarse a otro dispositivo.
+
+          <br /><br />
+
+          <p className="mb-2">
+            <strong>Almacenamiento</strong>
+          </p>
+          La información puede guardarse en dispositivos como discos SSD,
+          discos rígidos, pendrives o servicios de almacenamiento en la nube.
 
         </div>
       </section>
@@ -106,23 +206,38 @@ export default function IntroduccionInformaticaPage() {
           Actividades Prácticas
         </h2>
 
-        <div className="space-y-6 ">
+        <div className="space-y-6">
 
-          <div className=" border p-6 rounded-xl">
-            <p className="font-semibold mb-2">Actividad 1</p>
-            Explicar con tus propias palabras qué es la informática.
+          <div className="border p-6 rounded-xl">
+            <p className="font-semibold mb-2">
+              Actividad 1
+            </p>
+            Explicar con tus propias palabras qué es la informática y cuál
+            es su importancia en la actualidad.
           </div>
 
-          <div className=" border p-6 rounded-xl">
-            <p className="font-semibold mb-2">Actividad 2</p>
-            Escribir tres ejemplos de situaciones cotidianas donde
-            se utilice una computadora.
+          <div className="border p-6 rounded-xl">
+            <p className="font-semibold mb-2">
+              Actividad 2
+            </p>
+            Escribir cinco ejemplos de situaciones laborales o administrativas
+            en las que se utilice una computadora.
           </div>
 
-          <div className=" border p-6 rounded-xl">
-            <p className="font-semibold mb-2">Actividad 3</p>
-            Identificar los tres pasos del proceso de la información
-            (entrada, procesamiento y salida) en un ejemplo práctico.
+          <div className="border p-6 rounded-xl">
+            <p className="font-semibold mb-2">
+              Actividad 3
+            </p>
+            Explicar la diferencia entre un dato y la información,
+            utilizando un ejemplo relacionado con una actividad administrativa.
+          </div>
+
+          <div className="border p-6 rounded-xl">
+            <p className="font-semibold mb-2">
+              Actividad 4
+            </p>
+            Identificar las etapas de entrada, procesamiento, salida y
+            almacenamiento en una situación cotidiana.
           </div>
 
         </div>
@@ -134,13 +249,22 @@ export default function IntroduccionInformaticaPage() {
           Desafío Integrador
         </h2>
 
-        <div className=" border-l-4 border-blue-700 p-6 rounded-xl ">
-          Pensar en una actividad cotidiana (por ejemplo escribir un
-          documento o buscar información en internet) e identificar:
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl">
+          Imagina que comienzas a trabajar como operador de informática
+          en una oficina administrativa.
           <br /><br />
-          ✔ Qué datos se ingresan en la computadora. <br />
-          ✔ Qué proceso realiza el sistema. <br />
-          ✔ Qué resultado se obtiene.
+          Tu tarea consiste en registrar las ventas realizadas durante
+          una jornada de trabajo y preparar un informe.
+          <br /><br />
+
+          Identifica:
+          <br /><br />
+
+          ✔ Qué datos ingresarías en la computadora. <br />
+          ✔ Qué programa podrías utilizar para trabajar con esos datos. <br />
+          ✔ Qué procesamiento realizaría la computadora. <br />
+          ✔ Qué información obtendrías como resultado. <br />
+          ✔ Dónde guardarías el informe generado.
         </div>
       </section>
 
