@@ -21,8 +21,8 @@ const temas = [
   { titulo: "Instalación y desinstalación de programas", slug: "instalacion-programas" },
   { titulo: "Organización de archivos y carpetas", slug: "archivos-carpetas" },
   { titulo: "Dispositivos de almacenamiento", slug: "almacenamiento" },
-  /*{ titulo: "Copias de seguridad (Backup)", slug: "backup" },
-  { titulo: "Mantenimiento y limpieza de la PC", slug: "mantenimiento" },
+  { titulo: "Copias de seguridad (Backup)", slug: "backup" },
+  /*{ titulo: "Mantenimiento y limpieza de la PC", slug: "mantenimiento" },
   { titulo: "Virus y antivirus", slug: "virus-antivirus" },*/
 ];
 
