@@ -14,11 +14,11 @@ const temas = [
   {
     titulo: "Introducción al procesador de textos",
     slug: "introduccion",
-  },/*
+  },
   {
     titulo: "Interfaz y herramientas",
     slug: "interfaz-herramientas",
-  },
+  },/*
   {
     titulo: "Crear, abrir y guardar documentos",
     slug: "crear-abrir-guardar",
