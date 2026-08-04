@@ -24,7 +24,7 @@ const temas = [
   { titulo: "Copias de seguridad (Backup)", slug: "backup" },
   { titulo: "Mantenimiento y limpieza de la PC", slug: "mantenimiento" },
   { titulo: "Virus y antivirus", slug: "virus-antivirus" },
-  { titulo: "Cuestionario", slug: "cuestionario" },
+ // { titulo: "Cuestionario", slug: "cuestionario" },
 ];
 
 export default function Layout({
