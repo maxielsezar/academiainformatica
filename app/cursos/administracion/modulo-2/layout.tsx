@@ -14,7 +14,7 @@ const temas = [
   {
     titulo: "Introducción al procesador de textos",
     slug: "introduccion",
-  },
+  },/*
   {
     titulo: "Interfaz y herramientas",
     slug: "interfaz-herramientas",
@@ -66,7 +66,7 @@ const temas = [
   {
     titulo: "Impresión y exportación de documentos",
     slug: "impresion-exportacion",
-  },
+  },*/
 ];
 
 export default function Layout({
@@ -76,10 +76,10 @@ export default function Layout({
 }) {
   return (
     <CursoLayout
-      tituloCurso="Operador de PC"
-      cursoPath="/cursos/operador-pc"
+      tituloCurso="Operador de Informática para Administración y Gestión"
+      cursoPath="/cursos/administracion"
       tituloModulo="Módulo 2 - Procesador de Textos"
-      basePath="/cursos/operador-pc/modulo-2"
+      basePath="/cursos/administracion/modulo-2"
       temas={temas}
     >
       {children}
