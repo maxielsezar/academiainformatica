@@ -260,11 +260,6 @@ const preguntas: Pregunta[] = [
     respuesta: true,
   },
 
-  {
-    texto:
-      "Es importante verificar periódicamente que las copias de seguridad puedan restaurarse correctamente.",
-    respuesta: true,
-  },
 
   // Mantenimiento
   {
