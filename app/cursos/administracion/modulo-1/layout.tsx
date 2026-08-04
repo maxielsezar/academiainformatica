@@ -23,7 +23,7 @@ const temas = [
   { titulo: "Dispositivos de almacenamiento", slug: "almacenamiento" },
   { titulo: "Copias de seguridad (Backup)", slug: "backup" },
   { titulo: "Mantenimiento y limpieza de la PC", slug: "mantenimiento" },
-  /*{ titulo: "Virus y antivirus", slug: "virus-antivirus" },*/
+  { titulo: "Virus y antivirus", slug: "virus-antivirus" },
 ];
 
 export default function Layout({
