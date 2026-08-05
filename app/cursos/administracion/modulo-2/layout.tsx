@@ -26,11 +26,11 @@ const temas = [
   {
     titulo: "Edición y formato de texto",
     slug: "edicion-formato",
-  },/*
+  },
   {
     titulo: "Párrafos y alineación",
     slug: "parrafos-alineacion",
-  },
+  },/*
   {
     titulo: "Listas y viñetas",
     slug: "listas-vinetas",
