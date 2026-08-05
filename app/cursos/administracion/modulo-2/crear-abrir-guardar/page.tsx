@@ -30,8 +30,7 @@ export default function CrearAbrirGuardarPage() {
           redactar un nuevo contenido.
           <br /><br />
           Generalmente esta opción se encuentra en el menú <strong>Archivo</strong>,
-          seleccionando <strong>Nuevo</strong>, o mediante el atajo
-          <strong> Ctrl + N</strong>.
+          seleccionando <strong>Nuevo</strong>
           <br /><br />
           Al crear un documento nuevo se abre una página en blanco lista para
           comenzar a escribir.
