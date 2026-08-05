@@ -18,11 +18,11 @@ const temas = [
   {
     titulo: "Interfaz y herramientas",
     slug: "interfaz-herramientas",
-  },/*
+  },
   {
     titulo: "Crear, abrir y guardar documentos",
     slug: "crear-abrir-guardar",
-  },
+  },/*
   {
     titulo: "Edición y formato de texto",
     slug: "edicion-formato",
