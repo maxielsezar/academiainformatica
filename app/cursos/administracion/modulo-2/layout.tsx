@@ -22,11 +22,11 @@ const temas = [
   {
     titulo: "Crear, abrir y guardar documentos",
     slug: "crear-abrir-guardar",
-  },/*
+  },
   {
     titulo: "Edición y formato de texto",
     slug: "edicion-formato",
-  },
+  },/*
   {
     titulo: "Párrafos y alineación",
     slug: "parrafos-alineacion",
