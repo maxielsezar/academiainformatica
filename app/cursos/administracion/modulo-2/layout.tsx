@@ -38,11 +38,11 @@ const temas = [
   {
     titulo: "Tablas",
     slug: "tablas",
-  },/*
+  },
   {
     titulo: "Imágenes y elementos gráficos",
     slug: "imagenes",
-  },
+  },/*
   {
     titulo: "Encabezados y pies de página",
     slug: "encabezados-pies",
