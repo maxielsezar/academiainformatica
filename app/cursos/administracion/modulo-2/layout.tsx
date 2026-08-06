@@ -34,11 +34,11 @@ const temas = [
   {
     titulo: "Listas y viñetas",
     slug: "listas-vinetas",
-  },/*
+  },
   {
     titulo: "Tablas",
     slug: "tablas",
-  },
+  },/*
   {
     titulo: "Imágenes y elementos gráficos",
     slug: "imagenes",
