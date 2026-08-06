@@ -2,7 +2,7 @@ import CursoLayout from "@/app/components/CursoLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Curso de Operador de PC - Módulo 2",
+  title: "Curso de Operador de Informática - Módulo 2",
   description:
     "Módulo 2 del Curso de Operador de Informática para Administración y Gestión. Procesador de textos y elaboración de documentos administrativos.",
   icons: {
@@ -30,11 +30,11 @@ const temas = [
   {
     titulo: "Párrafos y alineación",
     slug: "parrafos-alineacion",
-  },/*
+  },
   {
     titulo: "Listas y viñetas",
     slug: "listas-vinetas",
-  },
+  },/*
   {
     titulo: "Tablas",
     slug: "tablas",
