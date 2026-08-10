@@ -42,11 +42,11 @@ const temas = [
   {
     titulo: "Imágenes y elementos gráficos",
     slug: "imagenes",
-  },/*
+  },
   {
     titulo: "Encabezados y pies de página",
     slug: "encabezados-pies",
-  },
+  },/*
   {
     titulo: "Configuración de página",
     slug: "configuracion-pagina",
