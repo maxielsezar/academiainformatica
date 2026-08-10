@@ -46,11 +46,11 @@ const temas = [
   {
     titulo: "Encabezados y pies de página",
     slug: "encabezados-pies",
-  },/*
+  },
   {
     titulo: "Configuración de página",
     slug: "configuracion-pagina",
-  },
+  },/*
   {
     titulo: "Documentos administrativos",
     slug: "documentos-administrativos",
