@@ -50,11 +50,11 @@ const temas = [
   {
     titulo: "Configuración de página",
     slug: "configuracion-pagina",
-  },/*
+  },
   {
     titulo: "Documentos administrativos",
     slug: "documentos-administrativos",
-  },
+  },/*
   {
     titulo: "Cartas y notas formales",
     slug: "cartas-notas",
