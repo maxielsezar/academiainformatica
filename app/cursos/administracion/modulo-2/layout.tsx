@@ -54,11 +54,11 @@ const temas = [
   {
     titulo: "Documentos administrativos",
     slug: "documentos-administrativos",
-  },/*
+  },
   {
     titulo: "Cartas y notas formales",
     slug: "cartas-notas",
-  },
+  },/*
   {
     titulo: "Revisión y corrección de documentos",
     slug: "revision-correccion",
