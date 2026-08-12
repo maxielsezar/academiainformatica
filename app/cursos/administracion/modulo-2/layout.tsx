@@ -62,7 +62,13 @@ const temas = [
   {
     titulo: "Formularios",
     slug: "formularios",
-  },/*
+  },
+  
+   {
+    titulo: "Informe administrativo",
+    slug: "informe",
+  },
+  /*
   {
     titulo: "Revisión y corrección de documentos",
     slug: "revision-correccion",
