@@ -75,6 +75,10 @@ const temas = [
      {
     titulo: "Acta administrativa",
     slug: "acta",
+  },   
+  {
+    titulo: "Curriculum vitae",
+    slug: "cv",
   },
   /*
   {
