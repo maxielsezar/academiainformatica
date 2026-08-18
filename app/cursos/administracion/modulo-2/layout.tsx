@@ -83,7 +83,12 @@ const temas = [
   {
     titulo: "Actividad: Curriculum vitae",
     slug: "actividad-cv",
+  },  
+  {
+    titulo: "Titulos y Tabla de contenido",
+    slug: "titulos-tabla-contenido",
   },
+  
   /*
   {
     titulo: "Revisión y corrección de documentos",
