@@ -88,11 +88,13 @@ const temas = [
     titulo: "Titulos y Tabla de contenido",
     slug: "titulos-tabla-contenido",
   },
-  
- 
   {
     titulo: "Revisión y corrección de documentos",
     slug: "revision-correccion",
+  },
+  {
+    titulo: "Carta de Presentación",
+    slug: "carta-presentacion",
   }, /*
   {
     titulo: "Impresión y exportación de documentos",
