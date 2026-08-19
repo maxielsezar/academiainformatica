@@ -89,11 +89,11 @@ const temas = [
     slug: "titulos-tabla-contenido",
   },
   
-  /*
+ 
   {
     titulo: "Revisión y corrección de documentos",
     slug: "revision-correccion",
-  },
+  }, /*
   {
     titulo: "Impresión y exportación de documentos",
     slug: "impresion-exportacion",
