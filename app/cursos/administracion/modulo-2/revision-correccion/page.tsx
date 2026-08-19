@@ -460,7 +460,7 @@ export default function RevisionCorreccionPage() {
             de un documento administrativo.
             <br /><br />
               <a
-                href={"/archivos/Documentos_administrativo_con_errores.docx"}
+                href={"/archivos/Documento_administrativo_con_errores.docx"}
                 download
                 className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-medium transition"
               >
