@@ -98,7 +98,7 @@ const temas = [
   },
   {
     titulo: "Hipervinculos",
-    slug: "hipervinculos",
+    slug: "hipervinculo",
   }, /*
   {
     titulo: "Impresión y exportación de documentos",
