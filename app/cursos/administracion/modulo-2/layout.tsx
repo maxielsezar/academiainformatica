@@ -95,6 +95,10 @@ const temas = [
   {
     titulo: "Carta de Presentación",
     slug: "carta-presentacion",
+  },
+  {
+    titulo: "Hipervinculos",
+    slug: "hipervinculos",
   }, /*
   {
     titulo: "Impresión y exportación de documentos",
