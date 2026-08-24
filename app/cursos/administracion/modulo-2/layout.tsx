@@ -103,7 +103,13 @@ const temas = [
    {
     titulo: "Diccionarios",
     slug: "diccionarios",
-  }, /*
+  },
+    {
+    titulo: "Actividades Integradoras",
+    slug: "actividades-integradoras",
+  },
+  
+  /*
   {
     titulo: "Impresión y exportación de documentos",
     slug: "impresion-exportacion",
