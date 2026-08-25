@@ -108,6 +108,10 @@ const temas = [
     titulo: "Actividades Integradoras",
     slug: "actividades-integradoras",
   },
+  {
+    titulo: "Mecanografía y velocidad de escritura",
+    slug: "mecanografia",
+  },
   
   /*
   {
