@@ -1,5 +1,6 @@
 
 import CursoLayout from "@/app/components/CursoLayout";
+import { time } from "console";
 
 import type { Metadata } from "next";
 
@@ -22,7 +23,8 @@ export const metadata: Metadata = {
     { titulo: "Transacciones ACID", slug: "acid" }, 
     { titulo: "Formas Normales y Normalización", slug: "normalizacion" },
     { titulo: "Vistas", slug: "vistas" },
-    { titulo: "Índices", slug: "indices" }
+    { titulo: "Índices", slug: "indices" },
+    {titulo: "Actividad", slug: "actividad"},
   /*  { titulo: "Procedimientos almacenados", slug: "procedimientos" },
     ,*/
   ];
