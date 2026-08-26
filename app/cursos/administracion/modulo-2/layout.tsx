@@ -112,6 +112,10 @@ const temas = [
     titulo: "Mecanografía y velocidad de escritura",
     slug: "mecanografia",
   },
+   {
+    titulo: "Trabajo práctico integrador",
+    slug: "practico",
+  },
   
   /*
   {
