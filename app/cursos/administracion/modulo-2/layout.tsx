@@ -116,7 +116,10 @@ const temas = [
     titulo: "Trabajo práctico integrador",
     slug: "practico",
   },
-  
+  {
+    titulo: "Cuestionario",
+    slug: "cuestionario",
+  }
   /*
   {
     titulo: "Impresión y exportación de documentos",
