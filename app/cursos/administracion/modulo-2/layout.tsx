@@ -1,4 +1,5 @@
 import CursoLayout from "@/app/components/CursoLayout";
+import { time } from "console";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -115,6 +116,10 @@ const temas = [
    {
     titulo: "Trabajo práctico integrador",
     slug: "practico",
+  },
+  {
+    titulo: "Informe de Solicitud de Práctica Profesionalizante",
+    slug: "solicitud",
   },
   {
     titulo: "Cuestionario",
