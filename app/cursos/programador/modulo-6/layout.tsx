@@ -38,11 +38,11 @@ const temas = [
   {
     titulo: "Diagramas de Contexto",
     slug: "diagramas-contexto",
-  },/*
+  },
   {
     titulo: "Especificación de Procedimientos",
     slug: "procedimientos",
-  },
+  },/*
   {
     titulo: "Procedimientos de Instalación",
     slug: "instalacion",
