@@ -30,11 +30,11 @@ const temas = [
   {
     titulo: "Arquitectura del Sistema",
     slug: "arquitectura",
-  },/*
+  },
   {
     titulo: "Diagramas de Casos de Uso",
     slug: "casos-uso",
-  },
+  },/*
   {
     titulo: "Diagramas de Contexto",
     slug: "diagramas-contexto",
