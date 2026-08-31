@@ -222,7 +222,7 @@ export default function CasosUsoPage() {
               Representa la interacción entre un actor y un caso de uso.
             </p>
 
-            <div className="bg-blue-50 border rounded-lg p-4 mt-4">
+            <div className=" border rounded-lg p-4 mt-4">
               <p>
                 Usuario → Registrar cliente
               </p>
@@ -239,7 +239,7 @@ export default function CasosUsoPage() {
               caso de uso como parte de su funcionamiento.
             </p>
 
-            <div className="bg-blue-50 border rounded-lg p-4 mt-4">
+            <div className=" border rounded-lg p-4 mt-4">
               <p>
                 Registrar venta → &lt;&lt;include&gt;&gt; → Validar stock
               </p>
