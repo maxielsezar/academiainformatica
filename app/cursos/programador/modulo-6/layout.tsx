@@ -43,10 +43,13 @@ const temas = [
     titulo: "Especificación de Procedimientos",
     slug: "procedimientos",
   },
-
-    {
+  {
     titulo: "Diagramas de Secuencia",
     slug: "diagramas-secuencias",
+  },
+  {
+    titulo: "Diagramas de Actividad",
+    slug: "diagramas-actividad",
   },
   /*
   {
