@@ -166,7 +166,7 @@ export default function DiagramasSecuenciaPage() {
           comunicaciones se muestran mediante flechas.
         </p>
 
-        <div className="bg-gray-50 border rounded-xl p-6 mt-6 max-w-4xl">
+        <div className=" border rounded-xl p-6 mt-6 max-w-4xl">
           <p className="font-semibold mb-4">
             Ejemplo simplificado:
           </p>
@@ -298,7 +298,7 @@ Vendedor`}
           capas o componentes.
         </p>
 
-        <div className="bg-gray-50 border rounded-xl p-6 mt-6 max-w-4xl">
+        <div className=" border rounded-xl p-6 mt-6 max-w-4xl">
           <p className="font-semibold mb-4">
             Ejemplo de una arquitectura por capas:
           </p>
