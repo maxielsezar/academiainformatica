@@ -40,7 +40,7 @@ export default function DiagramasSecuenciaPage() {
           cómo se desarrolla una operación paso a paso.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-600 p-5 rounded-r-lg mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-600 p-5 rounded-r-lg mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900">
             Idea clave
           </p>
@@ -254,7 +254,7 @@ Vendedor`}
 
         <div className="grid md:grid-cols-2 gap-6 mt-6 max-w-4xl">
 
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className=" border border-blue-200 rounded-xl p-6">
             <h3 className="font-bold text-blue-900 mb-3">
               Caso de uso
             </h3>
@@ -268,7 +268,7 @@ Vendedor`}
             </p>
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <div className=" border border-blue-200 rounded-xl p-6">
             <h3 className="font-bold text-blue-900 mb-3">
               Diagrama de secuencia
             </h3>
@@ -399,7 +399,7 @@ Vendedor`}
           Actividad práctica
         </h2>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-4xl">
+        <div className=" border border-blue-200 rounded-xl p-6 max-w-4xl">
           <h3 className="text-xl font-semibold text-blue-900 mb-4">
             Diseñar un diagrama de secuencia
           </h3>
