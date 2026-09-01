@@ -22,6 +22,10 @@ const temas = [
     titulo: "Correo electrónico",
     slug: "email",
   },
+  {
+    titulo: "Listas de destinatarios",
+    slug: "listas-destinatarios",
+  },
   
   /*
   {
@@ -49,10 +53,7 @@ const temas = [
     titulo: "Organización de la correspondencia",
     slug: "organizacion-correspondencia",
   },
-  {
-    titulo: "Listas de destinatarios",
-    slug: "listas-destinatarios",
-  },
+  
   {
     titulo: "Comunicación grupal",
     slug: "comunicacion-grupal",
