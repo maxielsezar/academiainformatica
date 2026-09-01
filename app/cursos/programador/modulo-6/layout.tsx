@@ -46,7 +46,7 @@ const temas = [
 
     {
     titulo: "Diagramas de Secuencia",
-    slug: "diagramas-secuencia",
+    slug: "diagramas-secuencias",
   },
   /*
   {
