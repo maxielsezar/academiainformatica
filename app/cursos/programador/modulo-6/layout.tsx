@@ -51,11 +51,11 @@ const temas = [
     titulo: "Diagramas de Actividad",
     slug: "diagramas-actividad",
   },
-  /*
+  
   {
     titulo: "Procedimientos de Instalación",
     slug: "instalacion",
-  },
+  },/*
   {
     titulo: "Procedimientos de Prueba",
     slug: "pruebas",
