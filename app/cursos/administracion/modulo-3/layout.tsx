@@ -30,6 +30,10 @@ const temas = [
     titulo: "Google Drive y almacenamiento en la nube",
     slug: "google-drive-almacenamiento",
   },
+  {
+    titulo: "Google Calendar y administración de agendas",
+    slug: "google-calendar-agendas",
+  }
   
 
   
