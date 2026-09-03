@@ -55,7 +55,13 @@ const temas = [
   {
     titulo: "Procedimientos de Instalación",
     slug: "instalacion",
-  },/*
+  },
+  {
+    titulo: "Documentación técnica",
+    slug: "documentacion-tecnica",
+  },
+  
+  /*
   {
     titulo: "Procedimientos de Prueba",
     slug: "pruebas",
