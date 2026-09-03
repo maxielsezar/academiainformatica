@@ -38,7 +38,7 @@ export default function CursosSection() {
           />
           <CursoCard
             titulo="Operador de Informática para Administración y Gestión"
-            descripcion="Herramientas informáticas aplicadas a entornos administrativos modernos."
+            descripcion="Herramientas informáticas aplicadas a entornos administrativos."
             duracion="250 horas"
             slug="administracion"
           />

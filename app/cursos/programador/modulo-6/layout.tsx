@@ -60,6 +60,10 @@ const temas = [
     titulo: "Documentación técnica",
     slug: "documentacion-tecnica",
   },
+   {
+    titulo: "Documentación de Usuario",
+    slug: "documentacion-usuario",
+  },
   
   /*
   {
