@@ -33,6 +33,10 @@ const temas = [
   {
     titulo: "Google Calendar y administración de agendas",
     slug: "google-calendar-agendas",
+  },
+    {
+    titulo: "Formularios de Google y recopilación de información",
+    slug: "formularios",
   }
   
 
