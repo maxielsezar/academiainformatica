@@ -37,6 +37,10 @@ const temas = [
     {
     titulo: "Formularios de Google y recopilación de información",
     slug: "formularios",
+  },
+    {
+    titulo: "Cuestionario de Google y evaluación de conocimientos",
+    slug: "cuestionario",
   }
   
 
