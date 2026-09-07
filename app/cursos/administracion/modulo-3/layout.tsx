@@ -43,43 +43,6 @@ const temas = [
     slug: "cuestionario",
   }
   
-
-  
-  /*
-  {
-    titulo: "Buscadores web",
-    slug: "buscadores",
-  },
-  {
-    titulo: "Catalogación y discriminación de búsquedas",
-    slug: "catalogacion-busquedas",
-  },
-  {
-    titulo: "Guardar páginas para referencia",
-    slug: "guardar-paginas",
-  },
-  
-  {
-    titulo: "Enviar, recibir y responder mensajes",
-    slug: "mensajes",
-  },
-  {
-    titulo: "Archivos adjuntos",
-    slug: "archivos-adjuntos",
-  },
-  {
-    titulo: "Organización de la correspondencia",
-    slug: "organizacion-correspondencia",
-  },
-  
-  {
-    titulo: "Comunicación grupal",
-    slug: "comunicacion-grupal",
-  },
-  {
-    titulo: "Prácticas integradoras",
-    slug: "practicas",
-  },*/
 ];
 
 export default function Layout({
