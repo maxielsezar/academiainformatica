@@ -21,11 +21,11 @@ const temas = [
   {
     slug: "direcciones-internet",
     titulo: "Direcciones de Internet",
-  },/*
+  },
   {
     slug: "motores-busqueda",
     titulo: "Motores de búsqueda",
-  },
+  },/*
   {
     slug: "metabuscadores",
     titulo: "Metabuscadores",
@@ -92,8 +92,8 @@ import CursoLayout from "@/app/components/CursoLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Administración de agendas y herramientas de apoyo",
-  description: "Módulo 3 - Operador de Informática para Administración y Gestión",
+  title: "Comunicación y Búsqueda en Internet - Módulo 4",
+  description: "Módulo 4 - Operador de Informática para Administración y Gestión",
   icons: {
     icon: "/logo.png",
   },
