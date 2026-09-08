@@ -13,7 +13,7 @@ const temas = [
   {
     slug: "funciones-navegador",
     titulo: "Funciones y herramientas del navegador",
-  },/*
+  },
   {
     slug: "filtros",
     titulo: "Filtros y búsqueda",
@@ -21,7 +21,7 @@ const temas = [
   {
     slug: "direcciones-internet",
     titulo: "Direcciones de Internet",
-  },
+  },/*
   {
     slug: "motores-busqueda",
     titulo: "Motores de búsqueda",
