@@ -34,6 +34,10 @@ const temas = [
     slug: "seguridad-internet",
     titulo: "Seguridad en Internet",
   },
+   {
+    slug: "conexiones-seguras",
+    titulo: "Conexiones seguras",
+  },
   /*
   {
     slug: "metabuscadores",
@@ -61,17 +65,14 @@ const temas = [
     titulo: "Correo electrónico",
   },
  
-  {
-    slug: "conexiones-seguras",
-    titulo: "Conexiones seguras",
-  },
+ 
   {
     slug: "firewalls",
     titulo: "Firewalls",
   },
   {
     slug: "autenticacion-mensajes",
-    titulo: "Autenticación de mensajes",
+    titulo: "Autenticación de mensajes",-
   },
   {
     slug: "archivos-ejecutables",
