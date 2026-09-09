@@ -25,7 +25,16 @@ const temas = [
   {
     slug: "motores-busqueda",
     titulo: "Motores de búsqueda",
-  },/*
+  },
+   {
+    slug: "servicios-internet",
+    titulo: "Servicios de Internet",
+  },
+   {
+    slug: "seguridad-internet",
+    titulo: "Seguridad en Internet",
+  },
+  /*
   {
     slug: "metabuscadores",
     titulo: "Metabuscadores",
@@ -42,10 +51,7 @@ const temas = [
     slug: "guardar-paginas",
     titulo: "Guardar páginas web",
   },
-  {
-    slug: "servicios-internet",
-    titulo: "Servicios de Internet",
-  },
+ 
   {
     slug: "intercambio-archivos",
     titulo: "Intercambio de archivos",
@@ -54,10 +60,7 @@ const temas = [
     slug: "correo-electronico",
     titulo: "Correo electrónico",
   },
-  {
-    slug: "seguridad-internet",
-    titulo: "Seguridad en Internet",
-  },
+ 
   {
     slug: "conexiones-seguras",
     titulo: "Conexiones seguras",
