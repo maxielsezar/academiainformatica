@@ -42,6 +42,10 @@ const temas = [
     slug: "firewalls",
     titulo: "Firewalls",
   },
+  {
+    slug: "archivos-ejecutables",
+    titulo: "Archivos ejecutables",
+  },
   /*
   {
     slug: "metabuscadores",
@@ -75,10 +79,7 @@ const temas = [
     slug: "autenticacion-mensajes",
     titulo: "Autenticación de mensajes",-
   },
-  {
-    slug: "archivos-ejecutables",
-    titulo: "Archivos ejecutables",
-  },
+  
   {
     slug: "buenas-practicas-seguridad",
     titulo: "Buenas prácticas de seguridad",
