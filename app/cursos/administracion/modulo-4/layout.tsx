@@ -46,7 +46,15 @@ const temas = [
     slug: "archivos-ejecutables",
     titulo: "Archivos ejecutables",
   },
-  /*
+   {
+    slug: "buenas-practicas-seguridad",
+    titulo: "Buenas prácticas de seguridad",
+  }, /*
+  { 
+    slug: "conexiones-internet", 
+    titulo: "Conexiones a Internet: Wi-Fi y Ethernet" 
+  },
+ 
   {
     slug: "metabuscadores",
     titulo: "Metabuscadores",
@@ -80,10 +88,7 @@ const temas = [
     titulo: "Autenticación de mensajes",-
   },
   
-  {
-    slug: "buenas-practicas-seguridad",
-    titulo: "Buenas prácticas de seguridad",
-  },
+ 
   {
     slug: "actividad-integradora",
     titulo: "Actividad integradora",
