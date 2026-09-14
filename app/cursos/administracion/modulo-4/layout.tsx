@@ -49,12 +49,12 @@ const temas = [
    {
     slug: "buenas-practicas-seguridad",
     titulo: "Buenas prácticas de seguridad",
-  }, /*
+  }, 
   { 
     slug: "conexiones-internet", 
     titulo: "Conexiones a Internet: Wi-Fi y Ethernet" 
   },
- 
+ /*
   {
     slug: "metabuscadores",
     titulo: "Metabuscadores",
