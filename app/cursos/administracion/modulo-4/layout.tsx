@@ -54,6 +54,10 @@ const temas = [
     slug: "conexiones-internet", 
     titulo: "Conexiones a Internet: Wi-Fi y Ethernet" 
   },
+  {
+    slug: "actividad-integradora",
+    titulo: "Actividad integradora",
+  },
  /*
   {
     slug: "metabuscadores",
@@ -89,10 +93,7 @@ const temas = [
   },
   
  
-  {
-    slug: "actividad-integradora",
-    titulo: "Actividad integradora",
-  },
+  
   {
     slug: "quiz",
     titulo: "Cuestionario del Módulo 4",
