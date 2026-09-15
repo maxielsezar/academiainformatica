@@ -412,7 +412,6 @@ export default function ActividadIntegradoraPage() {
             <li>Medidas para el intercambio seguro de archivos.</li>
             <li>Recomendaciones para el uso del correo electrónico.</li>
             <li>Análisis de situaciones de riesgo.</li>
-            <li>Decálogo de seguridad informática.</li>
             <li>Conclusión.</li>
           </ol>
         </div>
