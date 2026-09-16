@@ -57,47 +57,11 @@ const temas = [
   {
     slug: "actividad-integradora",
     titulo: "Actividad integradora",
-  },
- /*
+  },  
   {
-    slug: "metabuscadores",
-    titulo: "Metabuscadores",
-  },
-  {
-    slug: "busquedas-eficientes",
-    titulo: "Búsquedas eficientes",
-  },
-  {
-    slug: "catalogar-resultados",
-    titulo: "Catalogar y discriminar resultados",
-  },
-  {
-    slug: "guardar-paginas",
-    titulo: "Guardar páginas web",
-  },
- 
-  {
-    slug: "intercambio-archivos",
-    titulo: "Intercambio de archivos",
-  },
-  {
-    slug: "correo-electronico",
-    titulo: "Correo electrónico",
-  },
- 
- 
-
-  {
-    slug: "autenticacion-mensajes",
-    titulo: "Autenticación de mensajes",-
-  },
-  
- 
-  
-  {
-    slug: "quiz",
+    slug: "cuestionario",
     titulo: "Cuestionario del Módulo 4",
-  },*/
+  },
 ];
 
 import CursoLayout from "@/app/components/CursoLayout";
