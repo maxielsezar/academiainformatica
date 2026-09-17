@@ -9,11 +9,11 @@ const temas = [
   {
     slug: "interfaz",
     titulo: "Interfaz y herramientas",
-  },/*
+  },
   {
     slug: "libros-hojas",
     titulo: "Libros y hojas de cálculo",
-  },
+  },/*
   {
     slug: "datos",
     titulo: "Tipos de datos",

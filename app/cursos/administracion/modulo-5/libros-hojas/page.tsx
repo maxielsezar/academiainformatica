@@ -440,8 +440,7 @@ export default function LibrosHojasPage() {
 
           <br /><br />
 
-          Finalmente, deberás explicar por qué decidiste organizar la
-          información de esa manera y qué ventajas ofrece utilizar un único
+          Finalmente, deberás explicar qué ventajas ofrece utilizar un único
           libro con varias hojas en lugar de crear un archivo independiente
           para cada categoría.
 
