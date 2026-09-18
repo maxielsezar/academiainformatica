@@ -30,11 +30,11 @@ export default function CursosSection() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-            <CursoCard
-            titulo="Programador"
-            descripcion="Fundamentos de programación y desarrollo"
-            duracion="364 horas"
-            slug="programador"
+           <CursoCard
+            titulo="Operador de Bases de Datos para Oficina"
+            descripcion="Administración y gestión de bases de datos relacionales para entornos de oficina."
+            duracion="125 horas"
+            slug="bases-de-datos"
           />
           <CursoCard
             titulo="Operador de Informática para Administración y Gestión"
@@ -42,6 +42,13 @@ export default function CursosSection() {
             duracion="250 horas"
             slug="administracion"
           />
+            <CursoCard
+            titulo="Programador"
+            descripcion="Fundamentos de programación y desarrollo"
+            duracion="364 horas"
+            slug="programador"
+          />
+          
           <CursoCard
             titulo="Informática Multimedial"
             descripcion="Diseño gráfico, edición de imágenes y producción multimedia."

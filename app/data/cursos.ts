@@ -1,4 +1,41 @@
 export const cursos = {
+  basesDatos: {
+    titulo: "Operador de Bases de Datos para Oficina",
+    slug: "bases-de-datos",
+    descripcion:
+      "Formación profesional orientada a la administración y gestión de bases de datos relacionales para entornos de oficina. El estudiante desarrolla competencias para analizar requerimientos, diseñar estructuras de datos, crear tablas y relaciones, aplicar reglas de normalización e integridad referencial, generar consultas y desarrollar formularios e informes.",
+    perfilEgresado:
+      "El egresado estará capacitado para administrar herramientas de gestión de bases de datos relacionales en entornos de oficina, desarrollar interfaces entre la información y el usuario, generar consultas y reportes, aplicar reglas de normalización e integridad referencial y mantener bases de datos de complejidad adecuada para organizaciones.",
+    duracion: "125 horas",
+    modalidad: "Presencial",
+
+    modulos: [
+      {
+        id: 1,
+        titulo: "Bases de datos",
+        descripcion:
+          "Conceptos fundamentales de bases de datos, tablas, campos, propiedades, claves principales y secundarias, relaciones, normalización e integridad referencial utilizando Microsoft Access."
+      },
+      {
+        id: 2,
+        titulo: "Análisis y diseño del sistema",
+        descripcion:
+          "Análisis de sistemas, definición de objetivos y requerimientos, diseño de estructuras de información, diagramas entidad-relación y planificación de proyectos."
+      },
+      {
+        id: 3,
+        titulo: "Interface con el usuario",
+        descripcion:
+          "Creación y diseño de formularios e informes en Microsoft Access, utilizando asistentes, controles, cuadros de texto, cuadros combinados, cuadros de lista, pestañas, imágenes, botones y otras herramientas."
+      },
+      {
+        id: 4,
+        titulo: "Programación",
+        descripcion:
+          "Introducción a la programación aplicada a bases de datos mediante algoritmos, variables, estructuras de control e iteración, procedimientos, funciones, macros y consultas QBE y SQL."
+      }
+    ]
+  },
   programador: {
     titulo: "Curso de Programador",
     slug:"programador",
