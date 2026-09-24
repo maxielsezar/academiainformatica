@@ -19,7 +19,7 @@ const temas = [
     titulo: "Tipos de datos",
   },
   {
-    slug: "formato-celdas",
+    slug: "formato-celda",
     titulo: "Formato de celdas",
   },/*
   {
