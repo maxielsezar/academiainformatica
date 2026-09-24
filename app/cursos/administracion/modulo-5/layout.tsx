@@ -17,11 +17,11 @@ const temas = [
   {
     slug: "datos",
     titulo: "Tipos de datos",
-  },/*
+  },
   {
     slug: "formato-celdas",
     titulo: "Formato de celdas",
-  },
+  },/*
   {
     slug: "formulas",
     titulo: "Fórmulas",
