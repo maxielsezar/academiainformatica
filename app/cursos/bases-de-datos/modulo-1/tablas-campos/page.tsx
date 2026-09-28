@@ -50,19 +50,19 @@ export default function TablasCamposPage() {
         </h2>
 
         <div className="overflow-x-auto max-w-3xl">
-          <table className="w-full border-collapse border border-blue-200">
+          <table className="w-full border-collapse border">
             <thead>
               <tr className="bg-blue-800 text-white">
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   ID
                 </th>
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Nombre
                 </th>
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Apellido
                 </th>
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Teléfono
                 </th>
               </tr>
@@ -70,28 +70,28 @@ export default function TablasCamposPage() {
 
             <tbody>
               <tr>
-                <td className="border border-blue-200 px-4 py-3">1</td>
-                <td className="border border-blue-200 px-4 py-3">Juan</td>
-                <td className="border border-blue-200 px-4 py-3">Pérez</td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">1</td>
+                <td className="border px-4 py-3">Juan</td>
+                <td className="border px-4 py-3">Pérez</td>
+                <td className="border px-4 py-3">
                   2945-123456
                 </td>
               </tr>
 
               <tr>
-                <td className="border border-blue-200 px-4 py-3">2</td>
-                <td className="border border-blue-200 px-4 py-3">María</td>
-                <td className="border border-blue-200 px-4 py-3">Gómez</td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">2</td>
+                <td className="border px-4 py-3">María</td>
+                <td className="border px-4 py-3">Gómez</td>
+                <td className="border px-4 py-3">
                   2945-654321
                 </td>
               </tr>
 
               <tr>
-                <td className="border border-blue-200 px-4 py-3">3</td>
-                <td className="border border-blue-200 px-4 py-3">Carlos</td>
-                <td className="border border-blue-200 px-4 py-3">López</td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">3</td>
+                <td className="border px-4 py-3">Carlos</td>
+                <td className="border px-4 py-3">López</td>
+                <td className="border px-4 py-3">
                   2945-789012
                 </td>
               </tr>
@@ -188,16 +188,16 @@ export default function TablasCamposPage() {
         </p>
 
         <div className="overflow-x-auto max-w-3xl mt-6">
-          <table className="w-full border-collapse border border-blue-200">
+          <table className="w-full border-collapse border">
             <thead>
               <tr className="bg-blue-800 text-white">
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Campo
                 </th>
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Tipo de información
                 </th>
-                <th className="border border-blue-200 px-4 py-3 text-left">
+                <th className="border px-4 py-3 text-left">
                   Ejemplo
                 </th>
               </tr>
@@ -205,49 +205,49 @@ export default function TablasCamposPage() {
 
             <tbody>
               <tr>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Nombre
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Texto
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   María
                 </td>
               </tr>
 
               <tr>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Edad
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Número
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   35
                 </td>
               </tr>
 
               <tr>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Fecha de nacimiento
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Fecha
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   15/08/1991
                 </td>
               </tr>
 
               <tr>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Activo
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Sí/No
                 </td>
-                <td className="border border-blue-200 px-4 py-3">
+                <td className="border px-4 py-3">
                   Sí
                 </td>
               </tr>
@@ -286,7 +286,7 @@ export default function TablasCamposPage() {
         <div className="space-y-8 max-w-3xl">
 
           {/* Actividad 1 */}
-          <div className="border border-blue-200 rounded-xl p-6">
+          <div className="border rounded-xl p-6">
             <h3 className="text-xl font-bold text-blue-900 mb-3">
               Actividad 1: Identificar tablas y campos
             </h3>
@@ -306,7 +306,7 @@ export default function TablasCamposPage() {
           </div>
 
           {/* Actividad 2 */}
-          <div className="border border-blue-200 rounded-xl p-6">
+          <div className="border rounded-xl p-6">
             <h3 className="text-xl font-bold text-blue-900 mb-3">
               Actividad 2: Diferenciar campos y registros
             </h3>
@@ -316,19 +316,19 @@ export default function TablasCamposPage() {
             </p>
 
             <div className="overflow-x-auto mb-5">
-              <table className="w-full border-collapse border border-blue-200">
+              <table className="w-full border-collapse border">
                 <thead>
                   <tr className="bg-blue-800 text-white">
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Nombre
                     </th>
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Apellido
                     </th>
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       DNI
                     </th>
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Teléfono
                     </th>
                   </tr>
@@ -336,31 +336,31 @@ export default function TablasCamposPage() {
 
                 <tbody>
                   <tr>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       Laura
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       Fernández
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       32145678
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       2945-111111
                     </td>
                   </tr>
 
                   <tr>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       Pedro
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       González
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       28765432
                     </td>
-                    <td className="border border-blue-200 px-4 py-3">
+                    <td className="border px-4 py-3">
                       2945-222222
                     </td>
                   </tr>
@@ -377,7 +377,7 @@ export default function TablasCamposPage() {
           </div>
 
           {/* Actividad 3 */}
-          <div className="border border-blue-200 rounded-xl p-6">
+          <div className="border rounded-xl p-6">
             <h3 className="text-xl font-bold text-blue-900 mb-3">
               Actividad 3: Determinar propiedades
             </h3>
@@ -389,16 +389,16 @@ export default function TablasCamposPage() {
             </p>
 
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border border-blue-200">
+              <table className="w-full border-collapse border">
                 <thead>
                   <tr className="bg-blue-800 text-white">
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Campo
                     </th>
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Tipo de dato
                     </th>
-                    <th className="border border-blue-200 px-4 py-3 text-left">
+                    <th className="border px-4 py-3 text-left">
                       Ejemplo
                     </th>
                   </tr>
@@ -414,13 +414,13 @@ export default function TablasCamposPage() {
                     ["Activo", "", "Sí"],
                   ].map(([campo, tipo, ejemplo]) => (
                     <tr key={campo}>
-                      <td className="border border-blue-200 px-4 py-3">
+                      <td className="border px-4 py-3">
                         {campo}
                       </td>
-                      <td className="border border-blue-200 px-4 py-3">
+                      <td className="border px-4 py-3">
                         {tipo || "________________"}
                       </td>
-                      <td className="border border-blue-200 px-4 py-3">
+                      <td className="border px-4 py-3">
                         {ejemplo}
                       </td>
                     </tr>
@@ -435,7 +435,7 @@ export default function TablasCamposPage() {
           </div>
 
           {/* Actividad 4 */}
-          <div className="border border-blue-200 rounded-xl p-6">
+          <div className="border rounded-xl p-6">
             <h3 className="text-xl font-bold text-blue-900 mb-3">
               Actividad 4: Diseñar una tabla
             </h3>
@@ -463,7 +463,7 @@ export default function TablasCamposPage() {
           </div>
 
           {/* Actividad 5 */}
-          <div className="border border-blue-200 rounded-xl p-6">
+          <div className="border rounded-xl p-6">
             <h3 className="text-xl font-bold text-blue-900 mb-3">
               Actividad 5: Crear una tabla en Access
             </h3>
@@ -546,7 +546,7 @@ export default function TablasCamposPage() {
             </li>
           </ol>
 
-          <div className="bg-white border border-blue-200 rounded-xl p-5 mt-6">
+          <div className="bg-white border rounded-xl p-5 mt-6">
             <p className="font-semibold text-blue-900 mb-2">
               Entrega final
             </p>
