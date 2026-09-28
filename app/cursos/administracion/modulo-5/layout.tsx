@@ -25,11 +25,11 @@ const temas = [
   {
     slug: "formulas",
     titulo: "Fórmulas",
-  },/*
+  },
   {
     slug: "operaciones",
     titulo: "Operaciones y cálculos",
-  },
+  },/*
   {
     slug: "referencias",
     titulo: "Referencias de celdas",
