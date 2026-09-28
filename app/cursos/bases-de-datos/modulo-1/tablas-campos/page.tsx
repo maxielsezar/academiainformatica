@@ -99,7 +99,7 @@ export default function TablasCamposPage() {
           </table>
         </div>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             Para recordar
           </p>
@@ -157,7 +157,7 @@ export default function TablasCamposPage() {
           ejemplo, cada registro puede representar a un cliente diferente.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             Ejemplo
           </p>
@@ -492,7 +492,7 @@ export default function TablasCamposPage() {
           Actividad Integradora
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
 
           <h3 className="text-xl font-bold text-blue-900 mb-4">
             Diseñar la base de datos de una oficina
@@ -546,7 +546,7 @@ export default function TablasCamposPage() {
             </li>
           </ol>
 
-          <div className="bg-white border rounded-xl p-5 mt-6">
+          <div className=" border rounded-xl p-5 mt-6">
             <p className="font-semibold text-blue-900 mb-2">
               Entrega final
             </p>
