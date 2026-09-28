@@ -43,7 +43,7 @@ export default function IntroduccionPage() {
           utilización y consulta.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             Ejemplo
           </p>
@@ -96,7 +96,7 @@ export default function IntroduccionPage() {
           la información y evitar la repetición innecesaria de datos.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             Ejemplo
           </p>
@@ -206,7 +206,7 @@ export default function IntroduccionPage() {
               Compará las siguientes dos situaciones:
             </p>
 
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-5">
+            <div className=" border border-blue-200 rounded-xl p-5 mb-5">
               <p className="font-semibold text-blue-900 mb-2">
                 Situación A
               </p>
@@ -218,7 +218,7 @@ export default function IntroduccionPage() {
               </p>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+            <div className=" border border-blue-200 rounded-xl p-5">
               <p className="font-semibold text-blue-900 mb-2">
                 Situación B
               </p>
@@ -318,7 +318,7 @@ export default function IntroduccionPage() {
           Actividad Integradora
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
 
           <h3 className="text-xl font-bold text-blue-900 mb-4">
             Analizar las necesidades de información de una organización
@@ -374,7 +374,7 @@ export default function IntroduccionPage() {
             </li>
           </ol>
 
-          <div className="bg-white border border-blue-200 rounded-xl p-5 mt-6">
+          <div className=" border border-blue-200 rounded-xl p-5 mt-6">
             <p className="font-semibold text-blue-900 mb-2">
               Producto final
             </p>

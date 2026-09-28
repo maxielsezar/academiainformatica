@@ -548,7 +548,7 @@ export default function TablasCamposPage() {
 
           <div className="bg-white border border-blue-200 rounded-xl p-5 mt-6">
             <p className="font-semibold text-blue-900 mb-2">
-              Producto final
+              Entrega final
             </p>
 
             <p className="leading-relaxed">

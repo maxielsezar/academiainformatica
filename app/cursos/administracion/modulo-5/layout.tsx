@@ -33,11 +33,11 @@ const temas = [
   {
     slug: "referencias",
     titulo: "Referencias de celdas",
-  },/*
+  },
   {
     slug: "funciones",
     titulo: "Funciones",
-  },
+  },/*
   {
     slug: "funciones-matematicas",
     titulo: "Funciones matemáticas",

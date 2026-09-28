@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 const temas = [
-  { titulo: "Introducción a las bases de datos", slug: "introduccion" },/*
-  { titulo: "Tablas, campos y propiedades", slug: "tablas-campos" },
+  { titulo: "Introducción a las bases de datos", slug: "introduccion" },
+  { titulo: "Tablas, campos y propiedades", slug: "tablas-campos" },/*
   { titulo: "Claves principales y secundarias", slug: "claves" },
   { titulo: "Relaciones entre tablas", slug: "relaciones" },
   { titulo: "Normalización de bases de datos", slug: "normalizacion" },
