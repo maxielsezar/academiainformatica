@@ -54,7 +54,7 @@ export default function ReferenciasPage() {
             50:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =A1+B1
           </pre>
 
@@ -81,7 +81,7 @@ export default function ReferenciasPage() {
             Por ejemplo, si en <strong>C2</strong> tenemos:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =A2+B2
           </pre>
 
@@ -89,7 +89,7 @@ export default function ReferenciasPage() {
             Al copiar la fórmula hacia <strong>C3</strong>, se transformará en:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =A3+B3
           </pre>
 
@@ -115,7 +115,7 @@ export default function ReferenciasPage() {
         <div className="border p-6 rounded-xl space-y-4">
           <p>Ejemplo:</p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =$A$1
           </pre>
 
@@ -144,7 +144,7 @@ export default function ReferenciasPage() {
             puede utilizar:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =A2*$B$1
           </pre>
 
@@ -199,7 +199,7 @@ export default function ReferenciasPage() {
         <div className="border p-6 rounded-xl space-y-4">
           <p>Por ejemplo:</p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             A1:A10
           </pre>
 
@@ -209,7 +209,7 @@ export default function ReferenciasPage() {
 
           <p>Un rango también puede utilizarse dentro de funciones:</p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =SUMA(A1:A10)
           </pre>
         </div>
@@ -232,7 +232,7 @@ export default function ReferenciasPage() {
             un valor en B5:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className=" p-4 rounded-lg overflow-x-auto">
             =Ventas!B5
           </pre>
 
