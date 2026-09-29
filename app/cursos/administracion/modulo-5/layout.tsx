@@ -41,11 +41,11 @@ const temas = [
   {
     slug: "funciones-matematicas",
     titulo: "Funciones matemáticas",
-  },/*
+  },
   {
     slug: "funciones-logicas",
     titulo: "Funciones lógicas",
-  },
+  },/*
   {
     slug: "ordenar-datos",
     titulo: "Ordenar datos",
