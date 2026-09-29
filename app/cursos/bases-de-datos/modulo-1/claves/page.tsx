@@ -40,7 +40,7 @@ export default function ClavesPage() {
           otro.
         </p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             Ejemplo
           </p>
@@ -278,7 +278,7 @@ export default function ClavesPage() {
           </table>
         </div>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 p-5 rounded-r-xl mt-6 max-w-3xl">
           <p className="font-semibold text-blue-900 mb-2">
             ¿Qué sucede aquí?
           </p>
@@ -548,7 +548,7 @@ export default function ClavesPage() {
           Actividad Integradora
         </h2>
 
-        <div className="bg-blue-50 border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
+        <div className=" border-l-4 border-blue-800 rounded-r-xl p-6 max-w-3xl">
 
           <h3 className="text-xl font-bold text-blue-900 mb-4">
             Diseñar las claves de una base de datos
@@ -598,7 +598,7 @@ export default function ClavesPage() {
             </li>
           </ol>
 
-          <div className="bg-white border border-blue-200 rounded-xl p-5 mt-6">
+          <div className=" border border-blue-200 rounded-xl p-5 mt-6">
             <p className="font-semibold text-blue-900 mb-2">
               Producto final
             </p>
