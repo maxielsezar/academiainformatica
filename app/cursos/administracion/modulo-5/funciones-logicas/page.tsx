@@ -121,13 +121,13 @@ export default function FuncionesLogicasPage() {
         <div className="border p-6 rounded-xl space-y-4">
           <p>Su estructura básica es:</p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(condición;valor_si_verdadero;valor_si_falso)
           </pre>
 
           <p>Por ejemplo:</p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(A2&gt;=60;"Aprobado";"Desaprobado")
           </pre>
 
@@ -154,7 +154,7 @@ export default function FuncionesLogicasPage() {
             Por ejemplo, para determinar si una factura está vencida:
           </p>
 
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(B2&lt;HOY();"Vencida";"Vigente")
           </pre>
 
@@ -178,7 +178,7 @@ export default function FuncionesLogicasPage() {
         </p>
 
         <div className="border p-6 rounded-xl space-y-4">
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =Y(A2&gt;=18;B2="Activo")
           </pre>
 
@@ -201,7 +201,7 @@ export default function FuncionesLogicasPage() {
         </p>
 
         <div className="border p-6 rounded-xl space-y-4">
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =O(A2="Pendiente";A2="Vencida")
           </pre>
 
@@ -224,7 +224,7 @@ export default function FuncionesLogicasPage() {
         </p>
 
         <div className="border p-6 rounded-xl space-y-4">
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(Y(B2&gt;=10000;C2="Activo");"Beneficio";"Sin beneficio")
           </pre>
 
@@ -248,7 +248,7 @@ export default function FuncionesLogicasPage() {
         </p>
 
         <div className="border p-6 rounded-xl space-y-4">
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(O(B2="Urgente";B2="Prioritario");"Atender";"Normal")
           </pre>
 
@@ -271,7 +271,7 @@ export default function FuncionesLogicasPage() {
         </p>
 
         <div className="border p-6 rounded-xl space-y-4">
-          <pre className="bg-blue-50 p-4 rounded-lg overflow-x-auto">
+          <pre className="p-4 rounded-lg overflow-x-auto">
             =SI(A2&gt;=90;"Excelente";SI(A2&gt;=60;"Aprobado";"Desaprobado"))
           </pre>
 
