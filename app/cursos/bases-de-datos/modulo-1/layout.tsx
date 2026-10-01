@@ -15,8 +15,8 @@ const temas = [
   { titulo: "Tablas, campos y propiedades", slug: "tablas-campos" },
   { titulo: "Claves principales y secundarias", slug: "claves" },
   { titulo: "Relaciones entre tablas", slug: "relaciones" },
-  { titulo: "Normalización de bases de datos", slug: "normalizacion" },/*
-  { titulo: "Integridad referencial", slug: "integridad-referencial" },*/
+  { titulo: "Normalización de bases de datos", slug: "normalizacion" },
+  { titulo: "Integridad referencial", slug: "integridad-referencial" },
 ];
 
 export default function Layout({
