@@ -53,7 +53,16 @@ const temas = [
    {
     slug: "funciones-fecha",
     titulo: "Funciones de fecha",
+  }, 
+   {
+    slug: "funciones-busqueda",
+    titulo: "Funciones de búsqueda y referencia",
   },/*
+  {
+    slug: "tablas",
+    titulo: "Tablas y gestión de datos",
+  },
+  
   {
     slug: "ordenar-datos",
     titulo: "Ordenar datos",
@@ -62,10 +71,7 @@ const temas = [
     slug: "filtros",
     titulo: "Filtros",
   },
-  {
-    slug: "tablas",
-    titulo: "Tablas y gestión de datos",
-  },
+ 
   {
     slug: "graficos",
     titulo: "Gráficos",
