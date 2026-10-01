@@ -49,11 +49,11 @@ const temas = [
   {
     slug: "funciones-texto",
     titulo: "Funciones de texto",
-  },/*
+  },
    {
     slug: "funciones-fecha",
     titulo: "Funciones de fecha",
-  },
+  },/*
   {
     slug: "ordenar-datos",
     titulo: "Ordenar datos",
