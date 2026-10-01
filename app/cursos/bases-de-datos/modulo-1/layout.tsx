@@ -17,6 +17,7 @@ const temas = [
   { titulo: "Relaciones entre tablas", slug: "relaciones" },
   { titulo: "Normalización de bases de datos", slug: "normalizacion" },
   { titulo: "Integridad referencial", slug: "integridad-referencial" },
+  { titulo: "Actividad", slug: "actividad" },
 ];
 
 export default function Layout({
