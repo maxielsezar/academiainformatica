@@ -61,12 +61,12 @@ const temas = [
   {
     slug: "tablas",
     titulo: "Tablas y gestión de datos",
-  },/*
-  
+  },
   {
     slug: "ordenar-datos",
     titulo: "Ordenar datos",
-  },
+  },/*
+  
   {
     slug: "filtros",
     titulo: "Filtros",
