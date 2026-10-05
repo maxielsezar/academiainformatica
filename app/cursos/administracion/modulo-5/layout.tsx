@@ -57,11 +57,11 @@ const temas = [
    {
     slug: "funciones-busqueda",
     titulo: "Funciones de búsqueda y referencia",
-  },/*
+  },
   {
     slug: "tablas",
     titulo: "Tablas y gestión de datos",
-  },
+  },/*
   
   {
     slug: "ordenar-datos",
