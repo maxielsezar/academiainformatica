@@ -18,7 +18,7 @@ const temas = [
   { titulo: "Normalización de bases de datos", slug: "normalizacion" },
   { titulo: "Integridad referencial", slug: "integridad-referencial" },
   { titulo: "Actividad", slug: "actividad" },
- //  { titulo: "Examen del Modulo 1", slug: "examen" },
+  { titulo: "Examen del Modulo 1", slug: "examen" },
 ];
 
 export default function Layout({
