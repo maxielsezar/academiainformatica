@@ -65,13 +65,13 @@ const temas = [
   {
     slug: "ordenar-datos",
     titulo: "Ordenar datos",
-  },/*
+  },
   
   {
     slug: "filtros",
     titulo: "Filtros",
   },
- 
+ /*
   {
     slug: "graficos",
     titulo: "Gráficos",
