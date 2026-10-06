@@ -14,7 +14,7 @@ const temas = [
   {
     titulo: "Análisis del sistema",
     slug: "analisis-sistema",
-  },
+  },/*
   {
     titulo: "Análisis estructurado",
     slug: "analisis-estructurado",
@@ -34,7 +34,7 @@ const temas = [
   {
     titulo: "Planificación del proyecto",
     slug: "planificacion-proyecto",
-  },
+  },*/
 ];
 
 export default function Layout({
