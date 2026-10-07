@@ -75,7 +75,13 @@ const temas = [
   {
     slug: "graficos",
     titulo: "Gráficos",
-  }, /*
+  },
+  {
+    slug: "tablas-dinamicas",
+    titulo: "Tablas dinámicas",
+  },
+  
+  /*
   {
     slug: "impresion",
     titulo: "Impresión y presentación",
