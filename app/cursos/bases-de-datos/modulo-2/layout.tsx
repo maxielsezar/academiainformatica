@@ -14,11 +14,11 @@ const temas = [
   {
     titulo: "Análisis del sistema",
     slug: "analisis-sistema",
-  },/*
+  },
   {
     titulo: "Análisis estructurado",
     slug: "analisis-estructurado",
-  },
+  },/*
   {
     titulo: "Objetivos del sistema",
     slug: "objetivos-sistema",
