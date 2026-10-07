@@ -71,11 +71,11 @@ const temas = [
     slug: "filtros",
     titulo: "Filtros",
   },
- /*
+
   {
     slug: "graficos",
     titulo: "Gráficos",
-  },
+  }, /*
   {
     slug: "impresion",
     titulo: "Impresión y presentación",
