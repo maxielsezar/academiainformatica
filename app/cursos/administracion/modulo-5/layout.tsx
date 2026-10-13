@@ -84,11 +84,11 @@ const temas = [
   {
     slug: "impresion",
     titulo: "Impresión y presentación",
-  },/*
+  },
   {
     slug: "practicas",
     titulo: "Prácticas integradoras",
-  },
+  },/*
   {
     slug: "actividad-integradora",
     titulo: "Actividad integradora",
