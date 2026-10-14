@@ -47,7 +47,7 @@ export default function ObjetivosSistemaPage() {
           informática.
         </p>
 
-        <div className="border-l-4 border-blue-700 bg-blue-50 p-5 rounded-r-xl max-w-3xl">
+        <div className="border-l-4 border-blue-700  p-5 rounded-r-xl max-w-3xl">
           <h3 className="text-xl font-bold text-blue-900 mb-3">
             Ejemplo
           </h3>
@@ -320,7 +320,7 @@ export default function ObjetivosSistemaPage() {
           Actividad integradora: Definir los objetivos del sistema
         </h2>
 
-        <div className="border-l-4 border-blue-700 bg-blue-50 p-6 rounded-r-xl max-w-4xl">
+        <div className="border-l-4 border-blue-700  p-6 rounded-r-xl max-w-4xl">
           <p className="leading-relaxed mb-4">
             Continuando con el sistema trabajado en las páginas anteriores,
             elaborá el apartado de objetivos del proyecto.
