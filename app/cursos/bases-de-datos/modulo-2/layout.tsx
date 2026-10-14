@@ -26,11 +26,11 @@ const temas = [
   {
     titulo: "Requerimientos del sistema",
     slug: "requerimientos",
-  },/*
+  },
   {
     titulo: "Diagrama de entidad-relación",
     slug: "diagrama-entidad-relacion",
-  },
+  },/*
   {
     titulo: "Planificación del proyecto",
     slug: "planificacion-proyecto",
