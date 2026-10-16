@@ -30,11 +30,11 @@ const temas = [
   {
     titulo: "Diagrama de entidad-relación",
     slug: "diagrama-entidad-relacion",
-  },/*
+  },
   {
     titulo: "Planificación del proyecto",
     slug: "planificacion-proyecto",
-  },*/
+  },
 ];
 
 export default function Layout({
