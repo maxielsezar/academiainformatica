@@ -35,6 +35,10 @@ const temas = [
     titulo: "Planificación del proyecto",
     slug: "planificacion-proyecto",
   },
+  {
+    titulo: "Cuestionario",
+    slug: "cuestionario",
+  },
 ];
 
 export default function Layout({
