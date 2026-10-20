@@ -265,7 +265,7 @@ const preguntas: Pregunta[] = [
     texto:
       "La planificación del proyecto debe realizarse sin considerar los requerimientos identificados durante el análisis.",
     respuesta: false,
-  },
+  },/*
   {
     texto:
       "Para diseñar un sistema administrativo es importante comprender el problema, determinar las necesidades y organizar una posible solución.",
@@ -280,7 +280,7 @@ const preguntas: Pregunta[] = [
     texto:
       "El análisis y diseño del sistema son innecesarios cuando se utiliza una base de datos para almacenar información.",
     respuesta: false,
-  },
+  },*/
 ];
 
 export default function Page() {

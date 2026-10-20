@@ -94,7 +94,7 @@ const temas = [
     titulo: "Actividad integradora",
   },
   {
-    slug: "quiz",
+    slug: "cuestionario",
     titulo: "Cuestionario del Módulo 5",
   },*/
 ];
