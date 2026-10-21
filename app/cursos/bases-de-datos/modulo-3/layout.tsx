@@ -9,11 +9,11 @@ export default function Modulo3Layout({
     {
       titulo: "Introducción a la interfaz con el usuario",
       slug: "introduccion-interfaz",
-    },/*
+    },
     {
       titulo: "Concepto y utilidad de los formularios",
       slug: "concepto-formularios",
-    },
+    },/*
     {
       titulo: "Creación de formularios",
       slug: "creacion-formularios",

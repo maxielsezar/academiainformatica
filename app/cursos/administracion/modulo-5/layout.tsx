@@ -92,11 +92,11 @@ const temas = [
   {
     slug: "actividad-integradora",
     titulo: "Actividad integradora",
-  },
+  },*/
   {
     slug: "cuestionario",
     titulo: "Cuestionario del Módulo 5",
-  },*/
+  },
 ];
 
 import CursoLayout from "@/app/components/CursoLayout";
