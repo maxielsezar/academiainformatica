@@ -174,7 +174,7 @@ export default function ConceptoFormulariosPage() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border border-blue-200">
             <thead>
-              <tr className="bg-blue-100">
+              <tr className="bg-blue-500">
                 <th className="border border-blue-200 p-3 text-left">
                   Característica
                 </th>
