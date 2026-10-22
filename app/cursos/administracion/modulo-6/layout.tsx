@@ -8,11 +8,11 @@ const temas = [
   {
     slug: "interfaz",
     titulo: "Interfaz y herramientas del editor",
-  },/*
+  },
   {
     slug: "diseno-diapositivas",
     titulo: "Diseño y estructura de diapositivas",
-  },
+  },/*
   {
     slug: "textos-imagenes-graficos",
     titulo: "Textos, imágenes y gráficos",
