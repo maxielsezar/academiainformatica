@@ -12,11 +12,11 @@ const temas = [
   {
     slug: "diseno-diapositivas",
     titulo: "Diseño y estructura de diapositivas",
-  },/*
+  },
   {
     slug: "textos-imagenes-graficos",
     titulo: "Textos, imágenes y gráficos",
-  },
+  },/*
   {
     slug: "animaciones-transiciones",
     titulo: "Animaciones y transiciones",
