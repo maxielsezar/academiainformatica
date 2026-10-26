@@ -21,11 +21,11 @@ export default function Modulo3Layout({
     {
       titulo: "Controles de formularios",
       slug: "controles-formularios",
-    },/*
+    },
     {
       titulo: "Diseño y formato de formularios",
       slug: "diseno-formularios",
-    },
+    },/*
     {
       titulo: "Formularios para tareas administrativas",
       slug: "formularios-administrativos",
