@@ -16,11 +16,11 @@ const temas = [
   {
     slug: "textos-imagenes-graficos",
     titulo: "Textos, imágenes y gráficos",
-  },/*
+  },
   {
     slug: "animaciones-transiciones",
     titulo: "Animaciones y transiciones",
-  },
+  },/*
   {
     slug: "sonido-video",
     titulo: "Sonido y video",

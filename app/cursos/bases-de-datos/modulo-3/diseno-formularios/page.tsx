@@ -437,8 +437,7 @@ export default function DisenoFormulariosPage() {
             </h3>
 
             <p className="leading-relaxed mb-3">
-              Observá un formulario de Microsoft Access existente o un ejemplo
-              presentado por el docente.
+              Observá un formulario de Microsoft Access existente
             </p>
 
             <ol className="list-decimal pl-6 space-y-2">
