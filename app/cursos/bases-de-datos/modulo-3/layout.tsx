@@ -25,11 +25,11 @@ export default function Modulo3Layout({
     {
       titulo: "Diseño y formato de formularios",
       slug: "diseno-formularios",
-    },/*
+    },
     {
       titulo: "Formularios para tareas administrativas",
       slug: "formularios-administrativos",
-    },
+    },/*
     {
       titulo: "Validación y navegación de registros",
       slug: "validacion-navegacion",

@@ -20,11 +20,11 @@ const temas = [
   {
     slug: "animaciones-transiciones",
     titulo: "Animaciones y transiciones",
-  },/*
+  },
   {
     slug: "sonido-video",
     titulo: "Sonido y video",
-  },
+  },/*
   {
     slug: "herramientas-graficas",
     titulo: "Herramientas de dibujo y recursos gráficos",
