@@ -715,7 +715,7 @@ export default function FormulariosAdministrativosPage() {
 
       {/* Cierre */}
       <section>
-        <h2 className="text-2xl font-bold text-blue-800 mb-6">
+        <h2 className="text-2xl font-bold text-blue-500 mb-6">
           Para recordar
         </h2>
 
