@@ -29,11 +29,11 @@ export default function Modulo3Layout({
     {
       titulo: "Formularios para tareas administrativas",
       slug: "formularios-administrativos",
-    },/*
+    },
     {
       titulo: "Validación y navegación de registros",
       slug: "validacion-navegacion",
-    },
+    },/*
     {
       titulo: "Concepto y utilidad de los informes",
       slug: "concepto-informes",
