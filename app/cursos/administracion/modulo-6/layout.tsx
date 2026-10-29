@@ -24,11 +24,11 @@ const temas = [
   {
     slug: "sonido-video",
     titulo: "Sonido y video",
-  },/*
+  },
   {
     slug: "herramientas-graficas",
     titulo: "Herramientas de dibujo y recursos gráficos",
-  },
+  },/*
   {
     slug: "presentacion-distribucion",
     titulo: "Presentación y distribución del trabajo",
