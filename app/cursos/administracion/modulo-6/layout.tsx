@@ -28,6 +28,10 @@ const temas = [
   {
     slug: "herramientas-graficas",
     titulo: "Herramientas de dibujo y recursos gráficos",
+  },
+  {
+    slug: "cuestionario",
+    titulo: "Cuestionario del Módulo 6",
   },/*
   {
     slug: "presentacion-distribucion",
@@ -41,10 +45,7 @@ const temas = [
     slug: "actividad-integradora",
     titulo: "Actividad integradora",
   },
-  {
-    slug: "quiz",
-    titulo: "Cuestionario del Módulo 6",
-  },*/
+*/
 ];
 
 export default function Modulo6Layout({

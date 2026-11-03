@@ -368,7 +368,7 @@ export default function TextosImagenesGraficosPage() {
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-left">
               <thead>
-                <tr className="bg-blue-100">
+                <tr className="bg-blue-500">
                   <th className="border border-blue-200 p-3">Mes</th>
                   <th className="border border-blue-200 p-3">
                     Trámites recibidos
@@ -516,7 +516,7 @@ export default function TextosImagenesGraficosPage() {
           Desafío Integrador
         </h2>
 
-        <div className="border-l-4 border-blue-700 bg-blue-50 p-6 rounded-xl">
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl">
           <p className="leading-relaxed">
             Imaginá que trabajás en el área administrativa de una institución
             y debés preparar una presentación para comunicar los servicios

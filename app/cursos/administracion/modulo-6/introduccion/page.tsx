@@ -10,7 +10,7 @@ export default function IntroduccionPage() {
           Introducción a las presentaciones digitales
         </h1>
 
-        <p className="text-lg leading-relaxed text-blue-950">
+        <p className="text-lg leading-relaxed">
           Las presentaciones digitales permiten organizar información y
           comunicar ideas mediante diapositivas que combinan textos, imágenes,
           gráficos y otros recursos multimedia. Se utilizan para exponer
@@ -18,7 +18,7 @@ export default function IntroduccionPage() {
           información en reuniones, clases y actividades laborales.
         </p>
 
-        <p className="mt-4 leading-relaxed text-blue-950">
+        <p className="mt-4 leading-relaxed">
           En este módulo aprenderás a utilizar un editor de presentaciones
           para organizar contenidos, diseñar diapositivas y combinar distintos
           recursos visuales y audiovisuales. El objetivo es crear materiales
@@ -32,15 +32,15 @@ export default function IntroduccionPage() {
           ¿Qué es una presentación digital?
         </h2>
 
-        <div className="rounded-xl border border-blue-200 bg-white p-6 shadow-sm">
-          <p className="leading-relaxed text-blue-950">
+        <div className="rounded-xl border border-blue-200 p-6 shadow-sm">
+          <p className="leading-relaxed ">
             Es un conjunto organizado de diapositivas que permite comunicar
             información de manera visual. Cada diapositiva puede contener
             títulos, textos, imágenes, gráficos, formas, sonidos y videos,
             según las necesidades de la exposición.
           </p>
 
-          <p className="mt-4 leading-relaxed text-blue-950">
+          <p className="mt-4 leading-relaxed ">
             A diferencia de un documento extenso, una presentación busca
             destacar las ideas principales y facilitar su comprensión mediante
             una secuencia lógica de contenidos.
@@ -55,41 +55,41 @@ export default function IntroduccionPage() {
         </h2>
 
         <div className="grid gap-5 md:grid-cols-2">
-          <article className="rounded-xl border border-blue-200 bg-white p-5">
+          <article className="rounded-xl border border-blue-200  p-5">
             <h3 className="mb-2 text-lg font-bold text-blue-900">
               Diapositivas
             </h3>
-            <p className="text-blue-950">
+            <p className="">
               Son las páginas que componen la presentación. Se organizan en
               una secuencia para desarrollar un tema.
             </p>
           </article>
 
-          <article className="rounded-xl border border-blue-200 bg-white p-5">
+          <article className="rounded-xl border border-blue-200  p-5">
             <h3 className="mb-2 text-lg font-bold text-blue-900">
               Textos
             </h3>
-            <p className="text-blue-950">
+            <p className="">
               Permiten comunicar títulos, explicaciones, datos y conclusiones.
               Conviene utilizar frases breves y fáciles de leer.
             </p>
           </article>
 
-          <article className="rounded-xl border border-blue-200 bg-white p-5">
+          <article className="rounded-xl border border-blue-200  p-5">
             <h3 className="mb-2 text-lg font-bold text-blue-900">
               Imágenes y gráficos
             </h3>
-            <p className="text-blue-950">
+            <p className="">
               Ayudan a ilustrar conceptos, mostrar ejemplos y representar
               información de forma visual.
             </p>
           </article>
 
-          <article className="rounded-xl border border-blue-200 bg-white p-5">
+          <article className="rounded-xl border border-blue-200  p-5">
             <h3 className="mb-2 text-lg font-bold text-blue-900">
               Recursos multimedia
             </h3>
-            <p className="text-blue-950">
+            <p className="">
               El sonido, el video, las animaciones y las transiciones pueden
               complementar la exposición cuando se utilizan con un propósito
               claro.
@@ -105,7 +105,7 @@ export default function IntroduccionPage() {
         </h2>
 
         <div className="space-y-4">
-          <div className="flex gap-4 rounded-xl bg-blue-50 p-5">
+          <div className="flex gap-4 rounded-xl p-5">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-700 font-bold text-white">
               1
             </div>
@@ -113,14 +113,14 @@ export default function IntroduccionPage() {
               <h3 className="font-bold text-blue-900">
                 Informes laborales
               </h3>
-              <p className="mt-1 text-blue-950">
+              <p className="mt-1 ">
                 Presentar resultados, estadísticas, objetivos y propuestas
                 de trabajo.
               </p>
             </div>
           </div>
 
-          <div className="flex gap-4 rounded-xl bg-blue-50 p-5">
+          <div className="flex gap-4 rounded-xl p-5">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-700 font-bold text-white">
               2
             </div>
@@ -128,14 +128,14 @@ export default function IntroduccionPage() {
               <h3 className="font-bold text-blue-900">
                 Reuniones y exposiciones
               </h3>
-              <p className="mt-1 text-blue-950">
+              <p className="mt-1 ">
                 Organizar los puntos principales de una charla o reunión
                 para acompañar la explicación oral.
               </p>
             </div>
           </div>
 
-          <div className="flex gap-4 rounded-xl bg-blue-50 p-5">
+          <div className="flex gap-4 rounded-xl p-5">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-700 font-bold text-white">
               3
             </div>
@@ -143,7 +143,7 @@ export default function IntroduccionPage() {
               <h3 className="font-bold text-blue-900">
                 Publicidad y comunicación
               </h3>
-              <p className="mt-1 text-blue-950">
+              <p className="mt-1 ">
                 Comunicar servicios, productos, proyectos o actividades
                 mediante recursos visuales.
               </p>
@@ -172,25 +172,25 @@ export default function IntroduccionPage() {
               <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-800">
                 ✓
               </span>
-              <span className="text-blue-950">{item}</span>
+              <span className="">{item}</span>
             </li>
           ))}
         </ul>
       </section>
 
       {/* Actividad */}
-      <section className="rounded-2xl border border-blue-200 bg-blue-50 p-6">
+      <section className="rounded-2xl border border-blue-200 p-6">
         <h2 className="mb-4 text-2xl font-bold text-blue-900">
           Actividad práctica: reconocer una presentación
         </h2>
 
-        <p className="mb-4 leading-relaxed text-blue-950">
+        <p className="mb-4 leading-relaxed ">
           Elegí una presentación digital que hayas visto en una clase, reunión
           o actividad laboral. Analizá sus características y respondé en tu
           carpeta:
         </p>
 
-        <ol className="list-inside list-decimal space-y-3 text-blue-950">
+        <ol className="list-inside list-decimal space-y-3 ">
           <li>¿Cuál era el tema y qué objetivo tenía?</li>
           <li>¿Cómo estaban organizadas las diapositivas?</li>
           <li>¿Qué tipos de textos, imágenes o gráficos utilizaba?</li>
@@ -210,7 +210,7 @@ export default function IntroduccionPage() {
           Lo que aprenderás en este módulo
         </h2>
 
-        <p className="mb-6 leading-relaxed text-blue-950">
+        <p className="mb-6 leading-relaxed ">
           A lo largo del módulo vas a trabajar con la interfaz de un editor de
           presentaciones, el diseño de diapositivas, la incorporación de
           textos e imágenes, el uso de gráficos, las animaciones, las

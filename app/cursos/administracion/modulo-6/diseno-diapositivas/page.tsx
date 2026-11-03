@@ -502,7 +502,7 @@ export default function DisenoDiapositivasPage() {
           Desafío Integrador
         </h2>
 
-        <div className="border-l-4 border-blue-700 bg-blue-50 p-6 rounded-xl">
+        <div className="border-l-4 border-blue-700 p-6 rounded-xl">
           <p className="leading-relaxed">
             Imaginá que trabajás en el área administrativa de una institución.
             Tu responsable te solicita preparar una presentación para una

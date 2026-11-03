@@ -148,7 +148,7 @@ export default function AnimacionesTransicionesPage() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border border-blue-200">
             <thead>
-              <tr className="bg-blue-50">
+              <tr className="bg-blue-500">
                 <th className="border border-blue-200 p-3 text-left">
                   Característica
                 </th>
@@ -466,7 +466,7 @@ export default function AnimacionesTransicionesPage() {
       </section>
 
       {/* Cierre */}
-      <section className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+      <section className="border border-blue-200 rounded-xl p-6">
         <h2 className="text-2xl font-bold text-blue-900 mb-4">
           Para recordar
         </h2>

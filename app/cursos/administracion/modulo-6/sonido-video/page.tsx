@@ -225,7 +225,7 @@ export default function SonidoVideoPage() {
             </li>
           </ol>
 
-          <div className="mt-5 rounded-lg bg-blue-50 border border-blue-100 p-4">
+          <div className="mt-5 rounded-lg border border-blue-100 p-4">
             <p className="leading-relaxed">
               <strong>Importante:</strong> si utilizás un video o audio
               externo, comprobá si queda incorporado al archivo de presentación
@@ -526,7 +526,7 @@ export default function SonidoVideoPage() {
       </section>
 
       {/* Cierre */}
-      <section className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+      <section className="border border-blue-200 rounded-xl p-6">
         <h2 className="text-2xl font-bold text-blue-900 mb-4">
           Para recordar
         </h2>
