@@ -182,19 +182,19 @@ export default function ValidacionNavegacionPage() {
               <ul className="space-y-3">
                 <li>
                   <strong>Precio mayor o igual a cero:</strong>
-                  <code className="block mt-1 bg-blue-50 rounded p-2">
+                  <code className="block mt-1 rounded p-2">
                     &gt;=0
                   </code>
                 </li>
                 <li>
                   <strong>Cantidad mayor que cero:</strong>
-                  <code className="block mt-1 bg-blue-50 rounded p-2">
+                  <code className="block mt-1 rounded p-2">
                     &gt;0
                   </code>
                 </li>
                 <li>
                   <strong>Importe entre 0 y 100000:</strong>
-                  <code className="block mt-1 bg-blue-50 rounded p-2">
+                  <code className="block mt-1 rounded p-2">
                     Between 0 And 100000
                   </code>
                 </li>
@@ -564,7 +564,7 @@ export default function ValidacionNavegacionPage() {
             <div className="overflow-x-auto mb-4">
               <table className="w-full border-collapse border border-blue-200">
                 <thead>
-                  <tr className="bg-blue-100">
+                  <tr className="bg-blue-500">
                     <th className="border border-blue-200 p-3 text-left">Producto</th>
                     <th className="border border-blue-200 p-3 text-left">Precio</th>
                     <th className="border border-blue-200 p-3 text-left">Stock</th>

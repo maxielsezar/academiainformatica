@@ -37,11 +37,11 @@ export default function Modulo3Layout({
     {
       titulo: "Concepto y utilidad de los informes",
       slug: "concepto-informes",
-    },/*
+    },
     {
       titulo: "Creación de informes",
       slug: "creacion-informes",
-    },
+    },/*
     {
       titulo: "Diseño y formato de informes",
       slug: "diseno-informes",
