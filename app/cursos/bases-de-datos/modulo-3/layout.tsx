@@ -45,11 +45,11 @@ export default function Modulo3Layout({
     {
       titulo: "Diseño y formato de informes",
       slug: "diseno-informes",
-    },/*
+    },
     {
       titulo: "Agrupación, ordenamiento y totales",
       slug: "agrupacion-ordenamiento-totales",
-    },
+    },/*
     {
       titulo: "Informes para la gestión administrativa",
       slug: "informes-administrativos",
