@@ -49,11 +49,11 @@ export default function Modulo3Layout({
     {
       titulo: "Agrupación, ordenamiento y totales",
       slug: "agrupacion-ordenamiento-totales",
-    },/*
+    },
     {
       titulo: "Informes para la gestión administrativa",
       slug: "informes-administrativos",
-    },
+    },/*
     {
       titulo: "Vista previa, impresión y exportación",
       slug: "impresion-exportacion",
