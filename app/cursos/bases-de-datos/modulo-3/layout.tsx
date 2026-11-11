@@ -53,11 +53,11 @@ export default function Modulo3Layout({
     {
       titulo: "Informes para la gestión administrativa",
       slug: "informes-administrativos",
-    },/*
+    },
     {
       titulo: "Vista previa, impresión y exportación",
       slug: "impresion-exportacion",
-    },
+    },/*
     {
       titulo: "Actividades prácticas",
       slug: "actividades-practicas",
