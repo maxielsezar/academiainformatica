@@ -70,7 +70,7 @@ export default function ImpresionExportacionPage() {
           <li>Que los totales y subtotales sean correctos.</li>
         </ul>
 
-        <div className="bg-blue-50 border-l-4 border-blue-600 p-5 rounded-r-lg mt-6">
+        <div className="border-l-4 border-blue-600 p-5 rounded-r-lg mt-6">
           <p className="font-semibold text-blue-900 mb-2">
             Ejemplo práctico
           </p>

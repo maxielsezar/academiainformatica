@@ -57,6 +57,10 @@ export default function Modulo3Layout({
     {
       titulo: "Vista previa, impresión y exportación",
       slug: "impresion-exportacion",
+    },
+     {
+      titulo: "Evaluación módulo 3",
+      slug: "examen",
     },/*
     {
       titulo: "Actividades prácticas",
