@@ -20,7 +20,7 @@ const temas = [
   {
     slug: "estructuras-repetitivas",
     titulo: "Estructuras repetitivas",
-  },/*
+  },
   {
     slug: "procedimientos-funciones",
     titulo: "Procedimientos y funciones",
@@ -28,7 +28,7 @@ const temas = [
   {
     slug: "macros",
     titulo: "Introducción a las macros en Access",
-  },
+  },/*
   {
     slug: "consultas-qbe",
     titulo: "Consultas mediante QBE",
