@@ -481,26 +481,6 @@ export default function HerramientasDisenoPage() {
           </p>
         </div>
       </section>
-
-      {/* CTA */}
-      <section className="rounded-xl border border-blue-200 p-6">
-        <h2 className="mb-4 text-2xl font-bold text-blue-800">
-          Continuá aprendiendo
-        </h2>
-
-        <p className="mb-6 leading-relaxed">
-          Ahora que conocés las aplicaciones y herramientas de diseño,
-          vas a aprender a configurar una página y organizar los elementos
-          que forman parte de una publicación gráfica.
-        </p>
-
-        <Link
-          href="/cursos/administracion/modulo-7/configuracion-pagina"
-          className="inline-flex rounded-lg bg-blue-900 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
-        >
-          Continuar con configuración de página
-        </Link>
-      </section>
     </div>
   );
 }

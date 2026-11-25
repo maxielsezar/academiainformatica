@@ -28,11 +28,11 @@ const temas = [
   {
     slug: "macros",
     titulo: "Introducción a las macros en Access",
-  },/*
+  },
   {
     slug: "consultas-qbe",
     titulo: "Consultas mediante QBE",
-  },
+  },/*
   {
     slug: "introduccion-sql",
     titulo: "Introducción al lenguaje SQL",
