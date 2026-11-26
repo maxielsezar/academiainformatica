@@ -36,7 +36,7 @@ const temas = [
   {
     slug: "introduccion-sql",
     titulo: "Introducción al lenguaje SQL",
-  },/*
+  },
   {
     slug: "sql-select",
     titulo: "Consultas SQL de selección",
@@ -44,7 +44,7 @@ const temas = [
   {
     slug: "sql-accion",
     titulo: "Consultas SQL de acción",
-  },
+  },/*
   {
     slug: "sql-agrupaciones-relaciones",
     titulo: "Consultas SQL con agrupaciones y relaciones",
