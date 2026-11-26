@@ -302,7 +302,7 @@ WHERE Condicion;`}
           </li>
         </ul>
 
-        <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-lg mt-6">
+        <div className="border-l-4 border-red-500 p-5 rounded-r-lg mt-6">
           <h4 className="font-bold text-red-800 mb-2">
             ¡Atención con WHERE!
           </h4>
@@ -425,7 +425,7 @@ WHERE EstadoReserva = 'Cancelada';`}
           que cumplan la condición.
         </p>
 
-        <div className="bg-red-50 border-l-4 border-red-500 p-5 rounded-r-lg mt-6">
+        <div className="border-l-4 border-red-500 p-5 rounded-r-lg mt-6">
           <h4 className="font-bold text-red-800 mb-2">
             Precauciones al eliminar información
           </h4>
