@@ -32,11 +32,11 @@ const temas = [
   {
     slug: "consultas-qbe",
     titulo: "Consultas mediante QBE",
-  },/*
+  },
   {
     slug: "introduccion-sql",
     titulo: "Introducción al lenguaje SQL",
-  },
+  },/*
   {
     slug: "sql-select",
     titulo: "Consultas SQL de selección",
